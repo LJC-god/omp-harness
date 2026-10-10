@@ -1,0 +1,13 @@
+# On-demand OMP evaluation
+
+Read only for an explicitly authorized configuration/model/runtime experiment. It is not a delivery gate for everyday projects.
+
+Select a small number of representative complete tasks or explicitly labelled behavior slices. Preserve their ordinary user prompts and independent acceptance checks before running. Keep evaluator instructions outside the agent prompt; scope/path/authorization constraints remain visible. Each repetition starts from the same clean seed and isolated data, not the previous attempt's repairs. Record the seed/source identity, OMP version, configuration hashes, model/effort, dependency versions, concurrency and machine environment. Do not edit the treatment between repetitions.
+
+For a comparison, change one treatment at a time and apply the same acceptance to both. Report every attempt, including timeout, environment failure, missing evidence and manual help. A fixed-configuration repeat without a baseline measures repeatability only; it cannot prove a speedup or attribute a change. Keep runtime upgrades separate from rule changes. If a provider changes or environmental conditions differ, disclose the limitation rather than hiding the run.
+
+Inspect the delivered artifact independently. Record requested-behavior coverage, documented startup/restart where relevant, actual elapsed time, child timeouts, repeated repairs, human intervention and available usage. Aggregate all participating model calls without double-counting cached/reasoning fields; unavailable cost or usage stays unknown. Concurrent durations are not summed as wall time. Track finding identities and verified closures, while allowing newly discovered real defects; raw issue count, commits or PASS receipts alone do not measure progress.
+
+Distinguish at-least-one successful attempt from all-attempt success; show raw per-task counts before percentages and do not imply reliability from a tiny sample. Same-source test reruns and simulated controller checks do not count as fresh model task attempts. Prompted planning exercises, runtime contract tests and real artifact-producing tasks are separate evidence classes. A backend slice cannot certify Kimi visual quality or long-context recovery.
+
+Reuse existing session logs and a small result file outside source on D:. Retain prompts, seed identity, verification commands/results and artifact references; do not copy credentials or private browser profiles. Native system sessions/configuration remain in their normal C: locations. Use no extra scheduler, telemetry service, reviewer or automatically installed model backend. Stop once the agreed sample is complete; name limits and propose further experiments only if the evidence warrants them.

@@ -1,0 +1,14 @@
+{
+  "name": "omp-task-orchestration",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Extracted OMP 18.2.6 extension omp-task-orchestration.",
+  "ompConfig": {
+    "kind": "extension",
+    "runtime": "18.2.6",
+    "entries": [
+      "extensions/task-orchestration.ts"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "business-c-foundation",
+  "private": true,
+  "packageManager": "pnpm@11.13.0",
+  "engines": {
+    "node": ">=24.0.0",
+    "pnpm": ">=11.13.0"
+  },
+  "scripts": {
+    "build": "pnpm --filter @business-c/contracts build && pnpm --filter @business-c/api build && pnpm --filter @business-c/web build",
+    "typecheck": "pnpm --filter @business-c/contracts build && pnpm --filter @business-c/api typecheck && pnpm --filter @business-c/web typecheck",
+    "test": "pnpm --filter @business-c/api test:integration",
+    "dev:api": "pnpm --filter @business-c/contracts build && pnpm --filter @business-c/api dev",
+    "dev:web": "pnpm --filter @business-c/contracts build && pnpm --filter @business-c/web dev"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "lockfileVersion": 2,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "omp-plugins",
+      "dependencies": {
+        "@dietrichgebert/ponytail": "https://github.com/DietrichGebert/ponytail",
+        "@timiliang/pi-quotas": "npm:@timiliang/pi-quotas@0.5.2",
+      },
+    },
+  },
+  "packages": {
+    "@dietrichgebert/ponytail": ["@dietrichgebert/ponytail@github:DietrichGebert/ponytail#2ed6c52", {}, "DietrichGebert-ponytail-2ed6c52", "sha512-oLxhpyBiVHCavNr2XjZ8QZP2PpvxUEkg+IU6qveqMeywHaebedOghnIfVobyFyeSchHKRKRf784Bg9FleVcNjw=="],
+
+    "@timiliang/pi-quotas": ["@timiliang/pi-quotas@0.5.2", "https://registry.npmmirror.com/@timiliang/pi-quotas/-/pi-quotas-0.5.2.tgz", { "peerDependencies": { "@mariozechner/pi-coding-agent": "*", "@mariozechner/pi-tui": "*" }, "optionalPeers": ["@mariozechner/pi-coding-agent", "@mariozechner/pi-tui"] }, "sha512-UyR3zv0hnIo9fJeJKP6/gxCuEMZXlDM2W6O0v+bb5zWffmSHciatrjWkfVo8U2nTXJtkoMuKW1epN4b7aA75tQ=="],
+  }
+}

@@ -1,0 +1,32 @@
+---
+name: pm
+description: Define a complete new product from a one-sentence brief, or provide targeted discovery/PRD support for substantial product uncertainty. Skip routine fixes, file deletion and Git operations. Invoke with /skill:pm.
+disable-model-invocation: false
+---
+
+# PM
+
+For a product built from scratch from a one-sentence complete-product brief, use PM to produce the complete product definition. For existing products, use PM only for substantial scope uncertainty or an explicit product-planning request. Routine maintenance skips PM. Existing user authorization remains valid. New one-sentence products default to PM-led bounded exploratory research under ~/.omp/agent/notes/product-planning.md before product direction is frozen: current workarounds, friction, alternatives and useful unmet needs. Reuse sufficient applicable evidence; respect no-network instructions; record a concrete reason when research cannot affect a product decision. Current market, competitor and pricing claims still need adequate external evidence. Task boundaries and required diagrams remain; do not add a ritual workshop, approval, agent, or research fan-out.
+
+A one-sentence request for a complete product gets a full PM product definition by default, even when it omits target users, journeys, collaboration or delivery surface. Sol supplies the original brief, hard constraints, provisional assumptions and available evidence instead of freezing unsupported feature lists or exclusions before PM discovery. PM follows A in `references/method-a.md`: Dean Peters discovery, JTBD, bounded voice-of-customer research, opportunity-solution-tree and user stories. PM may challenge those assumptions and propose valuable alternatives within the user goal. The definition covers users/problem, scenarios, evidence versus assumptions, positioning and innovations with value/tradeoffs, full journeys, roles/data/rules/invariants, state/error/cancel/recovery behavior, UX direction, complete scope/priorities, acceptance, and consequential unknowns. Sol accepts scope and maps accepted innovations to implementation and acceptance; PM directly researches material questions through the existing shared tools, returning `WEB_RESEARCH_REQUIRED` only for inaccessible evidence or consequential unresolved gaps. It never spawns research agents. Scope and architecture freeze before implementation dispatch, not before discovery.
+
+## Complete-product default
+
+Use the supplied brief to state: target user/problem, representative scenarios and full journeys, the complete requested scope and explicit exclusions, roles/data/rules/invariants, state/error/cancel/recovery behavior, UX direction, prioritized acceptance, innovation recommendations with value/tradeoffs, and consequential unknowns. A request to complete a system with listed features means a usable complete product within that scope, unless the user requests a prototype or another depth. An initial implementation slice is a milestone, not permission to omit remaining features. Keep this in the existing plan/checkpoint unless an assigned product artifact needs a PRD file. Label facts, research evidence, inferences and assumptions; never present invented user research as evidence.
+
+Keep user evidence, Sol decisions, PM inferences and external research distinguishable; an assignment's defaults are not user-confirmed facts. Recommend goal-serving innovation by value, tradeoff and observable effect, without a quota or treating ordinary reliability as novelty. For introduced capabilities, cover first use, waiting/nonresponse, failure, cancellation and recovery where applicable, including retained data and other participants. Match promises to actual mechanisms and honest limits; do not automatically add accounts, moderation, arbitration or timeouts. PM writes the authoritative `docs/product/PRD.md` and `docs/product/research.md` when those paths are authorized; Sol alone records product adjudication in `docs/product/decisions.md`. The finite independent product review described in product-planning.md precedes, and never replaces, the existing Purple PLAN engineering review; it is not an open-ended PM gate.
+
+When requirements are clear, Sol coordinates assigned implementation within existing authorization and the selected architecture profile. Ask only about a consequential unresolved product choice; do not repeat a question already answered or ask for approval merely to finish a template. No mandatory interview, exhaustive market survey, PM-to-Matt contract or additional agent is added. Beyond the new-product exploratory default, research only decision-relevant gaps. Sol owns staffing, acceptance and delivery instructions; the user does not need to supply an orchestration prompt.
+
+## Deeper work only when needed
+
+Start with the relevant reference and one official leaf; select another leaf only when a material research question needs its method, rather than reading the whole library:
+
+- One-sentence new complete-product brief: `references/method-a.md`, then `references/discovery-and-research.md` for the direct research route. Start with discovery rather than treating missing context as settled requirements. Still return the full product definition.
+- PRD, user stories, release scope or roadmap: `references/requirements-and-delivery.md`.
+- Positioning or prioritization: `references/strategy-and-decisions.md`.
+- An explicit organizational/AI-product question: `references/leadership-and-ai.md`.
+
+Official Dean Peters leaves live at `~/.omp/agent/git/github.com/deanpeters/Product-Manager-Skills/skills/<skill-name>/SKILL.md`. Use the leaf's relevant method and output within these OMP integration boundaries; upstream workshop cadence, mandatory approvals or agent orchestration do not override current user instructions, model ownership or the local lightweight route.
+
+pm-worker owns a bounded product discovery, requirements or product-design artifact when one is needed; supply authorized paths and acceptance. PM never authors production code or creates a second controller. PM owns external product research using shared `web_research_v1` and original URL reads; see discovery-and-research.md for the route and evidence handoff. Sol reuses and checks that evidence instead of repeating every search. Keep PM session/receipt identity in the existing artifact; root cannot record child receipts as its own. Retrieval and synthesis are not verified user needs. No separate research fan-out.

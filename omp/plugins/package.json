@@ -1,0 +1,8 @@
+{
+  "name": "omp-plugins",
+  "private": true,
+  "dependencies": {
+    "@dietrichgebert/ponytail": "https://github.com/DietrichGebert/ponytail",
+    "@timiliang/pi-quotas": "npm:@timiliang/pi-quotas@0.5.2"
+  }
+}

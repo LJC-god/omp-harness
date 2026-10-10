@@ -1,0 +1,41 @@
+generator client {
+  provider     = "prisma-client"
+  output       = "../src/generated/prisma"
+  moduleFormat = "cjs"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum UserRole {
+  admin
+  user
+}
+
+model User {
+  id           String     @id @default(cuid())
+  email        String     @unique
+  passwordSalt String
+  passwordHash String
+  role         UserRole   @default(user)
+  sessions     Session[]
+  workItems    WorkItem[]
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  tokenHash String   @unique
+  userId    String
+  expiresAt DateTime
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model WorkItem {
+  id        String   @id @default(cuid())
+  title     String   @db.VarChar(120)
+  completed Boolean  @default(false)
+  createdAt DateTime @default(now())
+  ownerId   String
+  owner     User     @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+}

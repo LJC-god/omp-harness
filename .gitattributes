@@ -1,0 +1,2 @@
+# Preserve snapshot bytes, including existing Windows line endings.
+* -text

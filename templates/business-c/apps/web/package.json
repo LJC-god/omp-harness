@@ -1,0 +1,23 @@
+{
+  "name": "@business-c/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@business-c/contracts": "workspace:*",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3",
+    "vite": "8.3.0"
+  }
+}

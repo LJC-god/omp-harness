@@ -1,0 +1,14 @@
+{
+  "name": "omp-runtime-extract",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Extracted OMP 18.2.6 extensions. The harness installer copies them into ~/.omp/agent.",
+  "ompConfig": {
+    "kind": "runtime",
+    "runtime": "18.2.6"
+  },
+  "dependencies": {
+    "@oh-my-pi/pi-coding-agent": "18.2.6"
+  }
+}

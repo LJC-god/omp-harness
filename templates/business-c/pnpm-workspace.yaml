@@ -1,0 +1,10 @@
+packages:
+  - apps/*
+  - packages/*
+allowBuilds:
+  '@prisma/engines': true
+  esbuild: true
+  prisma: true
+overrides:
+  'prisma>mysql2': 3.23.1
+  '@prisma/config>deepmerge-ts': 8.0.0

@@ -1,0 +1,6 @@
+{
+  "plugin": "@dietrichgebert/ponytail",
+  "pluginInstalled": false,
+  "source": "packages/skills/omp-skill-ponytail",
+  "note": "活的来源是 skill 文件。安装器不安装已禁用的插件依赖。"
+}

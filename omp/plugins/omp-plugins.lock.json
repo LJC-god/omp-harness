@@ -1,0 +1,15 @@
+{
+  "plugins": {
+    "@timiliang/pi-quotas": {
+      "version": "0.5.2",
+      "enabledFeatures": null,
+      "enabled": true
+    },
+    "@dietrichgebert/ponytail": {
+      "version": "4.9.0",
+      "enabledFeatures": null,
+      "enabled": false
+    }
+  },
+  "settings": {}
+}

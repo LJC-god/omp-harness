@@ -1,0 +1,181 @@
+{
+  "createdAt": "2026-09-20T12:46:07.234686+00:00",
+  "installation": {
+    "repository": "https://github.com/tt-a1i/archify",
+    "commit": "72c750bb070d95171dbb2244e5b62b1b7da69c12",
+    "skillDirectory": "~/.codex/skills/archify"
+  },
+  "entryPoint": "index.html",
+  "diagrams": [
+    {
+      "title": "配置架构",
+      "specification": "01-omp-architecture.json",
+      "specificationSha256": "87fc9fab4cdd06056f5fd5da0fbb54b7cac9ef3ec7cc7f1cf0c715884052fbe4",
+      "artifact": "01-omp-architecture.html",
+      "artifactSha256": "102b2615267a0dc2f70c4b41dd96355e908a2c8121266148430c5e1e53ddf09d",
+      "deliveryReceipt": "01-delivery.json",
+      "validation": {
+        "checksPassed": 9,
+        "checkCount": 9,
+        "compositionProfile": "showcase",
+        "compositionStatus": "pass",
+        "errors": 0,
+        "warnings": 0
+      },
+      "browserReceipt": "01-omp-architecture.visual-check.json",
+      "automatedBrowserStatus": "pass",
+      "perceptualReview": {
+        "status": "pass",
+        "method": "assistant inspection of rendered screenshots using view_image",
+        "artifactSha256": "102b2615267a0dc2f70c4b41dd96355e908a2c8121266148430c5e1e53ddf09d",
+        "screenshots": [
+          {
+            "path": "01-omp-architecture.visual-check.2048x1320.light.png",
+            "sha256": "926b9e941c24bd9c5dc9d0c7078d3687fe33353b5f706910379bc3e067464414"
+          },
+          {
+            "path": "01-omp-architecture.visual-check.1440x900.light.png",
+            "sha256": "faf40d278d7fcaa25a9498bd0b2beabef7069a3411d5b345f2343e9c6a4bca1c"
+          },
+          {
+            "path": "01-omp-architecture.visual-check.2048x1320.dark.png",
+            "sha256": "9d85003f3c7f1b82761a9b373ad7b59719764aca0aaf991f8dd59ac83cbe3b50"
+          }
+        ],
+        "scope": "Legibility, clipping, label overlap, connector clarity, and light/dark appearance in these screenshots.",
+        "limitations": "Screenshot review does not certify all interactive controls or export behavior."
+      }
+    },
+    {
+      "title": "开发与交付主流程",
+      "specification": "02-product-main.json",
+      "specificationSha256": "dcfeac14cb4a78161ce2aa3eec96f401fab7f4b1007ea587e02ca9692fd0ff43",
+      "artifact": "02-product-main.html",
+      "artifactSha256": "734de38385cc8c6c1eb598eb93ee5371a04adfe51501e3e846dae5c8c5484b5a",
+      "deliveryReceipt": "02-product-main-delivery.json",
+      "validation": {
+        "checksPassed": 9,
+        "checkCount": 9,
+        "compositionProfile": "showcase",
+        "compositionStatus": "pass",
+        "errors": 0,
+        "warnings": 0
+      },
+      "browserReceipt": "02-product-main.visual-check.json",
+      "automatedBrowserStatus": "pass",
+      "perceptualReview": {
+        "status": "pass",
+        "method": "assistant inspection of rendered screenshots using view_image",
+        "artifactSha256": "734de38385cc8c6c1eb598eb93ee5371a04adfe51501e3e846dae5c8c5484b5a",
+        "screenshots": [
+          {
+            "path": "02-product-main.visual-check.1440x900.light.png",
+            "sha256": "cd23dca190036efda8af432c0c585434022ede626c7cd8bc5d12bab3bfc45f88"
+          },
+          {
+            "path": "02-product-main.visual-check.2048x1320.dark.png",
+            "sha256": "f56e9e7e4282b41676ebdaf4cb396cf91ef4f3af66aa1e09611e239a0d621a9f"
+          }
+        ],
+        "scope": "Legibility, clipping, label overlap, connector clarity, and light/dark appearance in these screenshots.",
+        "limitations": "Screenshot review does not certify all interactive controls or export behavior."
+      }
+    },
+    {
+      "title": "worktree 执行机制",
+      "specification": "03-worktree-runner.json",
+      "specificationSha256": "1b94d58257f53bf6d2cb71d2ad6d9f74b0d933c7757c4d4d6dbf968dfd358b5f",
+      "artifact": "03-worktree-runner.html",
+      "artifactSha256": "6d2299afdc58eef62f87eed51eeba8b915f2ed1f5d45d7574dec8770971a802c",
+      "deliveryReceipt": "03-delivery.json",
+      "validation": {
+        "checksPassed": 9,
+        "checkCount": 9,
+        "compositionProfile": "showcase",
+        "compositionStatus": "pass",
+        "errors": 0,
+        "warnings": 0
+      },
+      "browserReceipt": "03-worktree-runner.visual-check.json",
+      "automatedBrowserStatus": "pass",
+      "perceptualReview": {
+        "status": "pass",
+        "method": "assistant inspection of rendered screenshots using view_image",
+        "artifactSha256": "6d2299afdc58eef62f87eed51eeba8b915f2ed1f5d45d7574dec8770971a802c",
+        "screenshots": [
+          {
+            "path": "03-worktree-runner.visual-check.1440x900.dark.png",
+            "sha256": "a854d64f6d15179df5c56ea3cee71af7f07f57efe12159fcb7fca535ac1afb88"
+          },
+          {
+            "path": "03-worktree-runner.visual-check.2048x1320.light.png",
+            "sha256": "e4f6482f0aa0def572e047ea36a68bdc4095d5063da6acbc144804f1971316bf"
+          }
+        ],
+        "scope": "Legibility, clipping, label overlap, connector clarity, and light/dark appearance in these screenshots.",
+        "limitations": "Screenshot review does not certify all interactive controls or export behavior."
+      }
+    },
+    {
+      "title": "缺陷修复与重新验收",
+      "specification": "04-repair-workflow.json",
+      "specificationSha256": "38155ce0a155f49bb1468482890463e4dcc42c2fbbbbca47bd5bb06962f31492",
+      "artifact": "04-repair-workflow.html",
+      "artifactSha256": "043fe4c7b800769c407fee3434723ddfc7517f48491cfd7de972e9d23c788708",
+      "deliveryReceipt": "04-repair-workflow-delivery.json",
+      "validation": {
+        "checksPassed": 9,
+        "checkCount": 9,
+        "compositionProfile": "showcase",
+        "compositionStatus": "pass",
+        "errors": 0,
+        "warnings": 0
+      },
+      "browserReceipt": "04-repair-workflow.visual-check.json",
+      "automatedBrowserStatus": "pass",
+      "perceptualReview": {
+        "status": "pass",
+        "method": "assistant inspection of rendered screenshots using view_image",
+        "artifactSha256": "043fe4c7b800769c407fee3434723ddfc7517f48491cfd7de972e9d23c788708",
+        "screenshots": [
+          {
+            "path": "04-repair-workflow.visual-check.1440x900.light.png",
+            "sha256": "c3bd458e1af27944ccb604b552eb5a83e14d2963a72d6c386436b3bdb27cdbd2"
+          },
+          {
+            "path": "04-repair-workflow.visual-check.2048x1320.dark.png",
+            "sha256": "ccb8b3d719eb6f8a312ef845b9dceaff3af3f80c0732fa765d52b4d809027d8d"
+          }
+        ],
+        "scope": "Legibility, clipping, label overlap, connector clarity, and light/dark appearance in these screenshots.",
+        "limitations": "Screenshot review does not certify all interactive controls or export behavior."
+      }
+    }
+  ],
+  "notes": [
+    "Automated browser receipts retain visualReview=pending; this manifest records the separate screenshot review.",
+    "02-product-workflow.json is an abandoned unsplit draft, not a delivered diagram."
+  ],
+  "sourceFilesAtPackaging": [
+    {
+      "path": "~/.omp/agent/config.yml",
+      "sha256": "6b4610e8ddf2450f1ac37dc02ab86318c3a9d56059e9d000239e84d7afe1322d"
+    },
+    {
+      "path": "~/.omp/agent/rules/main-agent-orchestrator.md",
+      "sha256": "87e032e5a723e8c4149e70e249a56634bd4e21ead4fc3effe44e09752f4ae1ca"
+    },
+    {
+      "path": "~/.omp/agent/notes/verification-evidence.md",
+      "sha256": "920ec795a025607724bbb1ad5ef2bee61100a5877ea0fccbbb07f0b865bc64b3"
+    },
+    {
+      "path": "~/.omp/agent/notes/architecture-catalog.md",
+      "sha256": "b9d056a6364fc23de8f7f4980206aca633272425cd9ed37db87ed4e929cda377"
+    },
+    {
+      "path": "<repo>/scripts/task-plan-automation.ts",
+      "sha256": "58dfa05f640e403586494ad196b55ab416f5e682def1bc6731271c6c201e2157"
+    }
+  ]
+}

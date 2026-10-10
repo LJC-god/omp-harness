@@ -1,0 +1,14 @@
+{
+  "name": "omp-web-research",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Extracted OMP 18.2.6 extension omp-web-research.",
+  "ompConfig": {
+    "kind": "extension",
+    "runtime": "18.2.6",
+    "entries": [
+      "extensions/web-research-tools.ts"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@business-c/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "prisma generate --config prisma.config.ts && tsc -p tsconfig.json",
+    "typecheck": "prisma generate --config prisma.config.ts && tsc -p tsconfig.json --noEmit",
+    "dev": "prisma generate --config prisma.config.ts && tsx watch src/main.ts",
+    "start": "node dist/main.js",
+    "db:migrate": "prisma migrate deploy --config prisma.config.ts",
+    "user:provision": "pnpm -w --filter @business-c/contracts build && tsx prisma/provision.ts",
+    "test:integration": "pnpm -w --filter @business-c/contracts build && tsx scripts/test-db.mts"
+  },
+  "dependencies": {
+    "@business-c/contracts": "workspace:*",
+    "@nestjs/common": "12.0.3",
+    "@nestjs/core": "12.0.3",
+    "@nestjs/platform-express": "12.0.3",
+    "@prisma/adapter-pg": "7.10.0",
+    "@prisma/client": "7.10.0",
+    "dotenv": "17.2.3",
+    "pg": "8.16.3",
+    "reflect-metadata": "0.2.2",
+    "rxjs": "7.8.2",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "@types/express": "5.0.5",
+    "@types/pg": "8.15.6",
+    "prisma": "7.10.0",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}

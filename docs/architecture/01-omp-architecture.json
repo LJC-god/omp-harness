@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "OMP · 当前配置架构",
+    "locale": "zh-CN",
+    "quality_profile": "showcase",
+    "viewBox": [
+      1320,
+      760
+    ]
+  },
+  "components": [
+    {
+      "id": "requester",
+      "type": "external",
+      "label": "用户需求",
+      "sublabel": "目标、约束、交付范围",
+      "pos": [
+        45,
+        325
+      ],
+      "size": [
+        190,
+        82
+      ]
+    },
+    {
+      "id": "sol-root",
+      "type": "backend",
+      "label": "Sol · 唯一统筹",
+      "sublabel": "计划 / 决策 / 最终验收",
+      "tag": "gpt-5.6-sol · high",
+      "pos": [
+        330,
+        325
+      ],
+      "size": [
+        225,
+        82
+      ]
+    },
+    {
+      "id": "dispatch",
+      "type": "backend",
+      "label": "任务执行入口",
+      "sublabel": "原生 task / worktree runner",
+      "pos": [
+        660,
+        325
+      ],
+      "size": [
+        230,
+        82
+      ]
+    },
+    {
+      "id": "artifacts",
+      "type": "database",
+      "label": "代码与验收证据",
+      "sublabel": "独立分支 / 提交 / 检查记录",
+      "pos": [
+        1030,
+        325
+      ],
+      "size": [
+        235,
+        82
+      ]
+    },
+    {
+      "id": "global-policy",
+      "type": "external",
+      "label": "全局规则与技能",
+      "sublabel": "config.yml / rules / skills",
+      "pos": [
+        330,
+        85
+      ],
+      "size": [
+        225,
+        82
+      ]
+    },
+    {
+      "id": "ui-author",
+      "type": "frontend",
+      "label": "Kimi · 前端作者",
+      "sublabel": "界面、组件与交互状态",
+      "tag": "k3 · high",
+      "pos": [
+        660,
+        85
+      ],
+      "size": [
+        230,
+        82
+      ]
+    },
+    {
+      "id": "api-author",
+      "type": "backend",
+      "label": "Grok · 后端作者",
+      "sublabel": "业务逻辑、持久化与协议",
+      "tag": "grok-4.6 · xhigh",
+      "pos": [
+        1030,
+        85
+      ],
+      "size": [
+        235,
+        82
+      ]
+    },
+    {
+      "id": "architecture-library",
+      "type": "external",
+      "label": "A / B / C / D 架构库",
+      "sublabel": "Sol 选型；C 已有实测模板",
+      "pos": [
+        330,
+        575
+      ],
+      "size": [
+        225,
+        82
+      ]
+    },
+    {
+      "id": "purple-review",
+      "type": "security",
+      "label": "Purple · GLM",
+      "sublabel": "PLAN / DELIVERY 独立复核",
+      "tag": "glm-5.3 · high",
+      "pos": [
+        660,
+        575
+      ],
+      "size": [
+        230,
+        82
+      ]
+    },
+    {
+      "id": "terra-review",
+      "type": "security",
+      "label": "Terra · 独立职责",
+      "sublabel": "红蓝 / 视觉 / 体验 / 修复",
+      "tag": "各职责使用独立任务",
+      "pos": [
+        1030,
+        575
+      ],
+      "size": [
+        235,
+        82
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "request",
+      "from": "requester",
+      "to": "sol-root",
+      "label": "提出需求",
+      "variant": "emphasis"
+    },
+    {
+      "id": "rules",
+      "from": "global-policy",
+      "to": "sol-root",
+      "label": "约束",
+      "labelDy": 90
+    },
+    {
+      "id": "choose",
+      "from": "sol-root",
+      "to": "architecture-library",
+      "label": "选择方案",
+      "labelDy": 90
+    },
+    {
+      "id": "assign",
+      "from": "sol-root",
+      "to": "dispatch",
+      "label": "冻结任务",
+      "variant": "emphasis"
+    },
+    {
+      "id": "frontend",
+      "from": "dispatch",
+      "to": "ui-author",
+      "label": "派发前端"
+    },
+    {
+      "id": "backend",
+      "from": "dispatch",
+      "to": "api-author",
+      "label": "派发后端"
+    },
+    {
+      "id": "write",
+      "from": "dispatch",
+      "to": "artifacts",
+      "label": "产出与提交",
+      "variant": "emphasis",
+      "labelDy": 25
+    },
+    {
+      "id": "check",
+      "from": "artifacts",
+      "to": "terra-review",
+      "label": "独立验收",
+      "variant": "security",
+      "labelDy": 90
+    },
+    {
+      "id": "reconcile",
+      "from": "terra-review",
+      "to": "purple-review",
+      "label": "核对证据",
+      "variant": "security"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "模型职责",
+      "items": [
+        "GLM 另承担按需调研、扫描和小型非 UI 工作；Luna 处理机械任务。",
+        "DeepSeek 按需备用；PM、咨询与仲裁不是每次必经阶段。"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "并发与运行边界",
+      "items": [
+        "原生每会话上限 8；runner 作者上限 4。跨入口总预算仍由 Sol 协调。",
+        "Docker 仅在用户明确要求时使用；全局进程治理尚未完成。"
+      ]
+    },
+    {
+      "dot": "violet",
+      "title": "独立验收与修复",
+      "items": [
+        "Purple PLAN 在实现前；DELIVERY 在当前版本证据齐全后；Sol 最终验收。",
+        "作者交付前自检修正；确认的实现后缺陷由 Terra 接管。"
+      ]
+    }
+  ]
+}

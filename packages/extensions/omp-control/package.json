@@ -1,0 +1,14 @@
+{
+  "name": "omp-control",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Extracted OMP 18.2.6 extension omp-control.",
+  "ompConfig": {
+    "kind": "extension",
+    "runtime": "18.2.6",
+    "entries": [
+      "extensions/omp-control.ts"
+    ]
+  }
+}

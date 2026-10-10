@@ -1,0 +1,13 @@
+{
+  "name": "omp-skill-ui-ux-design-audit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "SEE LICENSE IN skills/ui-ux-design-audit/SOURCE.md",
+  "ompConfig": {
+    "kind": "skill",
+    "skillName": "ui-ux-design-audit",
+    "runtime": "18.2.6",
+    "install": "custom-directory"
+  }
+}

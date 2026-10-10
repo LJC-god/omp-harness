@@ -1,0 +1,241 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "OMP · worktree 当前执行机制",
+    "locale": "zh-CN",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    {
+      "id": "runner-main",
+      "label": "调度与集成"
+    },
+    {
+      "id": "author-work",
+      "label": "并行作者"
+    },
+    {
+      "id": "stopped-work",
+      "label": "失败处理",
+      "variant": "exception"
+    }
+  ],
+  "phases": [
+    {
+      "id": "schedule",
+      "label": "按冻结计划派发",
+      "fromCol": 0,
+      "toCol": 1
+    },
+    {
+      "id": "verify",
+      "label": "分支验证与等待",
+      "fromCol": 2,
+      "toCol": 3,
+      "variant": "emphasis"
+    },
+    {
+      "id": "integrate",
+      "label": "逐个合并与最终检查",
+      "fromCol": 4,
+      "toCol": 5,
+      "variant": "security"
+    }
+  ],
+  "mainPath": [
+    "ready-batch",
+    "worktrees",
+    "branch-gates",
+    "batch-barrier",
+    "candidate-merge",
+    "target-gates",
+    "parent-acceptance"
+  ],
+  "nodes": [
+    {
+      "id": "ready-batch",
+      "lane": "runner-main",
+      "col": 0,
+      "type": "backend",
+      "label": "选择就绪任务",
+      "sublabel": "依赖满足 / 所有权不冲突",
+      "width": 132
+    },
+    {
+      "id": "worktrees",
+      "lane": "runner-main",
+      "col": 1,
+      "type": "backend",
+      "label": "创建独立 worktree",
+      "sublabel": "同批最多 4 个作者",
+      "width": 132
+    },
+    {
+      "id": "branch-gates",
+      "lane": "runner-main",
+      "col": 2,
+      "type": "security",
+      "label": "各分支顺序检查",
+      "sublabel": "提交 / 测试 / 蓝队 / 红队",
+      "width": 132
+    },
+    {
+      "id": "batch-barrier",
+      "lane": "runner-main",
+      "col": 3,
+      "type": "messagebus",
+      "label": "等待整批结束",
+      "sublabel": "当前没有滚动补位",
+      "width": 132
+    },
+    {
+      "id": "candidate-merge",
+      "lane": "runner-main",
+      "col": 4,
+      "type": "security",
+      "label": "逐个候选再验收",
+      "sublabel": "蓝队 → 红队 → 串行合并",
+      "width": 132
+    },
+    {
+      "id": "target-gates",
+      "lane": "runner-main",
+      "col": 5,
+      "type": "security",
+      "label": "目标分支检查",
+      "sublabel": "全部任务合并后：蓝 → 红",
+      "width": 132
+    },
+    {
+      "id": "authors",
+      "lane": "author-work",
+      "col": 1,
+      "type": "frontend",
+      "label": "作者并行实现",
+      "sublabel": "Kimi / Grok 等按任务分配",
+      "tag": "各自路径；各自自检",
+      "width": 132
+    },
+    {
+      "id": "parent-acceptance",
+      "lane": "author-work",
+      "col": 5,
+      "type": "external",
+      "label": "返回 Sol",
+      "sublabel": "继续完整产品验收",
+      "width": 132
+    },
+    {
+      "id": "failure-stop",
+      "lane": "stopped-work",
+      "col": 2,
+      "type": "security",
+      "label": "失败后停止",
+      "sublabel": "保留工作区、分支与证据",
+      "width": 132
+    },
+    {
+      "id": "sol-recovery",
+      "lane": "stopped-work",
+      "col": 3,
+      "type": "backend",
+      "label": "Sol 显式安排恢复",
+      "sublabel": "确认缺陷交给 Terra",
+      "tag": "无自动接管与续跑",
+      "width": 132
+    }
+  ],
+  "edges": [
+    {
+      "id": "dispatch-ready",
+      "from": "ready-batch",
+      "to": "worktrees",
+      "label": "任务就绪",
+      "role": "main"
+    },
+    {
+      "id": "author-check-handoff",
+      "from": "worktrees",
+      "to": "branch-gates",
+      "label": "作者完成交接",
+      "role": "main"
+    },
+    {
+      "id": "branch-pass",
+      "from": "branch-gates",
+      "to": "batch-barrier",
+      "label": "分支交付",
+      "role": "main"
+    },
+    {
+      "id": "wave-settled",
+      "from": "batch-barrier",
+      "to": "candidate-merge",
+      "label": "整批全部通过",
+      "role": "main"
+    },
+    {
+      "id": "all-merged",
+      "from": "candidate-merge",
+      "to": "target-gates",
+      "label": "全部合并",
+      "role": "main"
+    },
+    {
+      "id": "return-parent",
+      "from": "target-gates",
+      "to": "parent-acceptance",
+      "label": "检查通过",
+      "role": "main"
+    },
+    {
+      "id": "parallel-writing",
+      "from": "worktrees",
+      "to": "authors",
+      "label": "最多 4 路",
+      "role": "branch"
+    },
+    {
+      "id": "branch-failure",
+      "from": "branch-gates",
+      "to": "failure-stop",
+      "label": "作者或检查失败",
+      "role": "error",
+      "variant": "security"
+    },
+    {
+      "id": "preserved-evidence",
+      "from": "failure-stop",
+      "to": "sol-recovery",
+      "label": "先核实状态",
+      "role": "branch"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "继续调度的条件",
+      "items": [
+        "若仍有待办，当前批次合并后重新选择就绪任务；每批最多 4 个作者。",
+        "角色数量按任务决定，并非固定两名前端、两名后端。"
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "失败边界",
+      "items": [
+        "候选验收、合并冲突或目标检查失败也停止；不会强行合并或自动重试。",
+        "图中恢复需要 Sol 检查副作用、确认所有权，再安排有边界的修复任务。"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "性能现状",
+      "items": [
+        "本轮实测：四路作者重叠，编码阶段约 46 秒；全程约 12.8 分钟。",
+        "共有 18 次验证与安全调用；主要等待位于多轮审查和串行合并。"
+      ]
+    }
+  ]
+}

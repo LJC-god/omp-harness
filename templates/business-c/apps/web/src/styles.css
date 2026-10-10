@@ -1,0 +1,8 @@
+:root { font-family: system-ui, sans-serif; color: #17212b; background: #f7f9fb; }
+body { margin: 0; }
+main { max-width: 42rem; margin: 4rem auto; padding: 2rem; background: white; border-radius: .5rem; box-shadow: 0 1px 5px #0002; }
+form { display: flex; gap: .5rem; align-items: end; }
+form label { display: grid; gap: .25rem; flex: 1; }
+input, button { font: inherit; padding: .45rem .6rem; }
+ul { padding-left: 1.25rem; }
+li { margin: .6rem 0; }

@@ -1,0 +1,29 @@
+# Local verification downloads and temporary reports
+/.local/
+
+# Authentication and runtime data never belong in this snapshot
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
+credentials.json
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.log
+node_modules/
+__pycache__/
+/omp/agent/sessions/
+/omp/agent/terminal-sessions/
+/omp/agent/blobs/
+/omp/agent/cache/
+/omp/agent/tmp/
+/omp/agent/quarantine/
+/omp/backups/
+/omp/logs/
+/omp/cache/
+/omp/run/
+/omp/tmp/

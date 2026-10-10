@@ -1,0 +1,213 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "OMP · 产品开发与交付主流程",
+    "locale": "zh-CN",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    {
+      "id": "delivery-main",
+      "label": "产品主流程"
+    },
+    {
+      "id": "supporting-artifacts",
+      "label": "图表与交付"
+    }
+  ],
+  "phases": [
+    {
+      "id": "define",
+      "label": "Sol 决策与契约",
+      "fromCol": 0,
+      "toCol": 1
+    },
+    {
+      "id": "build",
+      "label": "指定作者实现",
+      "fromCol": 2,
+      "toCol": 3,
+      "variant": "emphasis"
+    },
+    {
+      "id": "accept",
+      "label": "独立验收与交付",
+      "fromCol": 4,
+      "toCol": 5,
+      "variant": "security"
+    }
+  ],
+  "mainPath": [
+    "sol-plan",
+    "purple-plan",
+    "foundation",
+    "implementation",
+    "independent-review",
+    "purple-delivery",
+    "sol-accept"
+  ],
+  "nodes": [
+    {
+      "id": "sol-plan",
+      "lane": "delivery-main",
+      "col": 0,
+      "type": "backend",
+      "label": "Sol 制定计划",
+      "sublabel": "需求 / 选型 / 任务契约",
+      "width": 132
+    },
+    {
+      "id": "purple-plan",
+      "lane": "delivery-main",
+      "col": 1,
+      "type": "security",
+      "label": "Purple PLAN",
+      "sublabel": "GLM 独立检查语义计划",
+      "width": 132
+    },
+    {
+      "id": "foundation",
+      "lane": "delivery-main",
+      "col": 2,
+      "type": "backend",
+      "label": "建立共享基础",
+      "sublabel": "作者验证骨架与接口",
+      "width": 132
+    },
+    {
+      "id": "implementation",
+      "lane": "delivery-main",
+      "col": 3,
+      "type": "backend",
+      "label": "实现与集成",
+      "sublabel": "Sol 派工；作者自检",
+      "tag": "完成后冻结候选",
+      "width": 132
+    },
+    {
+      "id": "independent-review",
+      "lane": "delivery-main",
+      "col": 4,
+      "type": "security",
+      "label": "独立验收",
+      "sublabel": "红蓝 / 视觉 / 体验",
+      "tag": "Terra · 独立任务",
+      "width": 132
+    },
+    {
+      "id": "purple-delivery",
+      "lane": "delivery-main",
+      "col": 5,
+      "type": "security",
+      "label": "Purple DELIVERY",
+      "sublabel": "GLM 核对需求与证据",
+      "width": 132
+    },
+    {
+      "id": "archify-artifacts",
+      "lane": "supporting-artifacts",
+      "col": 2,
+      "type": "frontend",
+      "label": "Archify 图表",
+      "sublabel": "独立作者制作 JSON / HTML",
+      "tag": "可与批准的代码并行",
+      "width": 132
+    },
+    {
+      "id": "sol-accept",
+      "lane": "supporting-artifacts",
+      "col": 5,
+      "type": "external",
+      "label": "Sol 最终交付",
+      "sublabel": "原始需求全部闭环",
+      "width": 132
+    }
+  ],
+  "edges": [
+    {
+      "id": "plan-check",
+      "from": "sol-plan",
+      "to": "purple-plan",
+      "label": "独立复核",
+      "role": "main"
+    },
+    {
+      "id": "plan-pass",
+      "from": "purple-plan",
+      "to": "foundation",
+      "label": "通过",
+      "role": "main"
+    },
+    {
+      "id": "foundation-ready",
+      "from": "foundation",
+      "to": "implementation",
+      "label": "基础就绪",
+      "role": "main"
+    },
+    {
+      "id": "candidate-ready",
+      "from": "implementation",
+      "to": "independent-review",
+      "label": "冻结版本",
+      "role": "main"
+    },
+    {
+      "id": "reviews-pass",
+      "from": "independent-review",
+      "to": "purple-delivery",
+      "label": "验收通过",
+      "role": "main"
+    },
+    {
+      "id": "final-pass",
+      "from": "purple-delivery",
+      "to": "sol-accept",
+      "label": "通过",
+      "role": "main"
+    },
+    {
+      "id": "artifact-assignment",
+      "from": "purple-plan",
+      "to": "archify-artifacts",
+      "label": "通过后制作",
+      "role": "async",
+      "variant": "dashed"
+    },
+    {
+      "id": "artifact-required",
+      "from": "archify-artifacts",
+      "to": "independent-review",
+      "label": "最终审查前齐备",
+      "role": "branch",
+      "variant": "dashed"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "violet",
+      "title": "职责边界",
+      "items": [
+        "Purple PLAN 不通过则由 Sol 修订计划；DELIVERY 不通过则补齐缺口，不能交付。",
+        "Sol 做决策与验收，指定作者承担源码、测试、配置和图表产出。"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "版本与独立性",
+      "items": [
+        "完整产品必须红蓝紫通过；有用户界面的产品还需视觉和真实操作体验验收。",
+        "修复改变源码后必须获得当前版本的新验收记录；图中修复由 Sol 显式协调。"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "修复与阻塞另见第 4 张图",
+      "items": [
+        "任何确认缺陷均由 Sol 组织 Terra 修复，再对当前版本复验；缺证不能直接通过。",
+        "完整产品规则允许红蓝并行；runner 内仍顺序执行，且没有自动修复后续跑。"
+      ]
+    }
+  ]
+}

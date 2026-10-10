@@ -1,0 +1,10 @@
+{
+  "name": "omp-swarm-control",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Host-neutral swarm policy. OMP and pi adapters sit outside src/.",
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

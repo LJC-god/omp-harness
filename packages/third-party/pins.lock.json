@@ -1,0 +1,43 @@
+{
+  "runtime": "18.2.6",
+  "source": "frozen snapshot omp/agent/skills",
+  "note": "安装器从冻结快照复制这些字节。本仓库不把它们再改成另一份正文。",
+  "skills": {
+    "caveman": {
+      "skillSha256": "2a0274cc69d89193bb22b6ffd98907613c89f7b3bf78c48e8e6eafd4a749846f",
+      "files": 4
+    },
+    "frontend-design": {
+      "skillSha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+      "files": 2
+    },
+    "emil-design-eng": {
+      "skillSha256": "e71de849347050c2c573c1cf24d742d5a13459557ecffa6e562f08006f46b5b7",
+      "files": 2
+    },
+    "fixing-accessibility": {
+      "skillSha256": "549261e8a53b53a1a20c0ddbf736821e5fc0876ad82eee76e0efab8e9ee9dadf",
+      "files": 2
+    },
+    "fixing-motion-performance": {
+      "skillSha256": "0a2d654902bc04263ce68c8c02967ef03f17b482e855360a5463211d99d7baa9",
+      "files": 2
+    },
+    "shadcn": {
+      "skillSha256": "e39871b64b1ba34f1aefc50ffea1b162c5a0750bc42a9ba54282ac503534429b",
+      "files": 16
+    },
+    "archify": {
+      "skillSha256": "10094272d6d1b4ad0f2c2e0880cb646fe4991454a2dc3d854aecb27e7407ee1f",
+      "files": 218
+    },
+    "baoyu-design": {
+      "skillSha256": "22535fd011b73a0dd13a6e1daccdaf5f7b3a9fe8cf60039206d4a1610b5f1245",
+      "files": 198
+    },
+    "cloudbase": {
+      "skillSha256": "04b2eb7a279750160e675a1fdb121fcdb844ad14d9e9d414098b8136257ff901",
+      "files": 140
+    }
+  }
+}

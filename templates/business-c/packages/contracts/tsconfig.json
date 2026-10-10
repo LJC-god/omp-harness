@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "target": "ES2023",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}

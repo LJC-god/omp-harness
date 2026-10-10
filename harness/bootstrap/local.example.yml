@@ -1,0 +1,6 @@
+# 复制为本地环境，不要提交真实 local.yml。
+# 安装器读取这些变量；缺 OMP_DATA_ROOT 或 OMP_ARCHIVE_GITHUB_REPO 时拒绝安装。
+OMP_DATA_ROOT: /absolute/path/to/omp-data
+OMP_ARCHIVE_GITHUB_REPO: owner/omp-archive-index
+OMP_ARCHIVE_INDEX_DIR: /absolute/path/to/omp-data/github/archive-index
+OMP_CONTROL_DB: /absolute/path/to/home/.omp/agent/orchestration.sqlite

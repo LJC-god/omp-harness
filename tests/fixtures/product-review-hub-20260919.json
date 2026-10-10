@@ -1,0 +1,40 @@
+{
+  "provenance": {
+    "sessionId": "01a0b733-6d89-71db-a630-9eb53a24362b",
+    "line": 2286,
+    "timestamp": "2026-09-19T07:23:41.985Z",
+    "purpose": "Exact runtime job/envelope/schema metadata from a PASS previously missed by checkpoint get; no assistant prose used as authority."
+  },
+  "details": {
+    "op": "wait",
+    "jobs": [
+      {
+        "id": "FinalSecurityReview9",
+        "type": "task",
+        "status": "completed",
+        "label": "FinalSecurityReview9",
+        "durationMs": 152074,
+        "resolvedModel": "openai-codex/gpt-5.6-terra:high",
+        "resolvedModelIdentity": "openai-codex/gpt-5.6-terra",
+        "resolvedThinkingLevel": "high",
+        "resultText": "<task-result id=\"FinalSecurityReview9\" agent=\"security-reviewer\" status=\"completed\" duration=\"2m28s\">\n<meta lines=\"10\" size=\"1.7KB\" />\n<output>\n{\n  \"status\": \"PASS\",\n  \"summary\": \"当前源码安全复核通过，候选绑定在 `be20881d2420e0208d60d6a063719f027e991e5b`；起止两次读取 `.git/refs/heads/master` 均为此 SHA。按授权复用 `FinalSecurityReview8` 的已验证父级证据；本次只读、未运行构建/测试、未创建或修改项目内容。\",\n  \"evidence\": [\n    \"R1：`app.module.ts` 全局顺序注册 `SessionGuard` 和 `RolesGuard`；会话仅接受数据库中 SHA-256 哈希匹配、未过期且用户 active 的 32-byte 随机 token。`users.controller.ts` 类级 ADMIN；`loans.controller.ts` checkout/return、设备管理写入、dashboard 与 CSV 导出均显式 ADMIN；成员仅可通过 `assertReservationMutableBy` 取消自己的预约，公开业务端点仅登录、登出和不触库的 `/health`。R3：`20260919T0152_init/migration.ts` 的 `reservations_active_no_overlap` GiST exclusion constraint 是跨连接最终预约冲突控制；`20260919T0538_reservations_device_must_be_active/migration.ts` 的 BEFORE INSERT/UPDATE ACTIVE 触发器 `FOR SHARE` 锁设备并与停用串行化。R4：Loan 保留 borrower、checkout/return operator；历史 `withDeviceNames` 不按 active 过滤。R7：Loan INSERT 触发器在 `20260919T1430_loans_device_and_borrower_must_be_active/migration.ts` 按 Device、User 固定顺序 `FOR SHARE` 加锁，以命名 23514 约束拒绝 inactive；`pg-errors.ts` 转为 409；归还与取消均使用带最终状态谓词的单语句 UPDATE，affected=0 为 409。R8：Cookie 为 HttpOnly、SameSite=Strict、根路径、7 天 TTL，生产 Secure；CORS 只接受精确 http(s) origin；CSV 中公式前缀加单引号；`.env`/Docker context 排除且源码/Compose 默认或实际发布到 loopback。授权复用的父级当前候选收据：build/typecheck PASS、API Vitest 31/31、migration/check PASS、两个本机 origin Playwright 各 8/8、真实 PostgreSQL 停用-vs-checkout及双归还/取消竞争均只有一方可完成且失败方为 409。\"\n  ],\n  \"findings\": [\n    \"P3（已知、非阻断）：`apps/api/src/auth.controller.ts#logout` 为无 CSRF token 的公开 POST。攻击者须已能在相同 schemeful-site 的本机来源执行请求；SameSite=Strict 阻止跨站 Cookie，但端口不是 site 边界。影响仅撤销当前会话，不能读取响应、登录、提权或改写业务数据，因此不是 P2。P0/P1/P2：无。复核路径包括认证/会话/RBAC/CORS、借还和预约服务/控制器、持久化错误映射、三组迁移、Prisma contract、设备/用户服务、CSV/导出、异常过滤、浏览器 API 会话调用、`.env.example`、`.gitignore`、`.dockerignore`、Docker Compose/Dockerfile、启动器与 README 安全部署段落。\"\n  ]\n}\n</output>\n</task-result>\n\nFinalSecurityReview9 is now idle — message it via `hub` to follow up; transcript at history://FinalSecurityReview9",
+        "structured": {
+          "source": "caller",
+          "mode": "strict",
+          "status": "valid",
+          "data": {
+            "status": "PASS",
+            "summary": "当前源码安全复核通过，候选绑定在 `be20881d2420e0208d60d6a063719f027e991e5b`；起止两次读取 `.git/refs/heads/master` 均为此 SHA。按授权复用 `FinalSecurityReview8` 的已验证父级证据；本次只读、未运行构建/测试、未创建或修改项目内容。",
+            "evidence": [
+              "R1：`app.module.ts` 全局顺序注册 `SessionGuard` 和 `RolesGuard`；会话仅接受数据库中 SHA-256 哈希匹配、未过期且用户 active 的 32-byte 随机 token。`users.controller.ts` 类级 ADMIN；`loans.controller.ts` checkout/return、设备管理写入、dashboard 与 CSV 导出均显式 ADMIN；成员仅可通过 `assertReservationMutableBy` 取消自己的预约，公开业务端点仅登录、登出和不触库的 `/health`。R3：`20260919T0152_init/migration.ts` 的 `reservations_active_no_overlap` GiST exclusion constraint 是跨连接最终预约冲突控制；`20260919T0538_reservations_device_must_be_active/migration.ts` 的 BEFORE INSERT/UPDATE ACTIVE 触发器 `FOR SHARE` 锁设备并与停用串行化。R4：Loan 保留 borrower、checkout/return operator；历史 `withDeviceNames` 不按 active 过滤。R7：Loan INSERT 触发器在 `20260919T1430_loans_device_and_borrower_must_be_active/migration.ts` 按 Device、User 固定顺序 `FOR SHARE` 加锁，以命名 23514 约束拒绝 inactive；`pg-errors.ts` 转为 409；归还与取消均使用带最终状态谓词的单语句 UPDATE，affected=0 为 409。R8：Cookie 为 HttpOnly、SameSite=Strict、根路径、7 天 TTL，生产 Secure；CORS 只接受精确 http(s) origin；CSV 中公式前缀加单引号；`.env`/Docker context 排除且源码/Compose 默认或实际发布到 loopback。授权复用的父级当前候选收据：build/typecheck PASS、API Vitest 31/31、migration/check PASS、两个本机 origin Playwright 各 8/8、真实 PostgreSQL 停用-vs-checkout及双归还/取消竞争均只有一方可完成且失败方为 409。"
+            ],
+            "findings": [
+              "P3（已知、非阻断）：`apps/api/src/auth.controller.ts#logout` 为无 CSRF token 的公开 POST。攻击者须已能在相同 schemeful-site 的本机来源执行请求；SameSite=Strict 阻止跨站 Cookie，但端口不是 site 边界。影响仅撤销当前会话，不能读取响应、登录、提权或改写业务数据，因此不是 P2。P0/P1/P2：无。复核路径包括认证/会话/RBAC/CORS、借还和预约服务/控制器、持久化错误映射、三组迁移、Prisma contract、设备/用户服务、CSV/导出、异常过滤、浏览器 API 会话调用、`.env.example`、`.gitignore`、`.dockerignore`、Docker Compose/Dockerfile、启动器与 README 安全部署段落。"
+            ]
+          }
+        },
+        "agentUrlId": "FinalSecurityReview9"
+      }
+    ]
+  }
+}

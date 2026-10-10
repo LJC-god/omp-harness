@@ -1,0 +1,6 @@
+{
+  "name": "@timiliang/pi-quotas",
+  "version": "0.5.2",
+  "enabled": true,
+  "install": "bun install in $OMP_HOME/plugins"
+}

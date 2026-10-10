@@ -1,0 +1,203 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "OMP · 确认缺陷修复与重新验收",
+    "locale": "zh-CN",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    {
+      "id": "repair-main",
+      "label": "Sol 显式组织的修复流程"
+    },
+    {
+      "id": "preconditions",
+      "label": "写入权与证据边界",
+      "variant": "exception"
+    }
+  ],
+  "phases": [
+    {
+      "id": "triage",
+      "label": "判定与交接",
+      "fromCol": 0,
+      "toCol": 1
+    },
+    {
+      "id": "fix",
+      "label": "指定 Terra 修复",
+      "fromCol": 2,
+      "toCol": 3,
+      "variant": "emphasis"
+    },
+    {
+      "id": "recheck",
+      "label": "独立重新验收",
+      "fromCol": 4,
+      "toCol": 5,
+      "variant": "security"
+    }
+  ],
+  "mainPath": [
+    "finding",
+    "sol-triage",
+    "settle-writer",
+    "terra-fix",
+    "fresh-review",
+    "delivery-return"
+  ],
+  "nodes": [
+    {
+      "id": "finding",
+      "lane": "repair-main",
+      "col": 0,
+      "type": "security",
+      "label": "审查报告问题",
+      "sublabel": "复现条件与对应版本",
+      "width": 132
+    },
+    {
+      "id": "sol-triage",
+      "lane": "repair-main",
+      "col": 1,
+      "type": "backend",
+      "label": "Sol 判断根因",
+      "sublabel": "确认缺陷并合并重复报告",
+      "width": 132
+    },
+    {
+      "id": "settle-writer",
+      "lane": "repair-main",
+      "col": 2,
+      "type": "security",
+      "label": "结束冲突写入",
+      "sublabel": "原作者先停止；明确所有权",
+      "width": 132
+    },
+    {
+      "id": "terra-fix",
+      "lane": "repair-main",
+      "col": 3,
+      "type": "backend",
+      "label": "Terra 修复",
+      "sublabel": "根因批次 / 必要回归检查",
+      "width": 132
+    },
+    {
+      "id": "fresh-review",
+      "lane": "repair-main",
+      "col": 4,
+      "type": "security",
+      "label": "独立复验",
+      "sublabel": "当前版本取得新验收记录",
+      "width": 132
+    },
+    {
+      "id": "delivery-return",
+      "lane": "repair-main",
+      "col": 5,
+      "type": "external",
+      "label": "回到交付验收",
+      "sublabel": "Purple DELIVERY → Sol",
+      "width": 150
+    },
+    {
+      "id": "evidence-missing",
+      "lane": "preconditions",
+      "col": 1,
+      "type": "database",
+      "label": "缺证或环境阻塞",
+      "sublabel": "补齐后再判断；不能伪造通过",
+      "width": 150
+    },
+    {
+      "id": "retry-plan",
+      "lane": "preconditions",
+      "col": 4,
+      "type": "backend",
+      "label": "复验仍失败",
+      "sublabel": "Sol 据新证据重排修复",
+      "width": 132
+    }
+  ],
+  "edges": [
+    {
+      "id": "collect-findings",
+      "from": "finding",
+      "to": "sol-triage",
+      "label": "汇总证据",
+      "role": "main"
+    },
+    {
+      "id": "confirm-defect",
+      "from": "sol-triage",
+      "to": "settle-writer",
+      "label": "确认缺陷",
+      "role": "main"
+    },
+    {
+      "id": "transfer-owner",
+      "from": "settle-writer",
+      "to": "terra-fix",
+      "label": "转交任务",
+      "role": "main"
+    },
+    {
+      "id": "changed-source",
+      "from": "terra-fix",
+      "to": "fresh-review",
+      "label": "修复已提交",
+      "role": "main"
+    },
+    {
+      "id": "new-receipts",
+      "from": "fresh-review",
+      "to": "delivery-return",
+      "label": "要求均通过",
+      "role": "main"
+    },
+    {
+      "id": "blocked-evidence",
+      "from": "sol-triage",
+      "to": "evidence-missing",
+      "label": "并非确认缺陷",
+      "role": "error",
+      "variant": "dashed"
+    },
+    {
+      "id": "failed-recheck",
+      "from": "fresh-review",
+      "to": "retry-plan",
+      "label": "未通过",
+      "role": "error",
+      "variant": "security"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "接管时点",
+      "items": [
+        "当前规则：作者交付前仍修复自己的自检失败；确认的实现后缺陷交 Terra。",
+        "修复者与审查者即使同为 Terra，也必须使用独立任务与职责。"
+      ]
+    },
+    {
+      "dot": "violet",
+      "title": "证据有效性",
+      "items": [
+        "源码指纹变化后，所需角色必须出具当前版本的新记录；旧 PASS 不能直接沿用。",
+        "同一边界连续两轮修复失败，Sol 重新分析调用链和根因，再调整修复计划。"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "当前自动化边界",
+      "items": [
+        "runner 失败时保留分支和证据并停止；本图各交接由 Sol 显式安排。",
+        "恢复前检查真实执行状态与副作用；尚无自动接管、修复、复验、续跑闭环。"
+      ]
+    }
+  ]
+}

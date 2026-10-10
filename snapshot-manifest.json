@@ -1,0 +1,3415 @@
+{
+  "snapshotDate": "2026-09-24",
+  "sourceRoot": "~/.omp",
+  "ompVersion": "18.2.6",
+  "fileCount": 681,
+  "totalBytes": 17308230,
+  "files": [
+    {
+      "path": "omp/agent/agents/aesthetic-reviewer.md",
+      "sha256": "53354b01c6f13b8c79ed3df2c0e53ab591d9ad8b3199afa3dd60fc0df36bc874",
+      "bytes": 960
+    },
+    {
+      "path": "omp/agent/agents/baoyu-design-worker.md",
+      "sha256": "c86d1b09a378e9d2d74b6b150dfd151e7441d487648ff0c3c33d0532e07d0ed4",
+      "bytes": 2675
+    },
+    {
+      "path": "omp/agent/agents/daily-research.md",
+      "sha256": "c8188e1c131abbd0be9e32d69447cc52dc7535bfd319fc7e21216cf833ac33b3",
+      "bytes": 1380
+    },
+    {
+      "path": "omp/agent/agents/daily-worker.md",
+      "sha256": "575d886783d601736e09bb59d55a2cfb9107d7234dfb6864f1f21129b30fc0be",
+      "bytes": 929
+    },
+    {
+      "path": "omp/agent/agents/deepseek-worker.md",
+      "sha256": "248b488dbb4bb55b96e68888aefb67fd6494b9dee06494c622f72a4f84c2ad69",
+      "bytes": 1440
+    },
+    {
+      "path": "omp/agent/agents/experience-reviewer.md",
+      "sha256": "6d1f4a56730778c3dac0b39af30bc5a349e62e18cb8c3ae2e752f6373fcacf9c",
+      "bytes": 3302
+    },
+    {
+      "path": "omp/agent/agents/fast-worker.md",
+      "sha256": "6902b831d005454878f028b9afaa2e3272e4065563d0e662e9e9ee9c7089773e",
+      "bytes": 1390
+    },
+    {
+      "path": "omp/agent/agents/frontend-worker.md",
+      "sha256": "dfc754db9d677d359b7085275edc62847c9afba7f9e479d62a416a257fe409af",
+      "bytes": 3074
+    },
+    {
+      "path": "omp/agent/agents/gpt-visual-director.md",
+      "sha256": "cba6c1f5ba6293b337bcfa713c3812de30893da991550c48d60eb54b47958762",
+      "bytes": 2027
+    },
+    {
+      "path": "omp/agent/agents/librarian.md",
+      "sha256": "8260d88364aab8558ba7221231be3817fcfd182b78da3b1ac252755c86eb5e6e",
+      "bytes": 793
+    },
+    {
+      "path": "omp/agent/agents/pm-worker.md",
+      "sha256": "2ea4681d400af1d0f0807b4290a7b256ef65cf6313cbf49467c5d7654a705886",
+      "bytes": 6470
+    },
+    {
+      "path": "omp/agent/agents/product-reviewer.md",
+      "sha256": "c196a671ab53b16fbd9d4e8f11219476ef65403e3899e80f7ddd939143080130",
+      "bytes": 2420
+    },
+    {
+      "path": "omp/agent/agents/product-rules-reviewer.md",
+      "sha256": "5a7af5f77c61f6f3850722ad7ae58298e170305f706de52e40e02a1ed4ba4c10",
+      "bytes": 2602
+    },
+    {
+      "path": "omp/agent/agents/purple-reviewer.md",
+      "sha256": "fc8d8915958c72de2f4a25a7b8948676afbe611fdeef5109f6eb8ba1817ee90c",
+      "bytes": 4148
+    },
+    {
+      "path": "omp/agent/agents/repair-worker.md",
+      "sha256": "b2e3c245e886a010195c6f4fbc501b4b232b32ba1b90f299a519bc0ad17a271d",
+      "bytes": 1967
+    },
+    {
+      "path": "omp/agent/agents/sonic.md",
+      "sha256": "36e68e0bf675e047dccca42602de69d0f1bacbfadd4326461f165f1458aa06db",
+      "bytes": 1924
+    },
+    {
+      "path": "omp/agent/agents/task.md",
+      "sha256": "2863c27c0e58e4207da592e07fafa786967f459931637960e11d2aa26dfac794",
+      "bytes": 2011
+    },
+    {
+      "path": "omp/agent/agents/verifier.md",
+      "sha256": "5ba50ccbeb1c587e95b6567e5aabdfd79b5cd4f2ec5b43269def9524f18a80f0",
+      "bytes": 4530
+    },
+    {
+      "path": "omp/agent/agents/visual-reviewer.md",
+      "sha256": "6deb45b673dc756265dc8a9f447af396226f67863851e6d7fc70ae34fb78d6df",
+      "bytes": 882
+    },
+    {
+      "path": "omp/agent/commands/coding-procedure.md",
+      "sha256": "2d73d0c7ae9134e5c7ac0e88ee0dabfadfa56f570c1db10af398e3190e088076",
+      "bytes": 31870
+    },
+    {
+      "path": "omp/agent/commands/maintenance-cleanup.md",
+      "sha256": "cf7c02090e77cfa1b27b7630b217cd508a68fb6cb338644cb5663b2c81b36ab5",
+      "bytes": 2767
+    },
+    {
+      "path": "omp/agent/commands/web-research-v1.md",
+      "sha256": "1f1945893f12c0200777f0097561c99010622c1eb6d737d2b4529e247fb1c99f",
+      "bytes": 733
+    },
+    {
+      "path": "omp/agent/config.yml",
+      "sha256": "48623227906e5e22cc666e085aea0cce24f4435414c44dd9eba46c1f3d02afe0",
+      "bytes": 4411
+    },
+    {
+      "path": "omp/agent/extensions/omp-control.ts",
+      "sha256": "748f9ab2b5814913e5400715190eccbfb4e8bc4193215e20b0562010d9c90ff0",
+      "bytes": 232788
+    },
+    {
+      "path": "omp/agent/extensions/product-review.ts",
+      "sha256": "dac202ca8662930795786f6451bf35b5cc17fcdf6d171efd1e59b5bef13e6a21",
+      "bytes": 9555
+    },
+    {
+      "path": "omp/agent/extensions/run-archiver.ts",
+      "sha256": "d127fd0d3e0f77d6798cda0c19626baa7f7887612a80e6acf74726a92dfa3699",
+      "bytes": 123197
+    },
+    {
+      "path": "omp/agent/extensions/session-continuity.ts",
+      "sha256": "d6fcb39a2e33f950f75f2e394376a21aab204f54c843538e8efd38c3f0ad8978",
+      "bytes": 43035
+    },
+    {
+      "path": "omp/agent/extensions/task-health.ts",
+      "sha256": "9ee23825616e1769c2fa75de6cc2796e87015d69b560c4059710c8606bd95790",
+      "bytes": 15121
+    },
+    {
+      "path": "omp/agent/extensions/task-usage.ts",
+      "sha256": "771e252e147d07fa92a54cb51b0772bf1c20c1e954f74d4e8a167830f94c4431",
+      "bytes": 5485
+    },
+    {
+      "path": "omp/agent/extensions/web-research-tools.ts",
+      "sha256": "dc583d33e9866b536b7b17861553eeb1ad5cf8d9a9e845a2a32aea28ef0682be",
+      "bytes": 12851
+    },
+    {
+      "path": "omp/agent/lib/acceptance-evidence.ts",
+      "sha256": "2c62e832a5255d4e5d4c9c5ef37f84462bac7017909591c0ddda4b803fae1685",
+      "bytes": 3652
+    },
+    {
+      "path": "omp/agent/lib/ambient-lab.ts",
+      "sha256": "aadf8fa4e3b6f4ded695c0ce13da1a178d68beef66f97461ab276202db14b5f3",
+      "bytes": 3411
+    },
+    {
+      "path": "omp/agent/lib/model-audit.ts",
+      "sha256": "dba21ad5ced2595c7a02fb4964f4215df28767b1a8620b2bae9fa5553593ab4a",
+      "bytes": 7468
+    },
+    {
+      "path": "omp/agent/lib/omp-runtime.ts",
+      "sha256": "c46dae1abf0790117b4bcf194c6a69956aea288e5d33659395d187fe3c3ff6c0",
+      "bytes": 4030
+    },
+    {
+      "path": "omp/agent/lib/product-review-evidence.ts",
+      "sha256": "e2713cb2ef7b909d20013d7be778e4acf040b4c06a884ebb5bc57587fc5bd950",
+      "bytes": 17187
+    },
+    {
+      "path": "omp/agent/lib/research-evidence.ts",
+      "sha256": "5c2b51d7cde8d2557ed148d3f48ae08128dc288e93289b04952fa358c7f48dbc",
+      "bytes": 7288
+    },
+    {
+      "path": "omp/agent/lib/task-dispatch.ts",
+      "sha256": "07da1c58457f9f9e56480f99b4803058181a02d228098b7976826ed7896c2796",
+      "bytes": 1470
+    },
+    {
+      "path": "omp/agent/lib/task-graph.ts",
+      "sha256": "71be3ca75c813636dc5c9e8ac3231d93ec259b9307778dea1cc934fc8aa4901a",
+      "bytes": 5404
+    },
+    {
+      "path": "omp/agent/lib/task-health.ts",
+      "sha256": "872f1ed615eb4680b17e8d910907241bbbacc50d709a48a37ec65e9b7340a217",
+      "bytes": 8002
+    },
+    {
+      "path": "omp/agent/lib/task-usage.ts",
+      "sha256": "09b0b5ee22969956c60a7588bfba6375b10b850c97b1423df20ed9a3d57112a4",
+      "bytes": 9884
+    },
+    {
+      "path": "omp/agent/lib/windows-directory-pin.ts",
+      "sha256": "f60a9688880b81bdbe0ec96df4969e4a804e3f90e6b12b00465eb44c5562d7fd",
+      "bytes": 7468
+    },
+    {
+      "path": "omp/agent/lib/workspace-preflight.py",
+      "sha256": "63cfc6d6d17f49b02759929e1c9b5c176fa490f2e1ecc90d1736e118cceda0aa",
+      "bytes": 5898
+    },
+    {
+      "path": "omp/agent/notes/architecture-catalog.md",
+      "sha256": "1cefd3113da74fbc9a696b6437f9ebab56226b2fdf2b53c29bf1e7dc61dab724",
+      "bytes": 5981
+    },
+    {
+      "path": "omp/agent/notes/archive-procedure.md",
+      "sha256": "d342cd7e46e2c2735190e5d49c73078f111488a9434286755ad12373a80d957d",
+      "bytes": 4376
+    },
+    {
+      "path": "omp/agent/notes/browser-verification.md",
+      "sha256": "9aebe21c040d06d872facd2da52c6edd4404a3e4976e3bd0a18f9aaefb799ef8",
+      "bytes": 15431
+    },
+    {
+      "path": "omp/agent/notes/frontend-workflow.md",
+      "sha256": "cb7f98d9e6e119c9ed45171580bec419457a06772354adcf2f756b3251450e5b",
+      "bytes": 7687
+    },
+    {
+      "path": "omp/agent/notes/git-checkpoints.md",
+      "sha256": "0bb305bbc827595dd6c68ca943ddc9e8fe4dbb9ad6154fca08007a66af4560f2",
+      "bytes": 4554
+    },
+    {
+      "path": "omp/agent/notes/merge-queue.md",
+      "sha256": "2450475db4218e61af37fec0e234f80d1e4c2e02d05e243a59e35298e7971799",
+      "bytes": 8363
+    },
+    {
+      "path": "omp/agent/notes/omp-evaluation.md",
+      "sha256": "62d1d2d7250f2783d331fd7e1e1b1567fc276171d93e71dc089c2279332d61ed",
+      "bytes": 2735
+    },
+    {
+      "path": "omp/agent/notes/omp-upgrade.md",
+      "sha256": "651748c4d533e8d379e6ac181dae190938a355005b6c6cfc1ce74ef042a1c77d",
+      "bytes": 11994
+    },
+    {
+      "path": "omp/agent/notes/product-planning.md",
+      "sha256": "07c7b42c650624238cb4c3fe31dbc306061a32df893adbd803716db4e6f4fa27",
+      "bytes": 20960
+    },
+    {
+      "path": "omp/agent/notes/session-handoff.md",
+      "sha256": "b7db43acb192731354fe4b4b9d7f0af6664947de28d194b473e37609cca41f45",
+      "bytes": 13271
+    },
+    {
+      "path": "omp/agent/notes/skill-routing.md",
+      "sha256": "b6696c7d11ea4d01c13e12dc1c66bf8030e7624415a35ce45208d0ed82bbf7ab",
+      "bytes": 10356
+    },
+    {
+      "path": "omp/agent/notes/task-graph.md",
+      "sha256": "056e7a3196e9a00a7dd1590e4ea6d7414fa7e525d5753aefdbdc9300a3d4c885",
+      "bytes": 10722
+    },
+    {
+      "path": "omp/agent/notes/task-plan-automation.md",
+      "sha256": "847ca026bf4019bf9a0ffba1967ddd560bac913dac44d2983376f4b50f457748",
+      "bytes": 8865
+    },
+    {
+      "path": "omp/agent/notes/verification-evidence.md",
+      "sha256": "6eb6bb1a082bd24c14eadc9c5710fa1a9fd39b5377df2c2efbaa5a88d85c49c0",
+      "bytes": 20867
+    },
+    {
+      "path": "omp/agent/notes/workflow-baseline-v1-20260921.md",
+      "sha256": "0eda2a09f6548f09aa094a2d046534b3f3b2fc4d9975531fcaae8a895a4c29c6",
+      "bytes": 9123
+    },
+    {
+      "path": "omp/agent/notes/workflow-decisions.md",
+      "sha256": "95f2392e9988eec4a5856e3e289812121bde8e69820bf209cf777f7911741346",
+      "bytes": 46012
+    },
+    {
+      "path": "omp/agent/notes/workspace-lifecycle.md",
+      "sha256": "4b8c4a8b6f7ac5dcda18b1ff45faa0b54a7117ea420ed5baeac1d268911356cd",
+      "bytes": 11165
+    },
+    {
+      "path": "omp/agent/notes/worktree-delivery.md",
+      "sha256": "8d436ab4834dfb8246fa9f6313798dd135cacc3c3817e6e52b32f7950f585f23",
+      "bytes": 10028
+    },
+    {
+      "path": "omp/agent/rules/communication.md",
+      "sha256": "c3263690c5728b5bf7b3d5b5c0f7cc21478f14517eabbfd72935333415972363",
+      "bytes": 2711
+    },
+    {
+      "path": "omp/agent/rules/harness-router.md",
+      "sha256": "b7604e49090510c96e6c4990c0f99b8c89f34987ca10914acbbe09d6f08cdf61",
+      "bytes": 6407
+    },
+    {
+      "path": "omp/agent/rules/main-agent-orchestrator.md",
+      "sha256": "faf5cd4aedd9c33a1e83ef23957cfa67e7dc4239b59e6373ae14549a307f6388",
+      "bytes": 20984
+    },
+    {
+      "path": "omp/agent/skills/archify/LICENSE",
+      "sha256": "b799ab081703e7821ae5096d2c1abdf14bbdc75e8ea1c4045998c36ed6db9706",
+      "bytes": 1102
+    },
+    {
+      "path": "omp/agent/skills/archify/SKILL.md",
+      "sha256": "10094272d6d1b4ad0f2c2e0880cb646fe4991454a2dc3d854aecb27e7407ee1f",
+      "bytes": 16396
+    },
+    {
+      "path": "omp/agent/skills/archify/THIRD_PARTY_NOTICES.md",
+      "sha256": "0b7fb59365dc21c93b0f62526d74ee913aeec9ae532c112bc76afa7edcd56e14",
+      "bytes": 5248
+    },
+    {
+      "path": "omp/agent/skills/archify/assets/JetBrainsMono-OFL.txt",
+      "sha256": "c1ab7c666206842a02b35b30770dac0d7a10156ed401c9defc3f02a754d89e90",
+      "bytes": 4398
+    },
+    {
+      "path": "omp/agent/skills/archify/assets/template.html",
+      "sha256": "505f1c6baa9c2454475c048aa75df8abd867e680e7b3b794b9218a95a56fc370",
+      "bytes": 774866
+    },
+    {
+      "path": "omp/agent/skills/archify/bin/archify.mjs",
+      "sha256": "7236f5ad129cf095bf78e0e612c5f0b2fb99dcefdf6cb752f36a4ed7aa580833",
+      "bytes": 78627
+    },
+    {
+      "path": "omp/agent/skills/archify/bin/open-artifact.mjs",
+      "sha256": "add1722186683c12770c575585bbb8774919c15b87361e10d2fe834623223159",
+      "bytes": 2225
+    },
+    {
+      "path": "omp/agent/skills/archify/bin/preview.mjs",
+      "sha256": "6d41e491d42070c05b5e278548714da1fcef6e6adfd84a0391ab2bf12f47373c",
+      "bytes": 23722
+    },
+    {
+      "path": "omp/agent/skills/archify/bin/visual-check.mjs",
+      "sha256": "8fa8c6f233f3598f4f22e58c48a4de6f45b3b072ad8e7aee4731c49b4bfbdc52",
+      "bytes": 33390
+    },
+    {
+      "path": "omp/agent/skills/archify/brand-marks/README.md",
+      "sha256": "8b771a16322ce9ea47fdc00b9935e33adf0f3af608f2d735235443e15ef622e2",
+      "bytes": 1449
+    },
+    {
+      "path": "omp/agent/skills/archify/brand-marks/catalog.json",
+      "sha256": "e1a6c555cbf8ea36fb8100a4a25824e7ab87bebe9871e450ba05b6dea3b036d6",
+      "bytes": 14162
+    },
+    {
+      "path": "omp/agent/skills/archify/delta/architecture-delta.mjs",
+      "sha256": "b2bfd606bd606240d436718bd12dc96ccf4b0a0079fcc5a6a94fe6d2ba2349ef",
+      "bytes": 73530
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/agent-run.lifecycle.json",
+      "sha256": "7c0ad72ee7affbd6c6e4758b7520d61ddd4508c917acf36beabcad3ee7ca3ba7",
+      "bytes": 4044
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/agent-tool-call.workflow.json",
+      "sha256": "4d3f6c23de2ca7d306e05d0041a9506833bb5a164a2bddc2d1984cf4da3ee90c",
+      "bytes": 5687
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/async-job-roundtrip.sequence.json",
+      "sha256": "545f20920c89b69c2bb1f15508d5543fddbeb15cffba61e102206e04bd5a5cd9",
+      "bytes": 4370
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/brand-aware-delivery.architecture.json",
+      "sha256": "d4f0df8114b3524756ffa49529c015e00757b0594a357183490c1edeb341e3c6",
+      "bytes": 3271
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/cache-miss-request.sequence.json",
+      "sha256": "9a799a3661c16cd6ab4f6373ff6a04da95a9ab70d93b0a349b668466f4912fd7",
+      "bytes": 4374
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/checkout-platform.base.architecture.json",
+      "sha256": "c112195e7285e3e4aedaeab3e1f85f5891d30fccc2c260aebe4e1da12c80cf84",
+      "bytes": 2234
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/checkout-platform.head.architecture.json",
+      "sha256": "e3aaf47f77afeadafc81c6ce853dc1df68cc1e6932dec972cf478f4008fdda99",
+      "bytes": 2368
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/dataflow-product-analytics.html",
+      "sha256": "8e09936581b5240aab423aa698545e85103cf1a3d47cc6a5d0a0582c127625ba",
+      "bytes": 817071
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/deployment-release.lifecycle.json",
+      "sha256": "735c2c5819266e6ea2a71775b6eefce98b53030ce90cb721dc8e1d022ce5be71",
+      "bytes": 4274
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/event-stream.dataflow.json",
+      "sha256": "a92d6597ddbe164f395da32a7d4b33cfae08edd7d9600a6fb45a2058e5bbb43e",
+      "bytes": 5433
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/incident-response.workflow.json",
+      "sha256": "5c760c82eee545dfb7da38a4e628059d7891af4cfbfc13c8a7009ea64f69aa1b",
+      "bytes": 5375
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/lifecycle-agent-run.html",
+      "sha256": "de9b9fe608b5ece07d6d516665fe1cc844f09a76354ee46c8f1c80837624e457",
+      "bytes": 810174
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/product-analytics.dataflow.json",
+      "sha256": "91411404fb4828a3b7ea358f3a7b9877781c9e9dc9c04b42b6eb4a757281b59f",
+      "bytes": 5618
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/production-deployment.architecture.json",
+      "sha256": "ec484aa8576664fdb207b543fa49486b23273faccb7a5071e1a0becfb48c22eb",
+      "bytes": 5476
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/release-delivery.workflow.json",
+      "sha256": "e5c880417eac1623923c3dd5461e0c78acd762e1621a28bd53fc14a84cad6a91",
+      "bytes": 5164
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/sequence-cache-miss-request.html",
+      "sha256": "0570c137a36a8505cecd894fbd74ff8a49c5ab06746c25158467d9a782e35a64",
+      "bytes": 814754
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/web-app-rendered.html",
+      "sha256": "426db7bd1842de45916b00233b859dbb6cfb17a0d2fa9c70353c8fe121811d93",
+      "bytes": 811809
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/web-app.architecture.json",
+      "sha256": "483350f5297df682aba4e4a0fa491307ce3d3abd725ae4df07fab177490752cf",
+      "bytes": 3793
+    },
+    {
+      "path": "omp/agent/skills/archify/examples/workflow-agent-tool-call-rendered.html",
+      "sha256": "c040b6bce3c9cab51146dfa44120204705ed68dbada05685de3e6ff40ecffdcc",
+      "bytes": 819631
+    },
+    {
+      "path": "omp/agent/skills/archify/migrations/workflow-v2.mjs",
+      "sha256": "77aadc38460e5e778344901f492cc00f16f74e8fe1def14b01e6d6d346b9f4c7",
+      "bytes": 9168
+    },
+    {
+      "path": "omp/agent/skills/archify/package-lock.json",
+      "sha256": "a900ea1ce2f33fca2b88ab1c8cb2cc30031ba285c05101a9b7b25768e6591c6f",
+      "bytes": 4906
+    },
+    {
+      "path": "omp/agent/skills/archify/package.json",
+      "sha256": "2421a480f6bee01b684f14b96a5192d240d70d89ec6443c0279e6de77bc10a06",
+      "bytes": 1632
+    },
+    {
+      "path": "omp/agent/skills/archify/recipes/scenarios.mjs",
+      "sha256": "e77d31d5b65b921799f4f560287fbac24feb3cd683bee8cabe49ed1ddde1a8ac",
+      "bytes": 32073
+    },
+    {
+      "path": "omp/agent/skills/archify/references/authoring-contract.md",
+      "sha256": "82efc1be456365036a465aff9639a10c13dd6193471ec1f2a7ec5e163dbd1ba2",
+      "bytes": 14192
+    },
+    {
+      "path": "omp/agent/skills/archify/references/brand-marks.md",
+      "sha256": "8010869da70677e686ecb312d9c3eec2d20723a44f817ab2bbf5525361c8a136",
+      "bytes": 2179
+    },
+    {
+      "path": "omp/agent/skills/archify/references/delivery-contract.md",
+      "sha256": "1b8bc39b364f19d480260f7a0bf69d3b9a8d7591d69178ad17ff276889d9506b",
+      "bytes": 9607
+    },
+    {
+      "path": "omp/agent/skills/archify/references/viewer-runtime.md",
+      "sha256": "dc0d9ffe6b9987d73d2d48710fce5ab4c120bbf1940ff1eb9355259c5d4f32b6",
+      "bytes": 4243
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/architecture/grid.mjs",
+      "sha256": "f6de99c32436feed3378b0ddef516bb4732ff27a89c543b50635d4d14a15a55a",
+      "bytes": 2071
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/architecture/render-architecture.mjs",
+      "sha256": "f57077cb9fa64a8412ab0af705cb31e2e7a920114b31852882c04a76840365dc",
+      "bytes": 45546
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/dataflow/README.md",
+      "sha256": "18c4f86ba62fcee371d9fe38094625b3a68cc76231c36ab8c8124acb4c1ffa42",
+      "bytes": 4202
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/dataflow/render-dataflow.mjs",
+      "sha256": "5a5da505e5c68041990de92847f53a38215efb9212bc36fc911774e8829335c9",
+      "bytes": 21194
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/lifecycle/README.md",
+      "sha256": "f8ef88dc859189bb18bad7bb2e27d997cbc9d30936cf20f8bf401bae7f57deec",
+      "bytes": 5197
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/lifecycle/render-lifecycle.mjs",
+      "sha256": "23720729a14495b4085839653ec0622f2465be3b1e8c9eb556b602ab3f4a8cda",
+      "bytes": 24285
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/sequence/README.md",
+      "sha256": "a442335dcf44b1587d3ad88809e31b001a4fafdf7a134040e8b1927455af4206",
+      "bytes": 4828
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/sequence/render-sequence.mjs",
+      "sha256": "230c0fb79775badb4beb6fd74f45ed1ffbb70e932c3641a24bedcc61f912bddf",
+      "bytes": 21734
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/brand-marks.mjs",
+      "sha256": "4557b7f3eec25a3dba66a0f5da1c5dca6ec607e2a68e9be51cd697cefe9e6425",
+      "bytes": 22582
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/cli.mjs",
+      "sha256": "92ea6537c3138a2c11f302b9f1546af7539ca42d6b400bebc29cadbb5184f664",
+      "bytes": 10238
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/desktop-readability.mjs",
+      "sha256": "b36203a11df348706e541f309266a0f9b914dac6a7eb8ba804e3abe8f8d6c710",
+      "bytes": 1089
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/diagnostics.mjs",
+      "sha256": "032bbcb4892c67fcda0f9c69f55fbcdd6b11dd291386a0cf118b1ba73ecda36f",
+      "bytes": 6154
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/engineering-profiles.mjs",
+      "sha256": "7e99f9d5423f66cc9ab6224da56dc2d5aa6c6faec29178034794e9db6b5b2889",
+      "bytes": 6936
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/generated-brand-marks.mjs",
+      "sha256": "0f157d229c12df6f53763a3b88684baa5803a52484c49c4d34ec40b8743beea2",
+      "bytes": 163612
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/generated-validators.mjs",
+      "sha256": "a1843e5612916e7ff71511d8577cdbea9a1355eee0ed1379de0ffd668992387f",
+      "bytes": 431711
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/geometry.mjs",
+      "sha256": "161785af32241fc96df051c9be4f2bb9c3b897418d708f4a051b63f1c44952cf",
+      "bytes": 57175
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/i18n.mjs",
+      "sha256": "0d9e839c3e5346160b0028d07fcf78c86671189e0714ea069dc99913e859fcdb",
+      "bytes": 48475
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/layout-report.mjs",
+      "sha256": "44c2f74a20e483dd37dae6791ede39284ce3bac1a2a13872d2912999e8504df5",
+      "bytes": 1015
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/legend.mjs",
+      "sha256": "4c8b37f10fb5c783a28bff6aa35bc3966155213ee32f64a8252eab5b9e64a747",
+      "bytes": 8652
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/output-path.mjs",
+      "sha256": "44a5f63239703a0a56623711bb9565272488c540650cb8c3f0a3aac57928d1cf",
+      "bytes": 11645
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/repository-evidence.mjs",
+      "sha256": "e8676fb59df158bdca00e76efdf897285f8d96d23b41a426c9bc575786f0932f",
+      "bytes": 12542
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/repository-location.mjs",
+      "sha256": "e82fa68ab46e71566eb7aefdb48f6df67b34fd27ce36489e7787410dbfba05ce",
+      "bytes": 3453
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/text-fit.mjs",
+      "sha256": "35b6ef2c64d88c1ea4e5aab2af7c4e8a2c2e1be62db71263787d39a9797e7dea",
+      "bytes": 2191
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/utils.mjs",
+      "sha256": "20124265300eb286db184a053561005cc32b6128dc1bc1b3f9520ffa8d43a241",
+      "bytes": 11603
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/shared/validator.mjs",
+      "sha256": "7460d7fcbcdf710649256c5e96142ae26d807a655d3296ee8caf7f5e158622cc",
+      "bytes": 3508
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/workflow/README.md",
+      "sha256": "7e1bd65cc5cc38206304ae2f61f4f0f493da98d71a111a61d0754c9da362c5c9",
+      "bytes": 10386
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/workflow/render-workflow.mjs",
+      "sha256": "83be05d1efd1816c527fccdf3ebbd4a0f1454c6cb0c9f7554c6702eb40d9c540",
+      "bytes": 1153
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/workflow/workflow-compiler.mjs",
+      "sha256": "aa2a42d3d5c79642a4aaa0faef95fec9ce01727ad1d97e92ff8e59cba4926204",
+      "bytes": 171400
+    },
+    {
+      "path": "omp/agent/skills/archify/renderers/workflow/workflow-migration-geometry.mjs",
+      "sha256": "ebfc5085dd008ae63802f500402fb7bf8ca0ae28460997d867f45e5493b8fbe6",
+      "bytes": 5299
+    },
+    {
+      "path": "omp/agent/skills/archify/schemas/README.md",
+      "sha256": "f4ca94ec18cf60ad02211f2c5bb64e9c26a87467a22215e06db34dbfc5d6145f",
+      "bytes": 11462
+    },
+    {
+      "path": "omp/agent/skills/archify/schemas/architecture.schema.json",
+      "sha256": "94568c7ca72c07ac0ee02ee76bd39392874b3a13bb796a127962be68d0f5bc90",
+      "bytes": 6753
+    },
+    {
+      "path": "omp/agent/skills/archify/schemas/common.schema.json",
+      "sha256": "2630c958314eeebb92e0f6f6330475f1a2bc48f8c1b53201ba3b58889b319c80",
+      "bytes": 3096
+    },
+    {
+      "path": "omp/agent/skills/archify/schemas/dataflow.schema.json",
+      "sha256": "09d238a6a18f2e074ec69c8f905f58a44d3a0b68fc6a925b8346c484a912af90",
+      "bytes": 5907
+    },
+    {
+      "path": "omp/agent/skills/archify/schemas/lifecycle.schema.json",
+      "sha256": "05b46c0db95ee7ed44305b61496a96bb4f69342b20f9903d6534d952ebc65083",
+      "bytes": 6597
+    },
+    {
+      "path": "omp/agent/skills/archify/schemas/sequence.schema.json",
+      "sha256": "c9fec3fad087f14d55c0bb2d34446246e3405f0238c292c1cb6bef28d1120fcb",
+      "bytes": 5642
+    },
+    {
+      "path": "omp/agent/skills/archify/schemas/workflow.schema.json",
+      "sha256": "2128e82afd2b971fcb7d80ada86fa836bb4a5035b504053b87d3aeefec380e3c",
+      "bytes": 9752
+    },
+    {
+      "path": "omp/agent/skills/archify/scripts/check-render-output.mjs",
+      "sha256": "173b013e86195607fbc41a1aafc8731d145f3d2bf3e8d4c4f977fd6d17b7c4f4",
+      "bytes": 36425
+    },
+    {
+      "path": "omp/agent/skills/archify/scripts/check-update.mjs",
+      "sha256": "7c7f47b35a55754fd85468c5e1cfc467bb2e1b9dd5c683dd60172844882b1970",
+      "bytes": 56369
+    },
+    {
+      "path": "omp/agent/skills/archify/scripts/generate-brand-marks.mjs",
+      "sha256": "0434c31903b831382a91e85a329bcbcb39b32f29c656273a273f896b3b0a42e7",
+      "bytes": 5136
+    },
+    {
+      "path": "omp/agent/skills/archify/scripts/generate-validators.mjs",
+      "sha256": "a5f5f67d3cd4675b16fa620043a5463f3c15aad89afb1b0c7cf42cf35e883f9a",
+      "bytes": 2400
+    },
+    {
+      "path": "omp/agent/skills/archify/scripts/render-examples.mjs",
+      "sha256": "a173a053fb26c0ac3cd72eb9b4e50411e67ca8c50bec57f05d4ca8ba79db2c0b",
+      "bytes": 1178
+    },
+    {
+      "path": "omp/agent/skills/archify/scripts/update-contract.mjs",
+      "sha256": "7c5d34c5fa2e08fcd0b42e33a0f3b4685fcecf3ac88f1ed820528df8fdc46cbc",
+      "bytes": 6750
+    },
+    {
+      "path": "omp/agent/skills/archify/skill-release.json",
+      "sha256": "269772492c38663b5d19730a54e5d7ad973ef04e47eb4f75b6dfa2e249614097",
+      "bytes": 272
+    },
+    {
+      "path": "omp/agent/skills/archify/test/adaptive-reader-layout.test.mjs",
+      "sha256": "80ba934f6c8398b321387e55b0aa858a928ea66c0a4125e7ad72b6f58a1669c5",
+      "bytes": 4875
+    },
+    {
+      "path": "omp/agent/skills/archify/test/animation.test.mjs",
+      "sha256": "f53265be97ca6e59a6902c68a4cd2690a7ed931ab89cb83ad071030d80e17398",
+      "bytes": 8891
+    },
+    {
+      "path": "omp/agent/skills/archify/test/architecture-compare-recovery.test.mjs",
+      "sha256": "148e5482ae9db5d2afb428475ca81443bc479c85a234d04dbf2fca3179b50316",
+      "bytes": 8836
+    },
+    {
+      "path": "omp/agent/skills/archify/test/architecture-delta-markers.test.mjs",
+      "sha256": "187a82378d28e10616c229be2eff48d534871c2fbbb5f7fee7dd20d5d63c8db3",
+      "bytes": 6775
+    },
+    {
+      "path": "omp/agent/skills/archify/test/architecture-delta.test.mjs",
+      "sha256": "b22cf8daa3e9fc4b18b7624421899579f84527977b7a2513cee4abf3ca45fc92",
+      "bytes": 36424
+    },
+    {
+      "path": "omp/agent/skills/archify/test/artifact-receipt-flush.test.mjs",
+      "sha256": "666118920612f0b2c479c0521e86bcc1a4be1e46f0972fbf53f9bac77c80dce7",
+      "bytes": 5299
+    },
+    {
+      "path": "omp/agent/skills/archify/test/authored-reachability.test.mjs",
+      "sha256": "b243c1568c8470a28cfbebc6b9db4dfe0302e7f37f5c451ccffec53de23fd01b",
+      "bytes": 4486
+    },
+    {
+      "path": "omp/agent/skills/archify/test/authoring-safety-contract.test.mjs",
+      "sha256": "1454a57493576d4afa9fd3f8640e064c86e5cdcaac2de1890fcedce84d0fce24",
+      "bytes": 2892
+    },
+    {
+      "path": "omp/agent/skills/archify/test/automatic-port-spread.test.mjs",
+      "sha256": "138508bc4ca7b28b003400897caba5484fb6e2c28ff4a7be9d0bcbdef7391aab",
+      "bytes": 16458
+    },
+    {
+      "path": "omp/agent/skills/archify/test/base-input-compatibility.test.mjs",
+      "sha256": "0cc0ec480aa23620adfb493b0c102a744c72c8799e3e837ef4c31f26980551d5",
+      "bytes": 1318
+    },
+    {
+      "path": "omp/agent/skills/archify/test/brand-marks.test.mjs",
+      "sha256": "00730eb26b9a126a45c529bbb7101b13e3e6f14258c53c4633eb2b290ce30226",
+      "bytes": 30758
+    },
+    {
+      "path": "omp/agent/skills/archify/test/chapter-delta-preview.test.mjs",
+      "sha256": "834fab9360c66e333e028879d12c751e540e26618ee39cdcb6def1699376dbe3",
+      "bytes": 7538
+    },
+    {
+      "path": "omp/agent/skills/archify/test/chapter-handoff.test.mjs",
+      "sha256": "384683b85c8181b9be6a54f24dc00e739d5347b86b1a878d2d9a865a650b4f3e",
+      "bytes": 5031
+    },
+    {
+      "path": "omp/agent/skills/archify/test/chapter-rail.test.mjs",
+      "sha256": "a95d33c9d19e400954aa93e8585788828dba40698b7a9ada9648430872da8f9c",
+      "bytes": 4342
+    },
+    {
+      "path": "omp/agent/skills/archify/test/checkout-line-endings.test.mjs",
+      "sha256": "fe0c70cdf0088cbf63460c9df3aee998ecba96bf778333bd17e101ea805d2888",
+      "bytes": 3682
+    },
+    {
+      "path": "omp/agent/skills/archify/test/clean-skill-staging.test.mjs",
+      "sha256": "01bed99a00722f5580f7bc81b5554320224ed87c2020c3196b99b689b873f99b",
+      "bytes": 18193
+    },
+    {
+      "path": "omp/agent/skills/archify/test/cli-output-types.test.mjs",
+      "sha256": "a2f601413cee7c5312663c137742c196a2c7182affe20d108b5007d3d1f6802a",
+      "bytes": 8737
+    },
+    {
+      "path": "omp/agent/skills/archify/test/cli.test.mjs",
+      "sha256": "3aa988a987cdc28e7ee58a2f2913115547efd6a9e1cff1120ea977799f1454d2",
+      "bytes": 41434
+    },
+    {
+      "path": "omp/agent/skills/archify/test/community-proof-intake.test.mjs",
+      "sha256": "ff41a07a0193d75a14f8cb8d9b7d5f8107a8360924e7f37d284515c357671f25",
+      "bytes": 4722
+    },
+    {
+      "path": "omp/agent/skills/archify/test/cursor-onboarding.test.mjs",
+      "sha256": "eda54bcffd77ffc238f1c45cf8094a203697a44a7bb4587196ee2c8cb59124b6",
+      "bytes": 3555
+    },
+    {
+      "path": "omp/agent/skills/archify/test/degraded.test.mjs",
+      "sha256": "b7cdbd22d594c627a4d8b0b6403e403a0599df9229c561c9bb435ce200ce1344",
+      "bytes": 7011
+    },
+    {
+      "path": "omp/agent/skills/archify/test/delivery-contract.test.mjs",
+      "sha256": "b3e0f39ed7ca788d7e40b05a53eef68f9696acdea9f2d0b2ea24e2740d00ee61",
+      "bytes": 3088
+    },
+    {
+      "path": "omp/agent/skills/archify/test/desktop-reader-browser.test.mjs",
+      "sha256": "142d118ffeb61adf9be7f86dbb903ff75ae048cd5e73ef7c2ade2679b8aab879",
+      "bytes": 3925
+    },
+    {
+      "path": "omp/agent/skills/archify/test/diagram-guide.test.mjs",
+      "sha256": "52c057417736299482f3ca270992d87a4eae4807062b78c760d85cce5ef8aa3e",
+      "bytes": 4835
+    },
+    {
+      "path": "omp/agent/skills/archify/test/engineering-profile.test.mjs",
+      "sha256": "d5419dc45da1927a2cac1b998fdd5d1bbdbc68369ccb17cffaf4d98a90e0e242",
+      "bytes": 10281
+    },
+    {
+      "path": "omp/agent/skills/archify/test/export-browser.test.mjs",
+      "sha256": "792a2bfd1d2aabaffa0b20ed455da337ae7ea918253ba85aa383c36fc613b82e",
+      "bytes": 24258
+    },
+    {
+      "path": "omp/agent/skills/archify/test/export-cleanup-browser.test.mjs",
+      "sha256": "8ce9d20717d0572c7e3f022354f75dbf9ca62fdfa9db72ccd5a31f8cecff4f0c",
+      "bytes": 17413
+    },
+    {
+      "path": "omp/agent/skills/archify/test/finder-browser.test.mjs",
+      "sha256": "d737a5ec2fa8c45339d039b4efa8f257701fbb8110f5ffe19a8a63249ef686c5",
+      "bytes": 18641
+    },
+    {
+      "path": "omp/agent/skills/archify/test/finder.test.mjs",
+      "sha256": "10683c42d6d9e3d20e2c7b48006e0f4c0bb16094f8aa5c76ebaa105be531585c",
+      "bytes": 5448
+    },
+    {
+      "path": "omp/agent/skills/archify/test/fixtures/automatic-routing-node-border-clearance.workflow.json",
+      "sha256": "7c3ede1070394a94c565b7a80e0d5ca2cba4f041aaac85777c74df48bf71e933",
+      "bytes": 855
+    },
+    {
+      "path": "omp/agent/skills/archify/test/fixtures/fail-migration-cleanup.mjs",
+      "sha256": "ffd6eb76aa7efa70778704176c55c327f288d9e60607a89d5077b916ebb93fdd",
+      "bytes": 580
+    },
+    {
+      "path": "omp/agent/skills/archify/test/fixtures/issue-126/custom-widths.workflow.json",
+      "sha256": "7701a2f6271b9d02d9477d5fb02d52e70738ff14be824956cf77ff466c1c1013",
+      "bytes": 528
+    },
+    {
+      "path": "omp/agent/skills/archify/test/fixtures/issue-126/explicit-route.workflow.json",
+      "sha256": "985ba9146664598785cc3a5008e847259ac66caf4c2c5570e32477f384f31b21",
+      "bytes": 703
+    },
+    {
+      "path": "omp/agent/skills/archify/test/fixtures/issue-126/explicit-viewbox.workflow.json",
+      "sha256": "520071d14b748aa184589bac22fc548e501c78fb9cf2c8bdceba4bf715620c3f",
+      "bytes": 533
+    },
+    {
+      "path": "omp/agent/skills/archify/test/fixtures/issue-126/labels.workflow.json",
+      "sha256": "496ea86f39914458688f0c3b4277c03c3dedc8eedf1ba35a11e8c99a4a323d08",
+      "bytes": 520
+    },
+    {
+      "path": "omp/agent/skills/archify/test/fixtures/v1-baseline/agent-run.lifecycle.json",
+      "sha256": "b2264f4b2eff23e69b3dc79922062e942fc64ed0bec4f939fa53dda3cacd82d6",
+      "bytes": 3538
+    },
+    {
+      "path": "omp/agent/skills/archify/test/fixtures/v1-baseline/agent-tool-call.workflow.json",
+      "sha256": "4903056b3634e02cce9fd7c71b61fb27e6db455480c8d776a7005346b3afc564",
+      "bytes": 5360
+    },
+    {
+      "path": "omp/agent/skills/archify/test/fixtures/v1-baseline/cache-miss-request.sequence.json",
+      "sha256": "047914c4dc4ed753b6b9f100ebaf6e7f15f9b72af0913e3a8e7a223bdef39aaa",
+      "bytes": 3550
+    },
+    {
+      "path": "omp/agent/skills/archify/test/fixtures/v1-baseline/event-stream.dataflow.json",
+      "sha256": "a92d6597ddbe164f395da32a7d4b33cfae08edd7d9600a6fb45a2058e5bbb43e",
+      "bytes": 5433
+    },
+    {
+      "path": "omp/agent/skills/archify/test/fixtures/v1-baseline/product-analytics.dataflow.json",
+      "sha256": "6da9959f729d81c4cdf8895fb6611080ff0368c3cde48b00b0081495a006140d",
+      "bytes": 4827
+    },
+    {
+      "path": "omp/agent/skills/archify/test/fixtures/v1-baseline/production-deployment.architecture.json",
+      "sha256": "738e9c7f22e4e6e88f5aafc087dc58409105927daa9a79aaf240c8393654494f",
+      "bytes": 5454
+    },
+    {
+      "path": "omp/agent/skills/archify/test/fixtures/v1-baseline/web-app.architecture.json",
+      "sha256": "5fb15d0e0f7e5ed3a1a3f2e7ee406fb50aae126818c58db24f77236b07dd63f6",
+      "bytes": 3021
+    },
+    {
+      "path": "omp/agent/skills/archify/test/fixtures/v1-workflow-700x400.workflow.json",
+      "sha256": "74a9bf3424c656b47a757b39cc1bd69c27ae553c264d3186799bdc5d080b5509",
+      "bytes": 915
+    },
+    {
+      "path": "omp/agent/skills/archify/test/fixtures/v1-workflow-explicit-coordinates.workflow.json",
+      "sha256": "4f1140e720fdfbae7f7efed9fb9fdffb581fef849798697db9df7fa56b2131af",
+      "bytes": 1432
+    },
+    {
+      "path": "omp/agent/skills/archify/test/focus-browser.test.mjs",
+      "sha256": "4c1de50316dd79cf42a6b386f9ab38f0a8462bfa3d748121fa29e60dcb4907a8",
+      "bytes": 29709
+    },
+    {
+      "path": "omp/agent/skills/archify/test/gallery.test.mjs",
+      "sha256": "f30d8e759e16b793c0c7755779718cb0680b95be14bf7a8b5827105cfad7f4b5",
+      "bytes": 7206
+    },
+    {
+      "path": "omp/agent/skills/archify/test/generate-validators.test.mjs",
+      "sha256": "df9b0bb98f564eb0fcc358a7f2fc7fb8136387bd1d6ab1981cd7335e0ca69136",
+      "bytes": 2300
+    },
+    {
+      "path": "omp/agent/skills/archify/test/generate-viewer.test.mjs",
+      "sha256": "2bb353cbb2264fe7f056f4bfbfe33915fc61dc5689178b9e973c76a1dd18d846",
+      "bytes": 8188
+    },
+    {
+      "path": "omp/agent/skills/archify/test/generated-artifact-xml.test.mjs",
+      "sha256": "e44204d5e48ae6806f96e62627c72ca086ef3b543a7e4227bc6ba02116e2a201",
+      "bytes": 3754
+    },
+    {
+      "path": "omp/agent/skills/archify/test/geometry.test.mjs",
+      "sha256": "8a341c048bf86dda21e19337729f7709ea3645b6f311a3eb3b795ef10fef7131",
+      "bytes": 32303
+    },
+    {
+      "path": "omp/agent/skills/archify/test/golden.mjs",
+      "sha256": "ad0a1e34a43d4ab07a97fbca5c2d2358162a240fabda3a69d419bce6631ea6b7",
+      "bytes": 9400
+    },
+    {
+      "path": "omp/agent/skills/archify/test/grid.test.mjs",
+      "sha256": "ebf1cd47535148c43b578eb10df0260f0f55cb6811d06c01375fbb408bf2cf6b",
+      "bytes": 1751
+    },
+    {
+      "path": "omp/agent/skills/archify/test/guide-page.test.mjs",
+      "sha256": "f8aae11961f7b91fe9bd05eccf4b46e6924d43ade3994f393551cedc8c518e8b",
+      "bytes": 2492
+    },
+    {
+      "path": "omp/agent/skills/archify/test/guide.test.mjs",
+      "sha256": "8c0d8db6ba3a79d902fdb89d77c75518b232a52153794ec70e28056d3d2e2b68",
+      "bytes": 3353
+    },
+    {
+      "path": "omp/agent/skills/archify/test/guided-views-browser.test.mjs",
+      "sha256": "95cba5037a695df49a0d4cf11964bd628eaad17c6e67a2a6bfad4593c9a96c39",
+      "bytes": 41323
+    },
+    {
+      "path": "omp/agent/skills/archify/test/guided-views.test.mjs",
+      "sha256": "fbed156af01082f3bbde7b0c0b6675664613c47644e14a33fad3fbd1b8dc062e",
+      "bytes": 7547
+    },
+    {
+      "path": "omp/agent/skills/archify/test/helpers/desktop-browser.mjs",
+      "sha256": "206828d7675c1a2c74bb489e71b585a5edb9feca22f41e72c3e9ee59443b362d",
+      "bytes": 2237
+    },
+    {
+      "path": "omp/agent/skills/archify/test/helpers/offline-fonts.mjs",
+      "sha256": "dde831f79dc0e6145283a8970336cd7060f4df900f3625ef90f6f08b7f6b6ec0",
+      "bytes": 5252
+    },
+    {
+      "path": "omp/agent/skills/archify/test/helpers/viewer-click.mjs",
+      "sha256": "8110ef8c3655358bd90bf9b89ae8abf9d24eb746e0ea3ca7921005d3f6b9dbfe",
+      "bytes": 3497
+    },
+    {
+      "path": "omp/agent/skills/archify/test/helpers/xml.mjs",
+      "sha256": "21c8c86df4feaf0f3e9411ccf4f53574714d27c85fa9750fe794aadaccdba813",
+      "bytes": 1273
+    },
+    {
+      "path": "omp/agent/skills/archify/test/i18n.test.mjs",
+      "sha256": "12a6b17fcde1fddbf496f46e15bfd76db931e4f0c9c832e772a12a0ee0d02b17",
+      "bytes": 17690
+    },
+    {
+      "path": "omp/agent/skills/archify/test/intent-trace-browser.test.mjs",
+      "sha256": "1b7b8db09d1e31e23ff9d662d0b7dff09e69f519db2ecdb4ec0922cf8df277e1",
+      "bytes": 21100
+    },
+    {
+      "path": "omp/agent/skills/archify/test/intent-trace.test.mjs",
+      "sha256": "055a23bed7698ba3273dddc602bc76d8b0bc01298ed2ac9c91600991334bf7f6",
+      "bytes": 5747
+    },
+    {
+      "path": "omp/agent/skills/archify/test/landing.test.mjs",
+      "sha256": "b8bdaf3f2494394c1ae4d300567ecef03a834ea1186ab6b93419d15c8b14979e",
+      "bytes": 5558
+    },
+    {
+      "path": "omp/agent/skills/archify/test/layout-rules.test.mjs",
+      "sha256": "ad5831146f900e237ea3a41f99a5f4baa15082e26d937b6aa6066ea41b1bb5c1",
+      "bytes": 64653
+    },
+    {
+      "path": "omp/agent/skills/archify/test/legend-contract.test.mjs",
+      "sha256": "99abc8fb61a3b8fa1971378ba0107205554b16ca5bbe3f068a6a8900f9e26197",
+      "bytes": 17144
+    },
+    {
+      "path": "omp/agent/skills/archify/test/motion-governor-browser.test.mjs",
+      "sha256": "e64e192a8529c0876645aa8c385ce9b14006850b044349d2bd90a91de03b87a1",
+      "bytes": 21921
+    },
+    {
+      "path": "omp/agent/skills/archify/test/motion-governor.test.mjs",
+      "sha256": "02609189ef79e6b44f9b5b6c1a5c1716886201714fb16212eeb038ab12785b8c",
+      "bytes": 6425
+    },
+    {
+      "path": "omp/agent/skills/archify/test/offline-font-browser.test.mjs",
+      "sha256": "331e49e54538ad36102bf4c0e507327721c06b8fe74981f56c7ee929489025d6",
+      "bytes": 12385
+    },
+    {
+      "path": "omp/agent/skills/archify/test/offline-self-containment.test.mjs",
+      "sha256": "1d21a47d50c6178f8412c13af48912e12694159cd51c66dcd709df16e6fbc500",
+      "bytes": 5488
+    },
+    {
+      "path": "omp/agent/skills/archify/test/open-artifact.test.mjs",
+      "sha256": "fab9d65f5ed0844182b0ee62ced9412e364179960ef65fee020b0d23d977eb55",
+      "bytes": 3128
+    },
+    {
+      "path": "omp/agent/skills/archify/test/ordinary-model-floor.test.mjs",
+      "sha256": "1c09da167447413776c4d45e5d394c0644f4f8fe77863a29cadcdabc68d408ca",
+      "bytes": 43283
+    },
+    {
+      "path": "omp/agent/skills/archify/test/output-path.test.mjs",
+      "sha256": "d20122bdc38c0b097f65d95aef866dd43af43759ff622e6fcc6d921b6080279e",
+      "bytes": 23923
+    },
+    {
+      "path": "omp/agent/skills/archify/test/presentation.test.mjs",
+      "sha256": "9c0fd988a3123762218093ddb8b8189998272318695347ed6fb924cec490280a",
+      "bytes": 3268
+    },
+    {
+      "path": "omp/agent/skills/archify/test/preset-tryon.test.mjs",
+      "sha256": "92c45df6deac7ccefcb8c1c38ad0f0ba7f42ddd737e5ef0baa9d15aa57ef1719",
+      "bytes": 5476
+    },
+    {
+      "path": "omp/agent/skills/archify/test/preview-contract.test.mjs",
+      "sha256": "fab520b1c709e23b6393684f57db76fcf1aff5425bef838652efa355e63cccd3",
+      "bytes": 2066
+    },
+    {
+      "path": "omp/agent/skills/archify/test/preview.test.mjs",
+      "sha256": "c7a8a5f4ac26082ca362e75fc3f7e183c2219612f47754f94aec1d0e669958a4",
+      "bytes": 24185
+    },
+    {
+      "path": "omp/agent/skills/archify/test/proof-aperture.test.mjs",
+      "sha256": "f393b9935bb9d915e301a1bf974b67faa72161a2717d6b65077e1060280e9af2",
+      "bytes": 4540
+    },
+    {
+      "path": "omp/agent/skills/archify/test/reach-share-card.test.mjs",
+      "sha256": "b94cc337cacc3e412ff08d00e88078d975e1fa2c32ad7d72a37fcffe151a8832",
+      "bytes": 8431
+    },
+    {
+      "path": "omp/agent/skills/archify/test/reader-layout-browser.test.mjs",
+      "sha256": "675f189e9263445b277821d33c07ec8e3ab585eba4954b0548fbe52acd5ece8d",
+      "bytes": 17781
+    },
+    {
+      "path": "omp/agent/skills/archify/test/readme-showcase.test.mjs",
+      "sha256": "2686e1e54f4e0e764eccfb93936725627e5edd0e61e1503715d62d7002ad8671",
+      "bytes": 15353
+    },
+    {
+      "path": "omp/agent/skills/archify/test/real-repository-proof.test.mjs",
+      "sha256": "6ce5dc9a9ad0e1109ec40480e959e077a0a21ff931758ab072bfa5cbee7c24ed",
+      "bytes": 9086
+    },
+    {
+      "path": "omp/agent/skills/archify/test/relationship-direct-explorer.test.mjs",
+      "sha256": "1411a6540f608a99f328c0bdbdc542795fb6f296e80be3af1bf0740d55dae7b2",
+      "bytes": 6442
+    },
+    {
+      "path": "omp/agent/skills/archify/test/relationship-lens.test.mjs",
+      "sha256": "f344bd3cfe7329715b2c422afa9158e8668b7798b9fc8251e69f3b9cdc02f857",
+      "bytes": 7313
+    },
+    {
+      "path": "omp/agent/skills/archify/test/relationship-permalink.test.mjs",
+      "sha256": "c2425e42a1b78b8a9714b675a2330352c78cc59880ab5d3ac7628c794490e3c6",
+      "bytes": 6605
+    },
+    {
+      "path": "omp/agent/skills/archify/test/relationship-pulse.test.mjs",
+      "sha256": "c15ac8f463ca7978dd48c18698b8700ae408ae05a9eebfd334425d74fad96c18",
+      "bytes": 6730
+    },
+    {
+      "path": "omp/agent/skills/archify/test/release-identity.test.mjs",
+      "sha256": "5a55ab3abc7e5da7764a7fdb414f8cb8db21c1d83688a1aa68c69ab3423979f1",
+      "bytes": 21361
+    },
+    {
+      "path": "omp/agent/skills/archify/test/release-package-gates.test.mjs",
+      "sha256": "c2ffb21c13f2d2a06ba234e31c09423a26b3e5295546265a94dc0f71519dedef",
+      "bytes": 37636
+    },
+    {
+      "path": "omp/agent/skills/archify/test/render-output-checks.test.mjs",
+      "sha256": "ac5098a6de09d5d33e4d35d36860d93178a6192ba9c9bc1e58f9bbb5b4757a9d",
+      "bytes": 32298
+    },
+    {
+      "path": "omp/agent/skills/archify/test/renderer-diagnostic-boundary.test.mjs",
+      "sha256": "73afe2d494c73741993e4b72f4bc307360c715fba832568dd81b86686da31e1c",
+      "bytes": 4479
+    },
+    {
+      "path": "omp/agent/skills/archify/test/repair-receipt.test.mjs",
+      "sha256": "f0618c73c372d11dc68e9706e6995cc0d5cfde2a13614a12c8f5ff4e9ae0a522",
+      "bytes": 8065
+    },
+    {
+      "path": "omp/agent/skills/archify/test/repository-evidence-replacement.test.mjs",
+      "sha256": "8ca2d0ceea443638b830c17215b83618c3faaabcfe9848dfff1bc73db91de57f",
+      "bytes": 6960
+    },
+    {
+      "path": "omp/agent/skills/archify/test/repository-evidence.test.mjs",
+      "sha256": "a078539c8b61f26f3694c44dced2e83eb58d3f5ad16556d23d6bcf3ea594fd0b",
+      "bytes": 32813
+    },
+    {
+      "path": "omp/agent/skills/archify/test/repository-language-metadata.test.mjs",
+      "sha256": "c4d65ebc03a1d3a583697abee8ddfe701264627def18e2e918c36a4d5c126c40",
+      "bytes": 2131
+    },
+    {
+      "path": "omp/agent/skills/archify/test/route-journey.test.mjs",
+      "sha256": "1a82720526fda0cf003810cabff2e830e16db6ebf51de8cbdf853c6672f21c24",
+      "bytes": 8330
+    },
+    {
+      "path": "omp/agent/skills/archify/test/route-probe-browser.test.mjs",
+      "sha256": "72479b0eff3e99e1a8a263736bfe4d0a18801d28a0896f82efbf24def22f2b36",
+      "bytes": 36516
+    },
+    {
+      "path": "omp/agent/skills/archify/test/route-probe.test.mjs",
+      "sha256": "3bc76e9426254f5589466e1fa3d10c826b4e5e883f6b7f67bc371061c3405f25",
+      "bytes": 6334
+    },
+    {
+      "path": "omp/agent/skills/archify/test/route-share-card.test.mjs",
+      "sha256": "da8a73f42167d6fa47041f818aa6e8bde4fe6b614ad3441a9a7ac30c15db1709",
+      "bytes": 9588
+    },
+    {
+      "path": "omp/agent/skills/archify/test/semantic-camera.test.mjs",
+      "sha256": "2f547c8eee6519371ebe72343428ee1bf0f94f7a072b8c1eae02a7c73fde327e",
+      "bytes": 4862
+    },
+    {
+      "path": "omp/agent/skills/archify/test/semantic-flow.test.mjs",
+      "sha256": "305dad25e06dc01825f01cb6889411cc7a6db36ceaac624f7bc6c6136ce53a76",
+      "bytes": 4797
+    },
+    {
+      "path": "omp/agent/skills/archify/test/semantic-legend-gateway.test.mjs",
+      "sha256": "a2aaf49464f2d5a48612dc3dcb60bb557de85da5c11ca9f6fea3373c011fd820",
+      "bytes": 7720
+    },
+    {
+      "path": "omp/agent/skills/archify/test/semantic-lens-browser.test.mjs",
+      "sha256": "bdf5e4418845e50e52eb997c725ade93d38b1cc1159733d479d8965db2ce2e4a",
+      "bytes": 34053
+    },
+    {
+      "path": "omp/agent/skills/archify/test/semantic-lens.test.mjs",
+      "sha256": "d7a5532c3df8fa2e95d5b5d7b3648a8e95b6974ab379846a6e15e12b89c8795b",
+      "bytes": 5573
+    },
+    {
+      "path": "omp/agent/skills/archify/test/semantic-passport.test.mjs",
+      "sha256": "4d1b5e2c4d30c05ebdb8093f7577b63e855a1651620e81da1570a25bc2a95029",
+      "bytes": 5818
+    },
+    {
+      "path": "omp/agent/skills/archify/test/semantic-radar.test.mjs",
+      "sha256": "4ee45d69f89dba8f4929fe4e69422a6fc58ba4b7c5516e89ddc9a65e10135802",
+      "bytes": 37147
+    },
+    {
+      "path": "omp/agent/skills/archify/test/semantic-zoom.test.mjs",
+      "sha256": "c92a4e0e480ceac71bccad78fafe2fac9a4f74b72213ea3824ff53e8646e216a",
+      "bytes": 4439
+    },
+    {
+      "path": "omp/agent/skills/archify/test/sequence-column-fit.test.mjs",
+      "sha256": "e3de2b0837390d31481c2d0533aed467de0263439b494843eff992060e5b0dd6",
+      "bytes": 6033
+    },
+    {
+      "path": "omp/agent/skills/archify/test/settled-flow.test.mjs",
+      "sha256": "e079d492252d77612439fc055a6d79ef545829b12539aefac496f796ac90165e",
+      "bytes": 5297
+    },
+    {
+      "path": "omp/agent/skills/archify/test/share-card-export.test.mjs",
+      "sha256": "635ebf918753136fd8dad6f40e01676fd993b64a5869d7a40620253959c8ec2e",
+      "bytes": 7039
+    },
+    {
+      "path": "omp/agent/skills/archify/test/site-language-continuity.test.mjs",
+      "sha256": "9a9bc4ce25a5573b64534aa9d9ccc37b6b4c2874886f072790c450d70dff1c9c",
+      "bytes": 25614
+    },
+    {
+      "path": "omp/agent/skills/archify/test/site-language-integration.mjs",
+      "sha256": "fa1ea2ceeecfb4c675e07e07fe614d6c1a1aa0d28fd9cef3d3df978b694580d7",
+      "bytes": 377
+    },
+    {
+      "path": "omp/agent/skills/archify/test/skill-metadata.test.mjs",
+      "sha256": "fbb258131c5b5eb7450d7c4abcedad4fc2724dc1a899093222971198ed5f41eb",
+      "bytes": 4862
+    },
+    {
+      "path": "omp/agent/skills/archify/test/stable-update-manifest.test.mjs",
+      "sha256": "15e15dfb5bd45852fb1f00acde4270695c99eefbbc14db75b465028fa5134ef5",
+      "bytes": 6634
+    },
+    {
+      "path": "omp/agent/skills/archify/test/start-page.test.mjs",
+      "sha256": "ecd6628cd8336068782a9f67ee72d415d06e494cb953d029ea4320ebbfa7d7c6",
+      "bytes": 14020
+    },
+    {
+      "path": "omp/agent/skills/archify/test/story-beat-navigator.test.mjs",
+      "sha256": "6b6c0ab5b396e8a608d337cd8e351d4118a75678a5d90620943249b1bc53d7b0",
+      "bytes": 6583
+    },
+    {
+      "path": "omp/agent/skills/archify/test/story-carrier.test.mjs",
+      "sha256": "05143cd9c5f28ac5041fcb46daddf830ac171c0bf72335a8f9623a14916bf8bc",
+      "bytes": 4838
+    },
+    {
+      "path": "omp/agent/skills/archify/test/story-director-strip.test.mjs",
+      "sha256": "8ab2e1ff83cb63384ef9d2b459f7d86b2e7de767a30173b845009a02d26a7cce",
+      "bytes": 5099
+    },
+    {
+      "path": "omp/agent/skills/archify/test/story-follow-camera.test.mjs",
+      "sha256": "edc511d606a6eb18e41d8110a6fb9c9c0958c5638dce109ffb7968151cc709d7",
+      "bytes": 5952
+    },
+    {
+      "path": "omp/agent/skills/archify/test/story-horizon.test.mjs",
+      "sha256": "3f3c6a1055fa3fbaeeb6d0e21dfe66860a392bf5d5e64dc4499efb0e0cb0807f",
+      "bytes": 5473
+    },
+    {
+      "path": "omp/agent/skills/archify/test/story-moment-link.test.mjs",
+      "sha256": "acd13d838b3af58058a68dca90b7f4aad81a4d2fea7e6a89afd3a21345aa2207",
+      "bytes": 5771
+    },
+    {
+      "path": "omp/agent/skills/archify/test/story-shelf.test.mjs",
+      "sha256": "b734d038ca09136f46b5b514d1f19b8ca8bfa3377839d27cbcc338179c7da210",
+      "bytes": 4836
+    },
+    {
+      "path": "omp/agent/skills/archify/test/story-trail.test.mjs",
+      "sha256": "9ec4a06fcd365cc7a4ecc31927a004d98a62bab0eb6f3dd9feefa4e9f7ae009b",
+      "bytes": 4226
+    },
+    {
+      "path": "omp/agent/skills/archify/test/toolbar-polish.test.mjs",
+      "sha256": "09903e134954fa7dccfafc164e25cd2f3680b7323d5b92c6e06abf8f6b572bb2",
+      "bytes": 4060
+    },
+    {
+      "path": "omp/agent/skills/archify/test/update-contract.test.mjs",
+      "sha256": "b4b98e73569308570f2a7f598d1e251487007739aeee761010884bc352b2dd13",
+      "bytes": 4862
+    },
+    {
+      "path": "omp/agent/skills/archify/test/update-notifier.test.mjs",
+      "sha256": "af92b7847bc4212958b8f5a2cda22a1cb88d0597f4755387071b725e0a935313",
+      "bytes": 123824
+    },
+    {
+      "path": "omp/agent/skills/archify/test/v1-compatibility.test.mjs",
+      "sha256": "5c8e25a164419fb1b959b29dbc6870be37872baad99a6cbdc2f5beb0b7c45bf7",
+      "bytes": 12765
+    },
+    {
+      "path": "omp/agent/skills/archify/test/vertical-edge.test.mjs",
+      "sha256": "0fe432c075babf181f1a80253882cd96234f22fc408f8109f90ffde3e8c9b436",
+      "bytes": 2773
+    },
+    {
+      "path": "omp/agent/skills/archify/test/viewer-camera-browser.test.mjs",
+      "sha256": "4f2b26327d6baf21fa76f4e85905c82dc8bf7fc43776d2edfd278ede66212e03",
+      "bytes": 21236
+    },
+    {
+      "path": "omp/agent/skills/archify/test/viewer-chrome-layout.test.mjs",
+      "sha256": "898444ccbe8c6974676d4a5ced095a2908e148d454109e3c83d9fe76a37623a8",
+      "bytes": 53849
+    },
+    {
+      "path": "omp/agent/skills/archify/test/viewer-identifiers-browser.test.mjs",
+      "sha256": "9d572688c115a52ae8033f4775f891c9f0ab5d4bad5aaf03873ab4ad93d2f904",
+      "bytes": 8369
+    },
+    {
+      "path": "omp/agent/skills/archify/test/visual-check.test.mjs",
+      "sha256": "ea7a694b966cb661d694f86b9cce17c3be9ac4199d461e5bb30da1fbade07607",
+      "bytes": 16230
+    },
+    {
+      "path": "omp/agent/skills/archify/test/webm-artifact.smoke.mjs",
+      "sha256": "d3cff0dee8f9d49b6183b453c88cca8997ed35056f4dfe4db7aa54c0cce26428",
+      "bytes": 100891
+    },
+    {
+      "path": "omp/agent/skills/archify/test/workflow-compiler-hard-contract.test.mjs",
+      "sha256": "629b0adf1b7f2ae8cd15ed0e1029f68f782292ae72a2294d51f90fae14f7f0e5",
+      "bytes": 87090
+    },
+    {
+      "path": "omp/agent/skills/archify/test/workflow-compiler.test.mjs",
+      "sha256": "41c052e70a1cce95f220e5c2a472d9d8f5d9cf39febb050a057d48fdff4ba2bf",
+      "bytes": 44138
+    },
+    {
+      "path": "omp/agent/skills/archify/test/workflow-migration.test.mjs",
+      "sha256": "cb41f629c99b35384d93f94cd9984da2cfc83225c058cb65938633dd1c67d1fb",
+      "bytes": 25724
+    },
+    {
+      "path": "omp/agent/skills/archify/test/workflow-semantic-contract.test.mjs",
+      "sha256": "ea3ee45fcc037045c2d8b0ff1776a6ea1afb01c73858af64e7c39bb1bd16ae1e",
+      "bytes": 4565
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/LICENSE",
+      "sha256": "50426a43964d21a284c1f248a2b86aa239274d6e7619947ff166e0c8842d5fef",
+      "bytes": 1071
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/SKILL.md",
+      "sha256": "22535fd011b73a0dd13a6e1daccdaf5f7b3a9fe8cf60039206d4a1610b5f1245",
+      "bytes": 10703
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/assets/vision-probe.png",
+      "sha256": "5e565a8d6a1479f98c190fd3c56ec06470ae43b614287dd449c1077624c3cf1e",
+      "bytes": 263
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/build-preview.mjs",
+      "sha256": "29f0d2ef706b9a5e580f27771324902af424797616c95a0375b1f54163408d5b",
+      "bytes": 68031
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/check-design-system.mjs",
+      "sha256": "d1b2c2ecb2ba7f896053ea3f6166b88f2837b05f55d74b586473f68c57b06419",
+      "bytes": 4352
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/compile-design-system.mjs",
+      "sha256": "8cacbbf68625a44c7bfe7c17ee0723d64a8e082fc9f689b073e624c92c16231d",
+      "bytes": 14851
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/design-system-checker.md",
+      "sha256": "38b7cf7749f602576ece5605f87687999332bf6219ace1a4af6d7518371c82a5",
+      "bytes": 1961
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/fork-verifier-agent.md",
+      "sha256": "14f2d6284e91b52393787667f84b5fe6cb24c660162d627495e5c6c56696ed25",
+      "bytes": 3981
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/.gitignore",
+      "sha256": "295aa1f18923880afebb2e08aa70a8c4f285cc52baea238b8d2864d10e45d825",
+      "bytes": 20
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/package-lock.json",
+      "sha256": "c73f3e0b74b10b50b47f7c998e97ab154398c3be3d8f02920999d7ddc8cd7419",
+      "bytes": 21053
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/package.json",
+      "sha256": "25d511ae2e0241086af8fa368864f013d15b05cf9f66c90da408e8ce7ed22249",
+      "bytes": 1229
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/browser/capture-editable.ts",
+      "sha256": "761dd7c3265b8339f580a778a27826bf8d6e7c96feca11cce015bcb91f034caa",
+      "bytes": 14350
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/browser/capture-screenshot.ts",
+      "sha256": "da397a860a11cd6653c2f00fdc6130eccb81cd588b105682cc477835354b292c",
+      "bytes": 780
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/browser/dom-style.ts",
+      "sha256": "9c20d400c0dbbb1aec99b19e4a1447a7b9c5051987c62d5e18c5c403238b3b23",
+      "bytes": 4893
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/browser/entry.ts",
+      "sha256": "3c2e67cc604b17ff07cf346cd15b9993c6ac58b4a0f0d036f0900e6d9e4eaafa",
+      "bytes": 1137
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/browser/gradient.ts",
+      "sha256": "9cea6a592331207955d81b489336387dc369ddb8d4b2f1fe483f83c82846964b",
+      "bytes": 9207
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/browser/media-browser.ts",
+      "sha256": "da0eed68fb91d87e3368812f8da3812a838f067831dc0d9593bdf6cc8e15c67b",
+      "bytes": 6727
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/browser/setup.ts",
+      "sha256": "ea43d371c7d8517fb02529ced51ffe0b2c88d3059bb4d21f8d50aad95d70aafc",
+      "bytes": 9646
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/cli.ts",
+      "sha256": "a31a852360a352ae40d04561c0d18384057348e0c3dbec4a21ad859bf7ac0672",
+      "bytes": 4249
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/core/anim.ts",
+      "sha256": "5fb27df51f934130abd77e2d88caa4922024c1e7ec5edbd418b1c5ac136a9f94",
+      "bytes": 14030
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/core/color.ts",
+      "sha256": "2d539402f4b97b8a8f8c03f573e0345c0e9563def7f028a2ac789e045274cce6",
+      "bytes": 2248
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/core/css.ts",
+      "sha256": "6bf0066bc2796d03846d54461e882ee40de93d173b1414cae5dce9c2f760fc4f",
+      "bytes": 7127
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/core/filename.ts",
+      "sha256": "6bcd2fb2256d4f8ec05e94f65a1b349404544a5fcdfcd8c6db5925e036bca87b",
+      "bytes": 519
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/core/fonts.ts",
+      "sha256": "7657306c2c90e9f89333824dc8809e805504a9277f8649cb0f350849fd658cb2",
+      "bytes": 1235
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/core/sanitize.ts",
+      "sha256": "7a4c1c072bef1f53c9b20c1a09c15dd177cf4f702f1359f73df0f7eb00ce6b4e",
+      "bytes": 511
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/core/units.ts",
+      "sha256": "55a149665c554182e113ea9daa6b868cea270dc54fd25fe9f18ded3f35a5a4d5",
+      "bytes": 581
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/index.ts",
+      "sha256": "2034bff0c39926f56182e93d33441b2882a5c1896157ec6ffc084d9c9b0550f4",
+      "bytes": 385
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/orchestrator/driver.ts",
+      "sha256": "10adbe5e9670c0ae7acb8fe74a2693ee557f192eccf4da8da5cf44fb70c8dc2b",
+      "bytes": 2230
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/orchestrator/errors.ts",
+      "sha256": "802306275ef5aaae3f3e14a6ef192ba8bb818c75193edd3ab79902cabb24f3bc",
+      "bytes": 1069
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/orchestrator/inject.ts",
+      "sha256": "247fd28f3e82c35805b1598d1595924430783e1a7c31acb3bd54fb45ca3afaa4",
+      "bytes": 3309
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/orchestrator/output.ts",
+      "sha256": "80157507c2f52d8c5644fba66c3d94756d627cddb232745c6add065df526286a",
+      "bytes": 652
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/orchestrator/run.ts",
+      "sha256": "0a237440286055af86573182830121703ec3f12c990018a1dd67a3d4a9f7134f",
+      "bytes": 6271
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/render/build-editable.ts",
+      "sha256": "916ec1d925b89d4c42a78c1f30c50672a2f2f09bca77028605679ad1845cdb76",
+      "bytes": 3876
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/render/build-screenshot.ts",
+      "sha256": "62e72534b2535a2a6be3448f5cc20d2bc7ce652704c0097f477a5a67b0155592",
+      "bytes": 1472
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/render/context.ts",
+      "sha256": "d69bbda19fdbdc5ddb0df257fd041dd5fec8ad8f485547291d3b585f630928dc",
+      "bytes": 2961
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/render/list.ts",
+      "sha256": "1217ed06143227133c6d99dd4244cadb73ad6680b14049c5ff7dfa8bf4c67370",
+      "bytes": 2482
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/render/media-cache.ts",
+      "sha256": "50c43676071fec2640105d8132e5ccd27a33a37a8e834af5bbb09d26b4f1e5f9",
+      "bytes": 3008
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/render/render-node.ts",
+      "sha256": "1516bfa7360d67b6ccc42cfa8e6ad769a38c0e997dd6bfc608c16057c274d39b",
+      "bytes": 21353
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/render/text-runs.ts",
+      "sha256": "2dd7e42c5426fbc754d5fb4adf34cb212c8e19f24b02e85f0d71a6c1cdb4c39b",
+      "bytes": 10207
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/render/timing.ts",
+      "sha256": "cd9e83d90f3f93679094212abc7a4307691c4f8ce7e467729b8575e8b1ca1503",
+      "bytes": 26672
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/types.ts",
+      "sha256": "ecfdaac0ecbfcbc8d9355c587f6527d9e20e6fb160b62acdd946d6b768c6146e",
+      "bytes": 5764
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/src/validate/validate.ts",
+      "sha256": "099c7395e99364abe83ed6abebf3b0b51fe6607ba106210e7ea181f56e18ef12",
+      "bytes": 5885
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/test/anim-render.test.ts",
+      "sha256": "34d5e175a8bfef6cba1335e4116479035aa141d8453d060917412cd9cc7619cf",
+      "bytes": 2951
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/test/anim.test.ts",
+      "sha256": "3322bd9e0ce2f9b2a409e5358f52305fc541a27eeb07eb9770c0715a9c656037",
+      "bytes": 13149
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/test/core.test.ts",
+      "sha256": "81f15921aac755da6b0bf3e2892f9f91eb8d02c890d46c719c521a57d5b03c21",
+      "bytes": 8532
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/test/gradient.test.ts",
+      "sha256": "0a2ee790f1af4b0fa171b597599108b2a659e3b96739550206b449e630ce011a",
+      "bytes": 2974
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/test/timing.test.ts",
+      "sha256": "7ce4ef229c90ac2ee6c4cc663071b970eecb3763feb1dc0f870d53c7123537ff",
+      "bytes": 26367
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/test/vendor.test.ts",
+      "sha256": "c5411d1e35bf3a6b98a1062be35a6d914d08678d6446b074ffd7b13d07a7839d",
+      "bytes": 5525
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/tsconfig.json",
+      "sha256": "958d9f215fb8ee8c6c737afc49630f5c5cdb709beb60a7b73b57cdebb1f691f5",
+      "bytes": 495
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/LICENSE",
+      "sha256": "7a2bfe96150786ed1908b8e63f98ebab88875c1e79e28faff6649e0f11f77e52",
+      "bytes": 1081
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/VENDOR.md",
+      "sha256": "68367242e8e7d1fac200edd91df17a848bcb70b7e12b5f343d882c340ddf48e7",
+      "bytes": 4012
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/libs/jszip.min.js",
+      "sha256": "acc7e41455a80765b5fd9c7ee1b8078a6d160bbbca455aeae854de65c947d59e",
+      "bytes": 97630
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/libs/polyfill.min.js",
+      "sha256": "f519c4ad7abc29d35dbd9ef8ef57bf9a7264c211f016f47b38f27031d0f813d7",
+      "bytes": 99298
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/package.json",
+      "sha256": "11bd62ca7ec90e2934c6e776450cd24030e0e88bfa33f07b0e2ca0bd2874be67",
+      "bytes": 279
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/src/core-enums.ts",
+      "sha256": "8b3fa17122b3aaac8c0474ce8b731d5d5c2a39e0f26b9acc69ddaa99766a9ea9",
+      "bytes": 98898
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/src/core-interfaces.ts",
+      "sha256": "925426edac9cce2a3754fbdb58f8bee82185cc5b7d27ad475757b71f9bb2f648",
+      "bytes": 47462
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/src/gen-charts.ts",
+      "sha256": "1ce3c80edad2186c418c996ce56d53b523badaf9512834ffffdeaf005907e249",
+      "bytes": 101770
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/src/gen-media.ts",
+      "sha256": "a1495bcba262650dd12ca4e3aeb59116f0456e8d7ce0359de21b86aa579194cf",
+      "bytes": 7699
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/src/gen-objects.ts",
+      "sha256": "65349d5f5b5c978983d1dc8e4f4d40ae75e63e83d23119ac7c35038bb365f3b3",
+      "bytes": 55817
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/src/gen-tables.ts",
+      "sha256": "44d1228938a79190df444bf75c90e89b45961f358d9fdf01f1ef4fffdea207b3",
+      "bytes": 37095
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/src/gen-utils.ts",
+      "sha256": "e18b575dee5ba8763aea0d88dfcd65fd369c8fc00df3f08f53c1525849e15da7",
+      "bytes": 10060
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/src/gen-xml.ts",
+      "sha256": "7b3ca945bd0fe5e0cd6aaa589296e57cc3023a427ea8b41d201992b4ae700c06",
+      "bytes": 117774
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/src/pptxgen.ts",
+      "sha256": "8dfdac28610484acd024b3f2e5a06d75ef4967fb527dd7a2f26af280197ce9e7",
+      "bytes": 26750
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/src/slide.ts",
+      "sha256": "39d73b88fb590231cc69968e71792e6ee184d7717f2c0c2fcd48bcd52de7585a",
+      "bytes": 7293
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-pptx/vendor/pptxgenjs/types/index.d.ts",
+      "sha256": "bd1a55f00a1b02ccb356a8e88a49cad80c0100a2bbc44690de276b1383f0e69f",
+      "bytes": 73192
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-video/.gitignore",
+      "sha256": "295aa1f18923880afebb2e08aa70a8c4f285cc52baea238b8d2864d10e45d825",
+      "bytes": 20
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-video/package-lock.json",
+      "sha256": "5ae5379a66cfc45ab45e4731b5edded1d9e08710529b0fef9b9179c6269c603b",
+      "bytes": 16668
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-video/package.json",
+      "sha256": "3b548ce41602d3cfe313bfa7b1df367276d62d99256280fd6068132af9f8f2c5",
+      "bytes": 778
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-video/src/cli.ts",
+      "sha256": "b89062228eb0bba568e3c83349f38bb891f0d1c3e839e7523f66703752fa0334",
+      "bytes": 5146
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-video/src/orchestrator/driver.ts",
+      "sha256": "0455c312decbc7b8f709ed82a9629501a0c08a28bcdca0ccb63900efaf874666",
+      "bytes": 2603
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-video/src/orchestrator/encode.ts",
+      "sha256": "fd35bb5020c2084b058df168c1f74fe325bc0a3a5e49a77f1b644fc069bb3265",
+      "bytes": 3011
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-video/src/orchestrator/errors.ts",
+      "sha256": "f6bd41263841190ee45ce8542d81e68fd6d2e6d252708d37bd4f2c6c29623708",
+      "bytes": 948
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-video/src/orchestrator/filename.ts",
+      "sha256": "6bcd2fb2256d4f8ec05e94f65a1b349404544a5fcdfcd8c6db5925e036bca87b",
+      "bytes": 519
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-video/src/orchestrator/output.ts",
+      "sha256": "9ddbda6868e1ed9443f66d35bf9737a48473c31b4dc38ea6002d7c5cb5020465",
+      "bytes": 762
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-video/src/orchestrator/run.ts",
+      "sha256": "a00250f3558cf61649002c03237c473a936f2605d2eb787d18b47374ff7a5877",
+      "bytes": 7474
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-video/src/types.ts",
+      "sha256": "bc2e558823cbf175f0233980d595ab5bc51705c3d639f79bba68b331ac05324f",
+      "bytes": 1855
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-video/src/validate/validate.ts",
+      "sha256": "ee1ecef8c56bb089ec8bcbc0998633463a9d40dd60b8cac5fd6bd0f44919c5d2",
+      "bytes": 2217
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-video/test/core.test.ts",
+      "sha256": "ed98973ebaaa3371000113e813fbafe21e2c619aa3f708c0e0645361f2b876db",
+      "bytes": 4146
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/gen-video/tsconfig.json",
+      "sha256": "643ea702c2befee7a0a3fcb6802b953b62016f949d77261fa08e3a86abaf8aa2",
+      "bytes": 414
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/import-design-system.mjs",
+      "sha256": "2795a76eb740c064dceddaf101c4e54bea79242ed0dc62b78aa36620b044db52",
+      "bytes": 10993
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/import-figma.mjs",
+      "sha256": "cfb63275aa4509ef142a95e9fc7ce52302913f89a72d7168cea7732285258997",
+      "bytes": 32505
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/lib/asset-store.mjs",
+      "sha256": "893b9464d7eb33014b598220b8b819ff84f490cc43673ee98b4b797289249edf",
+      "bytes": 6885
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/lib/ds-core.mjs",
+      "sha256": "16e32959a0fd100fdda4840c2f1ff6d3b206babd707134dcc1cf2ce459384eae",
+      "bytes": 28113
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/lib/ds-prompt.mjs",
+      "sha256": "7cc807b35cc2d41fb2c442b00f045a5e106adca7a908960de556c9d00a968a52",
+      "bytes": 12813
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/record-asset.mjs",
+      "sha256": "ff11ca6f36c8c45b9fdb547c740952ae455b8bc96441716de641435ab9a19c6d",
+      "bytes": 7576
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/tests/asset-store.test.mjs",
+      "sha256": "7355f3077b92138ae75d31586a3771306c324236eaaa4b90231bfbd8f6fe491b",
+      "bytes": 5099
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/tests/build-preview.test.mjs",
+      "sha256": "d73534f2b4a4cbdf6772e5530de25f5ced23e1a09daf5f2c3452f91bf70e2cf1",
+      "bytes": 1530
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/tests/check-design-system.test.mjs",
+      "sha256": "5431c6a613b7fa3d7e6e4a1fe8bbc355804a037e7248648095dbac02d1e48d84",
+      "bytes": 2415
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/tests/compile-design-system.test.mjs",
+      "sha256": "3e8accee9c09bc33a2f043712976bfdd96b43aabac0641bd8de7ed3ced01cbeb",
+      "bytes": 4127
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/tests/ds-core.test.mjs",
+      "sha256": "9dcc457f68b3b6987c959ab17e2b0d57f1afbc35cc6c6afbd88c27018482b358",
+      "bytes": 10873
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/tests/ds-prompt.test.mjs",
+      "sha256": "98fee1005a87f7bb0d22f50e664159720b520b8fecca69b77888d3aa6ff87562",
+      "bytes": 5121
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/tests/fixtures/minimal.fig",
+      "sha256": "a5e4e181fb984392afd32b0eabe4bfc7305a57df5408d2ea1c3bd02235a768a5",
+      "bytes": 528
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/tests/helpers.mjs",
+      "sha256": "af11388a9bd05da84616cda11e5f7cb9766cca5da4dbca946c4869877f2700fe",
+      "bytes": 4463
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/tests/import-design-system.test.mjs",
+      "sha256": "f1eb518074d2e6dde5f2235ed6fe2a79ae3ef605ed2845d3f27d1e4f46b18a46",
+      "bytes": 4463
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/tests/import-figma.test.mjs",
+      "sha256": "232c6c988e2ff1c2d4745ee301248784840e3980530d2321329f1422704f46b9",
+      "bytes": 3915
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/tests/project-types.test.mjs",
+      "sha256": "4fe877f20dce88541016c46b10b72d1854e341cf209c8c0f2c94e6d80c8f83c8",
+      "bytes": 5724
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/tests/record-asset.test.mjs",
+      "sha256": "beded641a592bc1667c36c76897d565b83f12c73e9b76bd3adea9002787c3e57",
+      "bytes": 3723
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/tests/vision-probe-docs.test.mjs",
+      "sha256": "5354061c9b27c54d082a455d1f220d215a7bc07c10253a28cef34b186dc7b615",
+      "bytes": 2844
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/vendor/babel.min.js",
+      "sha256": "2623a9e22809915ce789b4461154e277ddce520d5a4320c14d44332a5d0dcea0",
+      "bytes": 3137752
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/vendor/fflate.mjs",
+      "sha256": "f4e42b11b236ee6ec52c38e469901bd78c060bf642319e95d05390b08a02fd4c",
+      "bytes": 32126
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/vendor/fig-materialize.mjs",
+      "sha256": "0f1eb4f6539f7170b538557eb2fa89d747cec88590e184f6ff1ac6aac9f297c3",
+      "bytes": 319218
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/vendor/react-18.3.1.production.min.js",
+      "sha256": "d949f1c3687aedadcedac85261865f29b17cd273997e7f6b2bfc53b2f9d4c4dd",
+      "bytes": 10751
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/vendor/react-dom-18.3.1.production.min.js",
+      "sha256": "35f4f974f4b2bcd44da73963347f8952e341f83909e4498227d4e26b98f66f0d",
+      "bytes": 131835
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/agents/vision-probe-agent.md",
+      "sha256": "7837d30c1eca7ccb2471b6387ad8f0d2e452dfd5b13e73f98e21643250a5a1db",
+      "bytes": 1310
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/3d-object.md",
+      "sha256": "12953200adda97bd6c41d74d57fd3395832b440e9b70520676e3d59cfccb7d43",
+      "bytes": 4282
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/animated-video.md",
+      "sha256": "580e4fab5a656dfe522b66e93fe794ad8e2d4ba3d3d348b0bed965fadadf9a5e",
+      "bytes": 10722
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/ask-the-user.md",
+      "sha256": "6c855c5c4899f88523187dc660140da5824230614c244801b0f2c312f6885f8a",
+      "bytes": 17691
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/claude-api-in-prototypes.md",
+      "sha256": "7b1f790460e33058b718e3072f33330f80e82f3c39ddeb7e43e4927b2fe58ed9",
+      "bytes": 1101
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/create-design-system.md",
+      "sha256": "c51e3939eaf5f413704c0688c022cbb16de6f8b70ce661fdc3a2869382990088",
+      "bytes": 19020
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/data-science.md",
+      "sha256": "c29492570fdf569642c754278b84e5a9c52403a175cbfde498773df83bb78970",
+      "bytes": 22110
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/data-visualization.md",
+      "sha256": "58ff647cb0e46c8f61cf84dad895612ead3437a1bc06ea0729835f7f6de2dc66",
+      "bytes": 9720
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/design-components.md",
+      "sha256": "c01ea7e682b4eaed0a34ff07e05608149b63e696b2ae74354db94ebb7b1d900c",
+      "bytes": 3397
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/design-feedback.md",
+      "sha256": "2eebf12b5f2924d1306878324335610c96b69c38b189160df639c5959e22595d",
+      "bytes": 6255
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/design-system-authoring-guide.md",
+      "sha256": "04a2fd1bf2c12ab4b2e5101bca082ede76c973cb62bfecb8dcac1be14215e91d",
+      "bytes": 22344
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/design-system-preview.md",
+      "sha256": "7459de34a36e8ce38fdd4e7a9c59b5f183a9a4a22c6c624ce687d2abf220891f",
+      "bytes": 5970
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/experiment-workflow.md",
+      "sha256": "bb16d966bbef6d922ea0f5d66f12509a1d98d723b84cc1ee68f95633202adfd1",
+      "bytes": 11623
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/export-as-pptx-editable.md",
+      "sha256": "0d6bf6a7585415caa927c8c9d3feaebed7b0df2612445f46635fd8b183ec51c6",
+      "bytes": 9999
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/export-as-pptx-screenshots.md",
+      "sha256": "e0d40453ca742bc533ed693d2fdd3d88281a6cadf1a9e553d6d56f9b15147cf3",
+      "bytes": 3015
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/export-as-video.md",
+      "sha256": "7df8820c33a37e5e770f37b0fe13bcf30da9082cd98348bc27c69795fd9cbdf6",
+      "bytes": 6050
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/export-pptx-editable.md",
+      "sha256": "50678ad813da288f6b04465631f89b3b3c99343809019e9674d9a4cc915374df",
+      "bytes": 6107
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/export-pptx-screenshots.md",
+      "sha256": "13f3a714b95e6f004726e5a75a299e84d3722c7fc06f736def31a49c9c87a57e",
+      "bytes": 1884
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/exportable-video.md",
+      "sha256": "9b8427a4329d094ed1f069dde26ca1179d997ec6e0f45e654de2f462de958b7b",
+      "bytes": 2360
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/flier.md",
+      "sha256": "8a53212fc1511d04fab1c5f80617b84b77037d426c89c3318fb6e1cc86b89d8d",
+      "bytes": 2113
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/frontend-design.md",
+      "sha256": "68bab3311d450436260e308a2b46083b0550790cf2cd4c024ed39db7586244fb",
+      "bytes": 2729
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/gemini-image.md",
+      "sha256": "20a5c7b6b004b600e064c497d15268053aa39fa5d108f4c831105590c652e1f8",
+      "bytes": 604
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/generate-images.md",
+      "sha256": "acbbbad683996f4b86e431e65a8fa5e693686b02499f4f5ed8d2aa03a84a77b9",
+      "bytes": 6588
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/google-slides-safe.md",
+      "sha256": "7187fcf47bd7e991cf3869c1899fd961a74d8f526928dc0aad90c5c2341d5f01",
+      "bytes": 821
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/handoff-to-claude-code.md",
+      "sha256": "95f48a3fab9c0983f79d66cc8ba77a1d25f9c2ce985d2e90acb6b9c1764bc1a3",
+      "bytes": 4103
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/hi-fi-design.md",
+      "sha256": "a6d4d78ba4dc1567a4aa31269dca9b15be888ddba0f09c594814cc8dad425baa",
+      "bytes": 3360
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/html-email.md",
+      "sha256": "95152b23307cd49616acb4047c1c686542da5e28045808c6d1b4afc2922d0ee2",
+      "bytes": 2606
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/import-from-figma.md",
+      "sha256": "7fe33ccadd0b6db66a45447ea2ae9c6b3f589f3aa3429ffe476bd1f6fd3cacf8",
+      "bytes": 10837
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/import-from-github.md",
+      "sha256": "09a366d16ad0f8a26fa55e9972e2d4b97187bc495ed01c781fe67ee0dbe7ff88",
+      "bytes": 2480
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/import-from-html.md",
+      "sha256": "b0a94e7c1b10f2bb34d37d6b08c1ac27ba2885ea66db7bde4be63fc314ce27f2",
+      "bytes": 2121
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/interactive-prototype.md",
+      "sha256": "69f1bdb5d1d43005e06b6e84abe2ec112bf205e28a2c88b304127affea6543ec",
+      "bytes": 423
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/low-level-tweaks-api.md",
+      "sha256": "9a36407fa0aa111ce51b4d4c984be0265868e887db87f845c6ffdde708ae73d2",
+      "bytes": 2032
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/make-a-deck.md",
+      "sha256": "84d37725d5026959a1cc774e175ddfae4c4df559b8ad05e085aeca2981b7cd24",
+      "bytes": 22907
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/make-a-doc.md",
+      "sha256": "822b7846038f6c2390bbb4817d716e33808d0b1c634a5140da7707c2cf56fc76",
+      "bytes": 2635
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/make-tweakable.md",
+      "sha256": "5447f8ec64309d1e1a15ce19dc288d04fdc57c4926f882d2917f2542dc698c55",
+      "bytes": 369
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/maps-geography.md",
+      "sha256": "6caceaeddd48fdd4cf6ff76168d82a0155fb083cad4b084e64324a230c089ca1",
+      "bytes": 2870
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/mobile-prototype.md",
+      "sha256": "1b9e43553980b289d69e494a13c63c7eafb380b690a5c5a70b9191a6782e1d6b",
+      "bytes": 3382
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/options-stack.md",
+      "sha256": "35876fb848948dcaaac27dc2bc99b5206c0fb9d05bb9ffb60421e9e819772350",
+      "bytes": 1170
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/read-pdf.md",
+      "sha256": "6ae244b3ca7ba9be494e95df75cabfae0040c0f370b941d644c7074e5dbf60a0",
+      "bytes": 857
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/save-as-pdf.md",
+      "sha256": "37ba827908e1eb498b2022fb2f181bc5b008abecb17c145bd2a19b510fe73465",
+      "bytes": 4925
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/save-as-standalone-html.md",
+      "sha256": "e59d1c68cc0dd7d3cbedcfa816590a6457a4b4f8bcf082983a8d9d12838a6138",
+      "bytes": 5841
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/send-to-canva.md",
+      "sha256": "10d9802fcb300f6f34a07801e4caacdab91acd5bd58d631d22c1e4921859bc08",
+      "bytes": 3630
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/send-to-figma.md",
+      "sha256": "366a669f72f2dd5c7c56315c2fab98ca52e595d7b58661d1a771517a4ee48bb1",
+      "bytes": 1866
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/social-media-content.md",
+      "sha256": "cb5667dab088c61ca154eb6e356976a7db3fdb7f630484a59e9f66de91545c23",
+      "bytes": 10881
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/something-cool.md",
+      "sha256": "800d405db1b66f4c4175cf4b8dafa197516d8c7e63cfbfe730506d7f1ffcc4f2",
+      "bytes": 999
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/sound-effects.md",
+      "sha256": "1aafe4de90b1850bddd62759f4a8d6fa7c58671430ca8d4a647e3a16922fc171",
+      "bytes": 599
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/speaker-notes.md",
+      "sha256": "204ff098d5769df113bc10c11391c8ea8e4b85dd9e86250695d71e3e4bbecaf1",
+      "bytes": 1499
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/trifold-brochure.md",
+      "sha256": "4ae5f456feabcd7c8d62081cf433f5098d5df44e3630ddae7c18cdac879489c9",
+      "bytes": 2696
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/tweaks-protocol.md",
+      "sha256": "fa486d5bc340256b23ae136fedc28052844572d2832904257d78dc0d0b0ce935",
+      "bytes": 2200
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/use-design-system.md",
+      "sha256": "3e15c3ab2d6d4e0fccc8bd1eb679d7f6896c0449a2fce35a85be6fa1e82493d5",
+      "bytes": 18668
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/watercolor-illustration.md",
+      "sha256": "d924dbfa9c9adae4290c254a13a4ab94817d737d1a7600aae980b5f0c681da5b",
+      "bytes": 10467
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/web-research.md",
+      "sha256": "175e38a902b4dddaac3d2bfcac8a291686c84184b54e8d8831b40ee0edbbbda0",
+      "bytes": 2000
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/website-landing-page.md",
+      "sha256": "1294a86af4d39b9685254f8663b4b1dc03ba4d5c89d3ea1eab0dd543515a4003",
+      "bytes": 3863
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/built-in-skills/wireframe.md",
+      "sha256": "c98e5d3e4822be61f484335c6b4386811a517a151498ee4a89a251dddaf3f008",
+      "bytes": 847
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/project-types.json",
+      "sha256": "6128936023862d86d80be01f544854e2a5c3e0db50db4f0fd1bd182e5c1ee080",
+      "bytes": 2024
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/references/claude.md",
+      "sha256": "e77d4fd32878506f25a46598a81803217e9e5ae6b83677c43d8df8d0e97b599d",
+      "bytes": 17095
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/references/codex.md",
+      "sha256": "d80e49abaa3599f52bd74de2ce2b3136d09b5241f6f0bc4c0a55fc6307c41fcf",
+      "bytes": 7305
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/references/cursor.md",
+      "sha256": "68dcd2b73a7c49f834d139f6310284c279b107015a251aa48ae51ce4445c4d52",
+      "bytes": 10911
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/references/upstream-sync/apply-report.json",
+      "sha256": "3cfa1cea65950084554132accde26efa91c9ecf042e5cb4768e3f9b2b14d6d18",
+      "bytes": 18135
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/references/upstream-sync/built-in-skills.json",
+      "sha256": "88c77495f2f53b705d797fceec3367531a99e803f1e13bba5a8039e90914cc4c",
+      "bytes": 223701
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/references/upstream-sync/provenance.json",
+      "sha256": "d9d181fad25a9bdda643bfb1544b41af48a49fd8db871c1d35a26b8f905e7145",
+      "bytes": 1251
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/references/upstream-sync/starter-components.json",
+      "sha256": "8a6d8cd5e6d4d9ccdb0740670d4acc8995a797f20294e1240a9cef4263cc0878",
+      "bytes": 16338
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/references/upstream-system-prompt.md",
+      "sha256": "5c0ca1c47fb6e522ffe772c483dac30bea60ce2ec2bb75260560ff81c7f5d35a",
+      "bytes": 30410
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/android-frame.jsx",
+      "sha256": "733d28bdf32764674eac272e89dd97eebd00c8a4abbc625639d5e92aee13acd7",
+      "bytes": 10079
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/anim-demo.html",
+      "sha256": "eec6a0e4f21c00cbd2702247891dcf34e29e8e6512b8c712e80c02edc7f996ae",
+      "bytes": 8051
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/animations-v2.jsx",
+      "sha256": "f419e8c899d4a48a08c031383f84408d312863f233bf20be871ebe723ef430fc",
+      "bytes": 60879
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/animations-v3.jsx",
+      "sha256": "8ed10b2cac760f1185fc06ef081424fd29047fccadbca0f424d43350bbe52b39",
+      "bytes": 43509
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/animations.jsx",
+      "sha256": "2fbc301613f6fe83db7c3b60caa7d189268d94d865e87a909a74d80cbd66ba10",
+      "bytes": 24615
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/browser-window.jsx",
+      "sha256": "c75c07447e0859b5f2edc420d5d757420b9a7e96336b84758a5d8da753f1a6a8",
+      "bytes": 4497
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/chart-stage.js",
+      "sha256": "8b44746ffd45ce4bb3e4a0f03e86279f6dccc8faf1d9564aa698cda6a85428a2",
+      "bytes": 22716
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/chrome-shell.js",
+      "sha256": "00f6cdd94a28722e21afe63e8f3a0c6bf435d3391e05f38b3fc2bbb544d2a8b3",
+      "bytes": 10179
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/data-overlay.js",
+      "sha256": "90a2e4fd231d49af778f06053623a4cc3519ead057b148908cf544332b8a8a74",
+      "bytes": 96714
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/deck-stage-patch.md",
+      "sha256": "de3628af0141c512c7226ea35c5578840d2856d6e61a97da18ab5f2cd8a68cc1",
+      "bytes": 62492
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/deck-stage.js",
+      "sha256": "b4c21872cf72707307ac75b79577c1ef492b72109aa09bd048be143ed66c4da2",
+      "bytes": 178469
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/design-canvas.jsx",
+      "sha256": "783cdd4991c4331bf14b9de17dec90da9ccd9a38c169b92687a096680c5ef54d",
+      "bytes": 53258
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/doc-page.js",
+      "sha256": "19f011650b016523d84afdc03535705fa29e8c9faae4c427767c7b5ffd1f2d1c",
+      "bytes": 36948
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/facebook-shell.js",
+      "sha256": "8d4f74a6f49732828803f444e5caa526b7def4fb3f08f3d0ed7afedbb33947d3",
+      "bytes": 15574
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/file-window.js",
+      "sha256": "8519e04500062b63a683db9e926ec828474805a8a3b41bdc135f5c0147e00666",
+      "bytes": 37744
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/image-slot.js",
+      "sha256": "3181fc087a0ca62c260b329d249a758cadfc640d8835de28dadf919a6f96a40b",
+      "bytes": 65113
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/instagram-shell.js",
+      "sha256": "fb2215159f4bfbf9ba77f18589efb2dca75066126ee5d503d5dfb0c2e202db04",
+      "bytes": 16039
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/instagram-story.js",
+      "sha256": "c2621480f91cafbff0eed2cce8d330e38893a101ab560254f182f24cae7d9d28",
+      "bytes": 14236
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/ios-frame.jsx",
+      "sha256": "cbc4ebb0f41d44aa33f67d0892e8e78c3adb8ec10371b242fe15ce82a1d1e954",
+      "bytes": 16270
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/ios-shell.js",
+      "sha256": "395b0a73e5b1df54c21a7f410c8c2338456fba5a5e02a770771ef9ed7ad3f702",
+      "bytes": 12715
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/linkedin-shell.js",
+      "sha256": "e04751cf90fbb4df5c9e8bd9c691fe33124e9735f765e7ec79b3befa1104aa9c",
+      "bytes": 14307
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/macos-window.jsx",
+      "sha256": "de298ba07831d406c976e4f9f908e17d4a1fb65f68d2ec7541fabe0a3ab348cc",
+      "bytes": 8574
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/pinterest-shell.js",
+      "sha256": "665f624aa7b3dcf8fbf9c469e2ed3fe6c15d0b798419f6e54ab0da9a232f2ef6",
+      "bytes": 12242
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/post-card.js",
+      "sha256": "8dae48d4f9e53cdc0da81fbcd68a3bedbe828f43bb62111c5ba47d2f63f7a555",
+      "bytes": 9507
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/reddit-shell.js",
+      "sha256": "3129596be6b9ad1fb67444ed92a8060c4d03a42859c659cfc9f621ec34863df3",
+      "bytes": 13213
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/social-frames.js",
+      "sha256": "41b97bc73f570e328cde04f88c50f6fce5fba9b4955f4686ded505acb10d8897",
+      "bytes": 10052
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/three-d-stage.js",
+      "sha256": "7acd5ee825fa3d4733db4c157f456e8b386dc582d36ad48badf2717701895bd2",
+      "bytes": 16375
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/tiktok-shell.js",
+      "sha256": "1ac1594385e66338f75cea3e1de5ab2d312521e964a0cfc846e8a97e13e131da",
+      "bytes": 19197
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/tweaks-panel.jsx",
+      "sha256": "afbe46094689ab82e4bc3d865908886f0ef85b909d58adf853078f962424876e",
+      "bytes": 35494
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/x-shell.js",
+      "sha256": "ce5cc188d8d843bca3e4c88cd3b499738feae9b32aaf6dadd6ba8a2ce47c9c6a",
+      "bytes": 13970
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/starter-components/youtube-shell.js",
+      "sha256": "6b4f7f015f0d7a0b66bbbac5ae1d1aadbf3aaa545d0e330d4224d994ae69c4cf",
+      "bytes": 13514
+    },
+    {
+      "path": "omp/agent/skills/baoyu-design/system-prompt.md",
+      "sha256": "5b1ac406fa922eda53c4e73390fbc7114f8dcd26c464508e5e04f6f987ecea64",
+      "bytes": 46200
+    },
+    {
+      "path": "omp/agent/skills/caveman/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "path": "omp/agent/skills/caveman/LICENSE-MIT",
+      "sha256": "5eb826cd03151bcc7cce3f80d40e87733237fedfc6c36d6908aca5fd650a0bdb",
+      "bytes": 1071
+    },
+    {
+      "path": "omp/agent/skills/caveman/NOTICE",
+      "sha256": "20112dc6e62e91da4f03c29fd10cfa41743a9c526389fdf1396c3649c18216fc",
+      "bytes": 2285
+    },
+    {
+      "path": "omp/agent/skills/caveman/SKILL.md",
+      "sha256": "2a0274cc69d89193bb22b6ffd98907613c89f7b3bf78c48e8e6eafd4a749846f",
+      "bytes": 6519
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/LICENSE",
+      "sha256": "d9dc995e7c280063ca3927b7c47c3d370e1ab6e5db706603175d73199a6b4a71",
+      "bytes": 1074
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/SKILL.md",
+      "sha256": "04b2eb7a279750160e675a1fdb121fcdb844ad14d9e9d414098b8136257ff901",
+      "bytes": 3766
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/activation-map.yaml",
+      "sha256": "8bfcf137a1e7a9071466c12b5149300e2d24dd1f4010839582309270a2e99091",
+      "bytes": 13422
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/ai-model-nodejs/reference.md",
+      "sha256": "887b934addb85976b545e75a9986d4f9a0ef7ad7f43b1a28f2e89947603d2885",
+      "bytes": 20409
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/ai-model-nodejs/references/api-reference.md",
+      "sha256": "f0cbba0832900a465ad50c83d265b3294133ff6cabf634d05f3dcce08e57a13e",
+      "bytes": 4834
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/ai-model-nodejs/references/custom-onboarding.md",
+      "sha256": "b57961bdffbea5a09c703971d922923943a5f13a2c4ea8e8e76be4efa0be14ff",
+      "bytes": 1497
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/ai-model-web/reference.md",
+      "sha256": "d9e635cfbee2005dcc4be49f890801d75737006506b3721464e14795f280d362",
+      "bytes": 24849
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/ai-model-wechat/reference.md",
+      "sha256": "1c531f2b82afc4f982ce68961a821bb0b8723b32e330aff92e70665f4f1f93f8",
+      "bytes": 26479
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/auth-nodejs-cloudbase/reference.md",
+      "sha256": "cb43aa33c35048e4a01d887e7dc500f84f9b38d3c4e1ac5db8762329e90976bb",
+      "bytes": 17227
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/auth-tool-cloudbase/checklist.md",
+      "sha256": "7fd3576b81a27a927da0350b85b94c2cc3de33d37bd8cee34ed125151165d883",
+      "bytes": 1386
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/auth-tool-cloudbase/reference.md",
+      "sha256": "acfa42509febbfe841d96a5dfd68304bf86b712fd07aa61311bd5c08438d1ef8",
+      "bytes": 4855
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/auth-tool-cloudbase/references/extended-guide.md",
+      "sha256": "9bce4ce8bd86ee8c0f97efbae6b534c75a1db6329c334e045471f3a27eaf269e",
+      "bytes": 15085
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/auth-web-cloudbase/reference.md",
+      "sha256": "9fce39abceff2ef745bada30c0078057d3a7bce9cfaaaa30dd13cf5a039ffc47",
+      "bytes": 11812
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/auth-web-cloudbase/references/extended-guide.md",
+      "sha256": "1d5f818d9c18e50a8dcaef16b3536856ac931148c2361399945b78626b46cb7b",
+      "bytes": 14406
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/auth-wechat-miniprogram/reference.md",
+      "sha256": "cba4b6a1297621fdf26316793b9ead54d6c6708a0a1419765f4facb9cfebfc13",
+      "bytes": 5601
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/auth-wechat-miniprogram/references/extended-guide.md",
+      "sha256": "39223bea63d3cbce8c237e4e5446946a670dd22e3ef7aa8b03892dec2976a502",
+      "bytes": 10780
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloud-functions/checklist.md",
+      "sha256": "2fed9728a6c5d6bd266224841475fcbda68da20df49640ced3cd14a158582719",
+      "bytes": 4778
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloud-functions/reference.md",
+      "sha256": "3cc3edef1abfa0c346e2c6d4a7fb837f7dca0046350c9e5aea45e95bb6f11f4d",
+      "bytes": 31993
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloud-functions/references/event-functions.md",
+      "sha256": "86c7a624a520df06c6ad6e5bc448d489b204dd51c83790c78c5e2b51f51ca0f8",
+      "bytes": 3683
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloud-functions/references/http-function-credentials.md",
+      "sha256": "7f98b6d6f574307e34eca63cee5d8e1c95ddb7b97803c4028f5c71d0fa3aba82",
+      "bytes": 4779
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloud-functions/references/http-functions-custom-image.md",
+      "sha256": "d9410862b24a6de99bfd124b63cb6955a615415d33113793ea800ed559c22f9b",
+      "bytes": 11002
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloud-functions/references/http-functions.md",
+      "sha256": "c41e90807dca370a2b2b95baa7792791583444644f37340adddcdc37035fa505",
+      "bytes": 16467
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloud-functions/references/operations-and-config.md",
+      "sha256": "4ae70fb68be28b10ba2e58c3d9cea511e950e6d66f38e501f2318b478ea47aca",
+      "bytes": 10151
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloud-functions/references/vpc-and-tcp-database.md",
+      "sha256": "f12d5679deac9e1f2f64ecd1885eb4a8a5637df79724d3738003a51a2f862eb4",
+      "bytes": 3806
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloud-functions/references.md",
+      "sha256": "fa055fb93c2b8de2ea795503b52604581c68a6cf84f14d77f1542af382effa67",
+      "bytes": 3594
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloud-storage-web/reference.md",
+      "sha256": "f095d05bfb0be980c4ee4a5ca6e81b3ef6f77e90840f4dcd358ab07927f0233b",
+      "bytes": 15848
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/py/adapter-coze.md",
+      "sha256": "094e31c3e17491bdf2750f5654663ed48343a72504d10aba17b3a5ed0aca383d",
+      "bytes": 10088
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/py/adapter-development.md",
+      "sha256": "dc24fa36a36c7b00ad0a2ef36034bb25d727be6fa446503f1eeba2b868e23760",
+      "bytes": 17753
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/py/adapter-langgraph.md",
+      "sha256": "5bd3273774375cc06d0ca9022e5a5aadb9ad1bece8aa829fb8ca3c7fa2b33917",
+      "bytes": 15289
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/py/agent-deployment.md",
+      "sha256": "a462d4389da4cd95817ce18411e585fa84d71815562b76cbdd1ce56ceb0368a8",
+      "bytes": 14719
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/py/authentication.md",
+      "sha256": "eabd47f89dbd096572f7579e89164155829362819e7693e46235727f1abace34",
+      "bytes": 15107
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/py/reference.md",
+      "sha256": "62c45454a53021dc6edab44133c0cc6a98c0ef181e28e594a289fcbc79711ae4",
+      "bytes": 12350
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/py/references/observability.md",
+      "sha256": "84320aae920e122a5c3f711c2aceb902e68a0bf684fee02179def24b1cb582de",
+      "bytes": 9211
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/py/references/recipes.md",
+      "sha256": "ff51f4314a731060d10742328ff907fd2443b5ba0edb88fd2d3f3a58849d481c",
+      "bytes": 9514
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/py/references/server.md",
+      "sha256": "e33b6dd765d707b3cf441eee27f90aeb00febef4c9ac7598fd7d68e7f0b9abcf",
+      "bytes": 5004
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/py/references/storage.md",
+      "sha256": "f6194ce13338ea03053631ff011de283f67084ff4a0a36432683ef78603b20d3",
+      "bytes": 7164
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/py/references/tools.md",
+      "sha256": "93847c327a7f1aa7d1e276f3515703d076cad3e61192aaf9e815e136a98ea704",
+      "bytes": 5066
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/py/server-quickstart.md",
+      "sha256": "82b8e808af22f5de198dc80e03e1176e3e31788751396d7ccd1729078ca8aabb",
+      "bytes": 11816
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/py/skill.md",
+      "sha256": "62c45454a53021dc6edab44133c0cc6a98c0ef181e28e594a289fcbc79711ae4",
+      "bytes": 12350
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/reference.md",
+      "sha256": "e79920977c87778519ae255300671da32171c0dc6e7301bdacea4e9bcc60b131",
+      "bytes": 1951
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/ts/adapter-development.md",
+      "sha256": "787bec66593fb6e8f8b1c86831328fe1a9dc4f71d727a34e8ab265a1dd1fbc8e",
+      "bytes": 1964
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/ts/adapter-langchain.md",
+      "sha256": "5cef2c436d04246bb384ccd44127ad18c1ff591089bd02f91a011a3719469fc7",
+      "bytes": 2756
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/ts/adapter-langgraph.md",
+      "sha256": "b32e86dcaa96d4f706c673ad68218f9b5b091bafbbf93c7c31710fed7168760c",
+      "bytes": 5537
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/ts/agent-deployment.md",
+      "sha256": "9f73b09dee10a26f2f5a8c8e653f94833b0233398b8bab14ad471097a802c57d",
+      "bytes": 5296
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/ts/agui-protocol.md",
+      "sha256": "f99e2842a82369d4485a6fdee88c7db668b035ee1b1aff3e4ffd9c7573ccfbbb",
+      "bytes": 2426
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/ts/reference.md",
+      "sha256": "1f62ea9785e2fd42f01052d3c3845fb26ae0072c98224a1e58b1608bd65888ae",
+      "bytes": 3873
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/ts/server-quickstart.md",
+      "sha256": "a14151124fb7246b6952e26eaa077a1fc9c8cee25fe97464c25d938d9d14c44a",
+      "bytes": 3789
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/ts/skill.md",
+      "sha256": "1f62ea9785e2fd42f01052d3c3845fb26ae0072c98224a1e58b1608bd65888ae",
+      "bytes": 3873
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/ts/ui-clients.md",
+      "sha256": "7287c58ee40aba3a86acbac163d88378086ce611acf5fed364fde01a22b8feda",
+      "bytes": 1334
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-agent/ts/ui-miniprogram.md",
+      "sha256": "acaa665fd878197dafe94a89b3255ab44b44b84880ea9b3b99a87e7105de4bc4",
+      "bytes": 4362
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-cli/reference.md",
+      "sha256": "48db7f3942fc48869e75afda4c42071c915f7620e368cbd5453d7c5eb8225790",
+      "bytes": 7093
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-cli/references/access.md",
+      "sha256": "27a5bdcb046a00172b3aac12c3223c6d0e45476a85eb970a45535e2368d9be43",
+      "bytes": 9421
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-cli/references/app.md",
+      "sha256": "55140b315f4829589a9c3e241eb3d33d3c2d81dcad134b50f53c5ce4783df919",
+      "bytes": 9512
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-cli/references/cloudrun.md",
+      "sha256": "c55a47865eed59ca88fa1452ffd7800d645d3cc1bb2e0302f7b9a82ef2429c6d",
+      "bytes": 10113
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-cli/references/core.md",
+      "sha256": "666f451fcfebbfca89d395ed9152fc5e687a8c1ef6ad07e2e4e621e8e27df8f9",
+      "bytes": 18880
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-cli/references/functions.md",
+      "sha256": "f8f67187d19683d2be66ecd56b31f5cec56ed4f4398174b9f986d6b4fab9d8c7",
+      "bytes": 13755
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-cli/references/hosting.md",
+      "sha256": "d0558b58a3ca8da330595b8a58f98171d6491e17dbb6eed1d8b765f4dd12dd70",
+      "bytes": 5129
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-cli/references/mysql.md",
+      "sha256": "d6d0f4a64d670ef8cbd81f4ac8d0589efe5dea3625d1b02ef68ff08f6cde7893",
+      "bytes": 9561
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-cli/references/nosql.md",
+      "sha256": "ba51fee32e545e2d973f9c5742ee5a0fd0b965f0da42ca2707a65ebfce7b393e",
+      "bytes": 9841
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-cli/references/permission.md",
+      "sha256": "bd624f53b275d0e52f829fae352fc6b5232a0d265b74eb29716aaa4df6665062",
+      "bytes": 11546
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-cli/references/storage.md",
+      "sha256": "684bc42ae20898b33a00713498bd7d7d0405f098aa47618ff4ed8d76d51f26bb",
+      "bytes": 9788
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-code-review/reference.md",
+      "sha256": "d046aad651bd0e8202f38028647013827f4431df4322cb7c2619c7e1515fc1ab",
+      "bytes": 4602
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-code-review/references/RULES_INDEX.md",
+      "sha256": "5a6afb00f9628c03afce1beba067fe0fa4924a73d028383b7af31702e5facd54",
+      "bytes": 13388
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-code-review/references/lint-rules/README.md",
+      "sha256": "387bc092be37be3ed625bb00180621758be87b12ee8d64b9d5cef1d4a029d2ff",
+      "bytes": 18213
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-code-review/references/rules/cross-cutting/AUTH001.md",
+      "sha256": "c7b27dd2446cca2470c3a3ae1b902559228fb00b3f38e3c6d859cbd2ed8eae00",
+      "bytes": 2538
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-code-review/references/rules/cross-cutting/SEC001.md",
+      "sha256": "a114fa6aee33339c19dac352b694e6fd4e529dae76e00d5fc7319fba6f0b4bbd",
+      "bytes": 2369
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-code-review/references/rules/cross-cutting/SKILL001.md",
+      "sha256": "f7f75101cd6be57b1a46a1ba7eb9ac2464b49d90b39df12af7006af8d253d569",
+      "bytes": 1618
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-code-review/references/rules/postgresql/PG-CR001.md",
+      "sha256": "37a07e4e081410752a1005fda7013798462b85da88b54625c71ffe0ed9c8a51c",
+      "bytes": 2812
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-code-review/references/rules/postgresql/PG-CR002.md",
+      "sha256": "4ef261dce4e9bdff0efe93e543b1061aabe679ab56acaf61b496e55a9ac07096",
+      "bytes": 2971
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-code-review/references/rules/postgresql/PG-CR003.md",
+      "sha256": "1b919c895f755e51c798cfc22c921190676fcd828614ed6893d8a84430f8a72c",
+      "bytes": 1965
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-code-review/references/rules/postgresql/PG-CR004.md",
+      "sha256": "1b8dbdffc05621ead2b6f9d8afa5f70c67ec89a897688923acf393b829d0f7bf",
+      "bytes": 3005
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-code-review/references/rules/postgresql/PG-CR005.md",
+      "sha256": "7f34b03120af805f9f789cf3016e6a8b48851aa850210bc1c4857c4921482a94",
+      "bytes": 2412
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-code-review/references/rules/storage/STORAGE001.md",
+      "sha256": "41ade960f100ade64cc69098f82dfaa98a63a3a841479d1d2dbc7b980287a737",
+      "bytes": 2041
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-document-database-in-wechat-miniprogram/aggregation.md",
+      "sha256": "c63034c6fa755c43b49f220105864d8d28057a38101bcddfd85e18a01c76daad",
+      "bytes": 9122
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-document-database-in-wechat-miniprogram/complex-queries.md",
+      "sha256": "bb118759e7bfa49fae55fdbde6ef9927c4398428bd173ef9c37e4217e78dfae5",
+      "bytes": 5367
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-document-database-in-wechat-miniprogram/crud-operations.md",
+      "sha256": "100595093384a5bb0ac8f387f8e4a6a087d6c824ecf8267dea104096cb4dfe78",
+      "bytes": 13363
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-document-database-in-wechat-miniprogram/geolocation.md",
+      "sha256": "dc2b1528ff9201f80bb4be9d45fb53f0edca293d5edcb1003c4bcd83341327c5",
+      "bytes": 12307
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-document-database-in-wechat-miniprogram/pagination.md",
+      "sha256": "f835db4674aabd9c3785bc7ae45dbaae3f7466bdad6e4fe338f6f963d87cedb2",
+      "bytes": 9209
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-document-database-in-wechat-miniprogram/reference.md",
+      "sha256": "174442b6aa0e19a885900b15920435f116da5c338041242513760c69a89b5e56",
+      "bytes": 4953
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-document-database-in-wechat-miniprogram/security-rules.md",
+      "sha256": "99b30ab99875527add6744f529ba454c3ae13dea1656a68faa7f7797721c8e4e",
+      "bytes": 1900
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-document-database-web-sdk/aggregation.md",
+      "sha256": "c63034c6fa755c43b49f220105864d8d28057a38101bcddfd85e18a01c76daad",
+      "bytes": 9122
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-document-database-web-sdk/complex-queries.md",
+      "sha256": "bb118759e7bfa49fae55fdbde6ef9927c4398428bd173ef9c37e4217e78dfae5",
+      "bytes": 5367
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-document-database-web-sdk/crud-operations.md",
+      "sha256": "6994bd33f12c054113a8f189ac01442c5e221034817d823b6304db3d480394d9",
+      "bytes": 18474
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-document-database-web-sdk/geolocation.md",
+      "sha256": "dc2b1528ff9201f80bb4be9d45fb53f0edca293d5edcb1003c4bcd83341327c5",
+      "bytes": 12307
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-document-database-web-sdk/pagination.md",
+      "sha256": "f835db4674aabd9c3785bc7ae45dbaae3f7466bdad6e4fe338f6f963d87cedb2",
+      "bytes": 9209
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-document-database-web-sdk/realtime.md",
+      "sha256": "5e49b5df51d0cead932e6682240055edb66c1f1394e652ec3349d7d4a2818ad3",
+      "bytes": 3993
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-document-database-web-sdk/reference.md",
+      "sha256": "ad6d65d3fcaeb09aaf895bbd668341e77e1be24c08226289e593f2dafa4d0562",
+      "bytes": 9459
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-document-database-web-sdk/security-rules.md",
+      "sha256": "1c82dabbb267dc79d403c144db72da4a5f4a2ff1ec4e12d17744440445803401",
+      "bytes": 39558
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-platform/reference.md",
+      "sha256": "7115285c4618e8ea5c3d8f7afcd6f80683e76402b1322efc43a99b29829b3c66",
+      "bytes": 27304
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-platform/references/protocols/change-safety-protocol.md",
+      "sha256": "34bbbcf174974607f1ab588ad0da1a19da966ef1d27206bed007f3022a3daf0c",
+      "bytes": 2265
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-platform/references/protocols/deployment-gate.md",
+      "sha256": "4d7b3c1cab9fa22e9d4529db0dc8193a187959c8697d926e17d87715841a80b2",
+      "bytes": 6612
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-platform/references/protocols/sensitive-runtime-data-protection.md",
+      "sha256": "61c5b8b3cd18b701579c4240b2f7e8d2f6aa23621e668d0823a5b0c2385f29d2",
+      "bytes": 4449
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-wechat-integration/reference.md",
+      "sha256": "1640a999d9c5c34b63c8f1a4af3654c76f7a34085cbe05a3b7539fe3079547a2",
+      "bytes": 7755
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-wechat-integration/references/mini-program-pay.md",
+      "sha256": "1b33288f30b0a1c670f09b6610f37a77db4e50a54397e242472951025816ce1b",
+      "bytes": 3396
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-wechat-integration/references/native-qr-pay.md",
+      "sha256": "76ca6928dfbd14d14451bd917bc5cd363b1751a18ea7ffbde075b6138831cb02",
+      "bytes": 2423
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-wechat-integration/references/official-account-jsapi-pay.md",
+      "sha256": "92fba3d3db48dfba29393d3e40c9847295d52948e1fdbe0d91d26b64a673d13d",
+      "bytes": 2660
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-wechat-integration/references/official-account-oauth.md",
+      "sha256": "44820fef45db4ed9042e271c9e96640f29ae30ad58bc03902200f7cd1a00d0ab",
+      "bytes": 2517
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-wechat-integration/references/overview.md",
+      "sha256": "eb4a5384be564feb7d299ce75894e6c7a57d60c8959beef259328009f7b3b63e",
+      "bytes": 2701
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-wechat-integration/references/troubleshooting.md",
+      "sha256": "cad73dd4a5ccaf2144839f85ff45fe33cc38daaa83308c231132527d5a89d055",
+      "bytes": 3823
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudbase-wechat-integration/references/virtual-payment.md",
+      "sha256": "5079bc304c30a5a8a2af8e40849576d348417f2bbf99131a549862c3ede30c00",
+      "bytes": 8379
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudrun-development/reference.md",
+      "sha256": "61c05831d309f9c39c4eb368f41e20d2fc6c1ad7d798633413d05d8a8bd52c79",
+      "bytes": 27168
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudrun-development/references/image-deploy-troubleshooting.md",
+      "sha256": "43a93790a723d0d2a2da52739f614e56b083b864c15059eb4a51ccfef599fd18",
+      "bytes": 9715
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/cloudrun-development/references/vpc-and-database.md",
+      "sha256": "2dc4ecc04d7a749215c0b5248478430065b7b578802a43e6b29cffeab38f178b",
+      "bytes": 7297
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/console-links.md",
+      "sha256": "c5293005bdcca341cc29cede2a2869212d30b61101fa3afd8cd585cae5e1170c",
+      "bytes": 1380
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/data-model-creation/reference.md",
+      "sha256": "f0d25a1c2324ba2ef94cbc587d3d6b33947e09e822f8adaeab2aee1dd717a6ca",
+      "bytes": 7218
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/deployment-workflow.md",
+      "sha256": "bd8bb5d789baf762a899c27592a593d0d1f6a9d65f47781859932b066bc27269",
+      "bytes": 3965
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/http-api-cloudbase/checklist.md",
+      "sha256": "7bd389120057434ad69b2346474db3eee03d642d02f67bd2ef7153aa19f7422a",
+      "bytes": 2009
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/http-api-cloudbase/reference.md",
+      "sha256": "39343cd38e00351bb8f10766ae3976ff67be6fbe50d75a7820f409a13dfd8f3e",
+      "bytes": 8711
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/http-api-cloudbase/references/extended-guide.md",
+      "sha256": "f169677b41315e69096e7eba5cdc3d8674313caf818d13ae32a6cb3226e010b0",
+      "bytes": 16212
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/mcp-setup.md",
+      "sha256": "21ac023a35d45e7dd7a9990773014be05be2e883f9e2bfabdb77a2188d874b4a",
+      "bytes": 9398
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/minimal-web-baas-demo/reference.md",
+      "sha256": "6e61f4b85c3cf8f82bee3dc44142d235300bcf5b7d4b168188aa4b024b8cc3d9",
+      "bytes": 9288
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/miniprogram-development/reference.md",
+      "sha256": "2b4cd6ff1df1f5410e815d614e0fc6f9e37c1397d9e3df7eb30b9c4163b07718",
+      "bytes": 13329
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/miniprogram-development/references/cloudbase-integration.md",
+      "sha256": "067060032f4d5b7d4736baa6cf2d13482b0172e17028fc5aeb1ec7e1e449dc05",
+      "bytes": 5980
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/miniprogram-development/references/devtools-debug-preview.md",
+      "sha256": "fca9a51c3c2bc47779fe364bbf3f6a7678fa8373c2972d5d0a9389f64ba712d1",
+      "bytes": 7366
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/miniprogram-development/references/message-push-customer-service.md",
+      "sha256": "c5be2984b114f2e7d00d308785d21edd6f58e93b6573f363bbdbfcb105e5b107",
+      "bytes": 9552
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/miniprogram-development/references/pitfalls.md",
+      "sha256": "6f9d3390264b61beb9d3e53e8edb0f3ac478e93e7549666a68d8e3f5fe0e8c9b",
+      "bytes": 3137
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/miniprogram-development/references/seo-search-optimization.md",
+      "sha256": "3743ecc0bd7babe709abfbdfc494b704022ccfbe8adbb993f271771148c52a92",
+      "bytes": 3830
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/miniprogram-development/references/wxide-vs-cloudbase-mcp.md",
+      "sha256": "06973bd6ae9a2e0a0b412d7ce06cb0619f8b55ab60eafbd90ea80e5bb4e3d850",
+      "bytes": 3120
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/ops-inspector/reference.md",
+      "sha256": "dd527e38983770ae3052cdb2ea37760015a112ed7ce83e6176b9fea6eeb91d23",
+      "bytes": 14541
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/ops-inspector/references/alarm-interpretation.md",
+      "sha256": "ad483c962a48c8973421688d611832934469f5b21cea42ba17f50787bba86000",
+      "bytes": 5173
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/ops-inspector/references/fault-playbooks.md",
+      "sha256": "339d79ad827b82a53fdc2059eb04797d80593f5d81f81cb78ac6e2c370fde504",
+      "bytes": 7487
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/postgresql-development-cloudbase/reference.md",
+      "sha256": "b93f32943a8c4624e8ac3b29aeedc3e1c3c505be30170333bb2c5013f281e745",
+      "bytes": 29807
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/postgresql-development-cloudbase/references/app-workflow.md",
+      "sha256": "4075fa5bb24fe9fc4e25aca5e9f40741fed8e54acee771094d083b659d5f39ac",
+      "bytes": 8117
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/postgresql-development-cloudbase/references/auth-and-rls.md",
+      "sha256": "5913ba26fc5198a9a04b107eb50b32ec0fca038325ecc6b32fcf4bfb0935d4aa",
+      "bytes": 7800
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/postgresql-development-cloudbase/references/http-api.md",
+      "sha256": "29d0fb21fc503cf3a1bad4d4cd4d0dded1732e7f5ad1309395c9732e94ddb1d4",
+      "bytes": 1716
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/postgresql-development-cloudbase/references/index.md",
+      "sha256": "b35548aa3d4fe7ce43cc8b6f04d2b8267bbacdca14c277a8eb733671c8095958",
+      "bytes": 1374
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/postgresql-development-cloudbase/references/pg-mode-overview.md",
+      "sha256": "15083eb5869d604764ee2eb698433a1ab9a70d517adbaedfa50c91fa8c18858d",
+      "bytes": 1852
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/postgresql-development-cloudbase/references/rls-patterns.md",
+      "sha256": "d0330446c06e39eec989008c4ae9aed975c373f7c03695c1a3a298ad49c2b5ba",
+      "bytes": 6133
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/postgresql-development-cloudbase/references/storage-pg.md",
+      "sha256": "40d5a2056f0c39fb2fb09e2e9ad60927ef3cf7ecada6646406df519ae7f9fe01",
+      "bytes": 13474
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/postgresql-development-cloudbase/references/troubleshooting.md",
+      "sha256": "33194793f069f7c5f275d409194b9ac10a08184a37054ba6e3c05fd37704973b",
+      "bytes": 6275
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/relational-database-mcp-cloudbase/reference.md",
+      "sha256": "962df84b764f82ea6bf2a1f5a2712e0c9d43312299c1025acadeedacc669db25",
+      "bytes": 10216
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/relational-database-web-cloudbase/reference.md",
+      "sha256": "12a89226def48e0c786be9613e56b9129d9849df91158b3b9cc42f212eaccb33",
+      "bytes": 4859
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/scenarios.md",
+      "sha256": "026326a2e9a16ca628d653c2ea53e70ecfc951d877aa12804ae9860830f73e86",
+      "bytes": 1454
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/spec-workflow/reference.md",
+      "sha256": "769734bbd06082d4029f2ad30d7b0ea6777a785c46c7fd969a676f020afbbee4",
+      "bytes": 5312
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/tooling-fallback.md",
+      "sha256": "c6a2e2c52d61843dacd6e4d9010a644051cd643941da5b1b7bc911edce0747f9",
+      "bytes": 6874
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/ui-design/checklist.md",
+      "sha256": "3396ff1982a26b88d443d27b3a84cbab1d487e77cc181fe698f45b2b7b566768",
+      "bytes": 861
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/ui-design/reference.md",
+      "sha256": "85dc1ffab9662e6c4fb114daf38ec4a59c7c62649ae22828fe472ff7b04a02ef",
+      "bytes": 16348
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/web-development/browser-testing.md",
+      "sha256": "8dc11dd04bc194dce35c54ea7f1e4318a86b59bad0933e14cd904c34c837e81f",
+      "bytes": 5303
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/web-development/frameworks.md",
+      "sha256": "42a02ff269cdc7830a251b2a55bd1fb209273718ccb16e25fffef39341df63e8",
+      "bytes": 6389
+    },
+    {
+      "path": "omp/agent/skills/cloudbase/references/web-development/reference.md",
+      "sha256": "cc5e39f4b829ba61ef36edf690933e804398604b77d8fb68d7dd782a1291dded",
+      "bytes": 13524
+    },
+    {
+      "path": "omp/agent/skills/emil-design-eng/LICENSE",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "path": "omp/agent/skills/emil-design-eng/SKILL.md",
+      "sha256": "e71de849347050c2c573c1cf24d742d5a13459557ecffa6e562f08006f46b5b7",
+      "bytes": 27226
+    },
+    {
+      "path": "omp/agent/skills/fixed-route/SKILL.md",
+      "sha256": "952ed167a94a8f93b903689e774580f4c2cdc9560400b6105f27cae02d0a3c64",
+      "bytes": 3690
+    },
+    {
+      "path": "omp/agent/skills/fixing-accessibility/LICENSE",
+      "sha256": "c615621c4cc1676ccde194e7a01b6469ba477780251bd71e007fc473a49c2c2b",
+      "bytes": 1072
+    },
+    {
+      "path": "omp/agent/skills/fixing-accessibility/SKILL.md",
+      "sha256": "549261e8a53b53a1a20c0ddbf736821e5fc0876ad82eee76e0efab8e9ee9dadf",
+      "bytes": 4718
+    },
+    {
+      "path": "omp/agent/skills/fixing-motion-performance/LICENSE",
+      "sha256": "c615621c4cc1676ccde194e7a01b6469ba477780251bd71e007fc473a49c2c2b",
+      "bytes": 1072
+    },
+    {
+      "path": "omp/agent/skills/fixing-motion-performance/SKILL.md",
+      "sha256": "0a2d654902bc04263ce68c8c02967ef03f17b482e855360a5463211d99d7baa9",
+      "bytes": 5565
+    },
+    {
+      "path": "omp/agent/skills/frontend-design/LICENSE.txt",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "bytes": 10174
+    },
+    {
+      "path": "omp/agent/skills/frontend-design/SKILL.md",
+      "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+      "bytes": 9390
+    },
+    {
+      "path": "omp/agent/skills/matt/LICENSE",
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "bytes": 1068
+    },
+    {
+      "path": "omp/agent/skills/matt/SKILL.md",
+      "sha256": "016b76b873dc98bd502ae0ebeab87a7a0aa3b9925519754da3417703a0960081",
+      "bytes": 3494
+    },
+    {
+      "path": "omp/agent/skills/matt/references/build-and-verify.md",
+      "sha256": "c581ddba787468e99df58a33916ce5186ee5f5219abe8fe6df66eff5a1d9f84d",
+      "bytes": 1673
+    },
+    {
+      "path": "omp/agent/skills/matt/references/flow.md",
+      "sha256": "788ff6056f9edf4a507afefdfa2174d1ea8ce1cac15ec68e024b9a924e06a6f7",
+      "bytes": 1786
+    },
+    {
+      "path": "omp/agent/skills/matt/references/maintenance.md",
+      "sha256": "6ecef164774c98b54f79f3389a8cdfc626e4a9effb4462cef93c256e49f23d68",
+      "bytes": 1633
+    },
+    {
+      "path": "omp/agent/skills/pm/SKILL.md",
+      "sha256": "bf3b53a0b2bdbc5e1fbb0ed533feea9f901fd2a88048e4fa1c0e91ab01d1aae4",
+      "bytes": 6483
+    },
+    {
+      "path": "omp/agent/skills/pm/references/discovery-and-research.md",
+      "sha256": "3bfe6d23dc4e8e10ff6078c7a620fb5cf15b5677a0420c092baab30de209f794",
+      "bytes": 3390
+    },
+    {
+      "path": "omp/agent/skills/pm/references/leadership-and-ai.md",
+      "sha256": "d87ff2af2c788b97c4ae1fa5a82e6ac1b0be923cfad9fe6ca8f7699a87249561",
+      "bytes": 1241
+    },
+    {
+      "path": "omp/agent/skills/pm/references/method-a.md",
+      "sha256": "57736eff2807c2ab35ce3858564db04c3f858048628e1ba5b8e60bf0ba24ae73",
+      "bytes": 2552
+    },
+    {
+      "path": "omp/agent/skills/pm/references/requirements-and-delivery.md",
+      "sha256": "ff3cfc6c0435e772270f84aad008a51c1b8a73d0e469f5700849fb05b313a428",
+      "bytes": 2155
+    },
+    {
+      "path": "omp/agent/skills/pm/references/review-contract.md",
+      "sha256": "44086bd69b9e5e180469983339f0f049a0907b7873178ba520ec67b09f2af2ea",
+      "bytes": 4960
+    },
+    {
+      "path": "omp/agent/skills/pm/references/review-methods/README.md",
+      "sha256": "cc2ba8cfbfd3089108640b4b21654e19b3c898172c8edb70e5f2fb9a3f0c0dad",
+      "bytes": 874
+    },
+    {
+      "path": "omp/agent/skills/pm/references/review-methods/bmad/LICENSE",
+      "sha256": "0aa79baf6328b4a1e694ce10a12ffc36d7666554da128dff0e8fcda0fc536a66",
+      "bytes": 1572
+    },
+    {
+      "path": "omp/agent/skills/pm/references/review-methods/bmad/skills/bmad-prd/assets/prd-validation-checklist.md",
+      "sha256": "41d9f09064772a92ec908d970618e47ba63dc86b5c5a1a21d5a2c676d3ba8e3f",
+      "bytes": 7432
+    },
+    {
+      "path": "omp/agent/skills/pm/references/review-methods/pm-critic/LICENSE",
+      "sha256": "e5fe46f4634972731b752114e9992023e95e89e37c11713fdbee92dbc5141e85",
+      "bytes": 10712
+    },
+    {
+      "path": "omp/agent/skills/pm/references/review-methods/pm-critic/agents/pm-critic.md",
+      "sha256": "7ccccf1446d88118256212f4c6239db992b34cfa8704e32bf5fd1877061c87e6",
+      "bytes": 9735
+    },
+    {
+      "path": "omp/agent/skills/pm/references/review-methods/pm-critic/skills/deliver-edge-cases/SKILL.md",
+      "sha256": "36d1f89195972d49e334581c9080f7352f66f451a2507fe7b391c1c4b251962f",
+      "bytes": 4342
+    },
+    {
+      "path": "omp/agent/skills/pm/references/review-methods/pm-critic/skills/deliver-prd/SKILL.md",
+      "sha256": "2b48e0af712dafd8c52bb04a437f02e3f965f05bece4f0bdd57452dbb8bad472",
+      "bytes": 7943
+    },
+    {
+      "path": "omp/agent/skills/pm/references/strategy-and-decisions.md",
+      "sha256": "0288c7f43d80392f12a91ad56063d6ff0b2871c5d1efcc2fb144abdc1485331f",
+      "bytes": 1253
+    },
+    {
+      "path": "omp/agent/skills/ponytail/SKILL.md",
+      "sha256": "ca3403c22c0ffe018b502da63cafbefdbab2de277e27c9457fc1ec82e9072840",
+      "bytes": 6876
+    },
+    {
+      "path": "omp/agent/skills/ponytail/references/ponytail-audit/reference.md",
+      "sha256": "5560b8e383dbe2ddfddc873a1e2bf2e586e23e0cd7d995537482b2315331f6d1",
+      "bytes": 1652
+    },
+    {
+      "path": "omp/agent/skills/ponytail/references/ponytail-debt/reference.md",
+      "sha256": "c84fba75f0ca12bfe83f9a78ea02fd125c5dd3f1fbb18124105a489937f284e6",
+      "bytes": 1703
+    },
+    {
+      "path": "omp/agent/skills/ponytail/references/ponytail-gain/reference.md",
+      "sha256": "24e01d1c9715cb136ba1c4f1e52a95940c0193558b876828e537736480d6408b",
+      "bytes": 1973
+    },
+    {
+      "path": "omp/agent/skills/ponytail/references/ponytail-help/reference.md",
+      "sha256": "2264d1615117b02b0fd5a69ec84cd2757006471a78e4d6c22eed6d581c1d37a4",
+      "bytes": 2796
+    },
+    {
+      "path": "omp/agent/skills/ponytail/references/ponytail-review/reference.md",
+      "sha256": "40df33b58fc6ef889b93585733feb9566b76e9586efa7f376785c1e995197ac0",
+      "bytes": 2383
+    },
+    {
+      "path": "omp/agent/skills/product-testing/SKILL.md",
+      "sha256": "210dfe8445b106c7a10eacc50e4d270448d3dc6efe2fd4354a8126773480bf15",
+      "bytes": 5341
+    },
+    {
+      "path": "omp/agent/skills/shadcn/LICENSE.md",
+      "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f",
+      "bytes": 1063
+    },
+    {
+      "path": "omp/agent/skills/shadcn/SKILL.md",
+      "sha256": "e39871b64b1ba34f1aefc50ffea1b162c5a0750bc42a9ba54282ac503534429b",
+      "bytes": 19804
+    },
+    {
+      "path": "omp/agent/skills/shadcn/agents/openai.yml",
+      "sha256": "92be2f46bf42718ad62fd987d1c0dff5baacc37895bf8ab5e7ba858442b5f997",
+      "bytes": 243
+    },
+    {
+      "path": "omp/agent/skills/shadcn/assets/shadcn-small.png",
+      "sha256": "0ecc62d682727f68fc4937eed19960c706714fa084d44f63028d611ae02bf3d7",
+      "bytes": 1049
+    },
+    {
+      "path": "omp/agent/skills/shadcn/assets/shadcn.png",
+      "sha256": "7d60ad6fec4d89a0d44ba5a3c9283d2fea0047af5467f9227040e20d927d39b7",
+      "bytes": 3852
+    },
+    {
+      "path": "omp/agent/skills/shadcn/cli.md",
+      "sha256": "7ae4ab0a9cbd275f8a1ec7c2a133531b0492b856bf6a23c82419f7d9d0bc5082",
+      "bytes": 17594
+    },
+    {
+      "path": "omp/agent/skills/shadcn/customization.md",
+      "sha256": "8b34cdc4c3ac3dd37031a5fa09092c3678c6eecc7283c2f5dad2eae29ef13d41",
+      "bytes": 6283
+    },
+    {
+      "path": "omp/agent/skills/shadcn/evals/evals.json",
+      "sha256": "ed08d9a32ce1152955dd6080e392a7cf0c17cf590e092d69e0e3639d9f1038ed",
+      "bytes": 6407
+    },
+    {
+      "path": "omp/agent/skills/shadcn/mcp.md",
+      "sha256": "aff91c8cc8878bf52f7cd300e7e3dffbe0202d199a2d9be19a86d808039b93fe",
+      "bytes": 3615
+    },
+    {
+      "path": "omp/agent/skills/shadcn/registry.md",
+      "sha256": "581b5b6f25ff59a0f8f0746a6de9786023ea4f8224c9adaf19dd5963ccaa600b",
+      "bytes": 9094
+    },
+    {
+      "path": "omp/agent/skills/shadcn/rules/base-vs-radix.md",
+      "sha256": "d0b66cd55a921602e7ca1f3b8c03a2f744b8d688f843155bbb2d9c7cef08eb0a",
+      "bytes": 7260
+    },
+    {
+      "path": "omp/agent/skills/shadcn/rules/chat.md",
+      "sha256": "347d36a2e4af8a6abb15a2c1aeaa4c91107e22c5cc9de00135efe9dd280bff61",
+      "bytes": 8268
+    },
+    {
+      "path": "omp/agent/skills/shadcn/rules/composition.md",
+      "sha256": "eaea5290eaef7cfd8c135af32cee7c6b6c490dbe8b7f74152dbec2dcfe1de1c6",
+      "bytes": 5105
+    },
+    {
+      "path": "omp/agent/skills/shadcn/rules/forms.md",
+      "sha256": "a5422ccca0bcaa9ccb5e8a3745bacd08eadcf9a96f54e1b39f5ffe725f316feb",
+      "bytes": 5049
+    },
+    {
+      "path": "omp/agent/skills/shadcn/rules/icons.md",
+      "sha256": "08a07baacbbef0926002b88ca1fc410bf70eb7938a3f3521e4d8f643f6621908",
+      "bytes": 2059
+    },
+    {
+      "path": "omp/agent/skills/shadcn/rules/styling.md",
+      "sha256": "d2b8331bd865d7bd264c8f26fcd9263d136599ac97811d08acda81c73266fd48",
+      "bytes": 4860
+    },
+    {
+      "path": "omp/agent/skills/ui-ux-design-audit/SKILL.md",
+      "sha256": "b471e1a0542cc7f5e544aa02905dab2a4f041df5ba1254700dc88830fea18dd6",
+      "bytes": 1635
+    },
+    {
+      "path": "omp/agent/skills/ui-ux-design-audit/SOURCE.md",
+      "sha256": "fee46cecec094adef84ccfb9cdd46a95ec5d4637b59029458a6f111bea1021ff",
+      "bytes": 1012
+    },
+    {
+      "path": "omp/agent/skills/web-search/SKILL.md",
+      "sha256": "53d7c72d9dc4f4871e5679ce8e25136a7b3ce0e208f1d783860cb9783cfb1344",
+      "bytes": 899
+    },
+    {
+      "path": "omp/agent/web-research-large.yml",
+      "sha256": "474db0451df8c1f72104dbf4ac3280fe5b4fc22d224ab83cbed7d701cf9b57ab",
+      "bytes": 29
+    },
+    {
+      "path": "omp/plugins/bun.lock",
+      "sha256": "b369d2024ca08787efeba0e52ab3b94d12aeb5bd5649345874041153c93be55b",
+      "bytes": 967
+    },
+    {
+      "path": "omp/plugins/omp-plugins.lock.json",
+      "sha256": "475cecc939974d7e9e779a5b92b340c2b8a12c84464b520f93189883b0b1372d",
+      "bytes": 276
+    },
+    {
+      "path": "omp/plugins/package.json",
+      "sha256": "e01c86af1620459b4d55f22b2aff5111bfcbd9d77d7f5259aec6d6dc01f3d247",
+      "bytes": 210
+    }
+  ],
+  "note": "Refreshed on 2026-09-24 from the repository omp/ tree; deployment is verified separately. Existing sanitization is preserved. Public snapshot: manifest regenerated after sanitizing machine-specific paths (Windows profile path -> ~, local project paths -> <repo>/<local>/D:/projects) and adding upstream LICENSE/NOTICE files to third-party skills; hashes describe the sanitized omp/ tree, not the original machine files."
+}

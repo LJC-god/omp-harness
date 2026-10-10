@@ -1,0 +1,157 @@
+modelRoles:
+  default: openai-codex/gpt-5.6-sol:high
+  smol: zhipu-coding-plan/glm-5.3:high
+  task: xai-oauth/grok-4.6:xhigh
+  slow: openai-codex/gpt-5.6-terra:max
+  plan: openai-codex/gpt-5.6-terra:max
+  vision: openai-codex/gpt-5.6-luna:max
+  commit: openai-codex/gpt-5.6-luna:medium
+  tiny: openai-codex/gpt-5.6-luna:medium
+  advisor: zhipu-coding-plan/glm-5.3:max
+  implement: xai-oauth/grok-4.6:xhigh
+  review: openai-codex/gpt-5.6-terra:high
+  repair: openai-codex/gpt-5.6-terra:high
+  aesthetic: openai-codex/gpt-5.6-terra:high
+  scan: zhipu-coding-plan/glm-5.3:high
+  research: zhipu-coding-plan/glm-5.3:high
+  fast: openai-codex/gpt-5.6-luna:max
+  frontend: kimi-code/k3:high
+  synthesis: kimi-code/k3:high
+  security: openai-codex/gpt-5.6-terra:high
+  deepseek: opencode-go/deepseek-v4.1-flash:high
+enabledModels:
+  - openai-codex/gpt-5.6-sol
+  - openai-codex/gpt-5.6-terra
+  - openai-codex/gpt-5.6-luna
+  - openai-codex/gpt-6-astra
+  - xai-oauth/grok-4.6
+  - xai-oauth/grok-4.7
+  - opencode-go/deepseek-v4.1-flash
+  - zhipu-coding-plan/glm-5.3
+  - kimi-code/k3
+  - cursor/claude-4.6-opus-max
+  - cursor/gemini-3.8-flash
+  - cursor/cursor-grok-4.6-fast
+defaultThinkingLevel: high
+ask:
+  timeout: 0
+task:
+  batch: false
+  # Native-task per-session ceiling only. It does not cap other processes,
+  # controller leases, or the separate plan runner's one-to-four-author dispatch.
+  maxConcurrency: 8
+  maxRecursionDepth: 1
+  maxRuntimeMs: 1800000
+  # Upper bound combined with OMP's bundled ceilings (scout/sonic 100, default 200).
+  # 0 would disable the guard entirely; 80 = wrap-up notice at 80 requests, forced yield at 120.
+  softRequestBudget: 80
+  enableEffort: false
+  showResolvedModelBadge: true
+  agentModelOverrides:
+    task: "@implement"
+    sonic: "@smol"
+    scout: "@scan"
+    reviewer: "@review"
+    repair-worker: "@repair"
+    security-reviewer: "@security"
+    librarian: "@research"
+    visual-reviewer: "@vision"
+    aesthetic-reviewer: "@aesthetic"
+    gpt-visual-director: "@aesthetic"
+    baoyu-design-worker: "@frontend"
+    fast-worker: "@fast"
+    frontend-worker: "@frontend"
+    verifier: "@review"
+    purple-reviewer: "@review"
+    product-reviewer: "@review"
+    product-rules-reviewer: "@review"
+    pm-worker: "@plan"
+    daily-worker: "@scan"
+    daily-research: "@research"
+    deepseek-worker: "@deepseek"
+retry:
+  enabled: true
+  maxRetries: 3
+  maxDelayMs: 30000
+  waitForUsageReset: false
+  fallbackChains:
+    default: []
+    smol:
+      - openai-codex/gpt-5.6-terra:high
+    task:
+      - openai-codex/gpt-5.6-terra:high
+    slow: []
+    plan: []
+    vision:
+      - openai-codex/gpt-5.6-terra:high
+    commit:
+      - openai-codex/gpt-5.6-terra:high
+    tiny:
+      - openai-codex/gpt-5.6-terra:high
+    advisor:
+      - openai-codex/gpt-5.6-terra:high
+    frontend:
+      - openai-codex/gpt-5.6-terra:high
+    implement:
+      - cursor/cursor-grok-4.6-fast
+    review: []
+    repair: []
+    aesthetic: []
+    scan:
+      - openai-codex/gpt-5.6-terra:high
+    research:
+      - openai-codex/gpt-5.6-terra:high
+    fast:
+      - openai-codex/gpt-5.6-terra:high
+    synthesis:
+      - openai-codex/gpt-5.6-terra:high
+    security: []
+    deepseek:
+      - openai-codex/gpt-5.6-terra:high
+providers:
+  streamFirstEventTimeoutSeconds: 120
+  streamIdleTimeoutSeconds: 180
+  webSearchOrder:
+    - exa
+    - tavily
+    - brave
+    - xai
+  webSearchTimeoutSeconds: 300
+# The built-in web_search tool stays off. Research goes through web_research_v1.
+# The only prose retrieval policy is notes/web-research-policy.md.
+# providers.webSearchOrder is the provider layer, not that extension.
+web_search:
+  enabled: false
+skills:
+  customDirectories:
+    - __OMP_SKILLS_DIR__
+  enableCodexUser: false
+  enableClaudeUser: false
+  enableClaudeProject: false
+  enablePiUser: false
+  enablePiProject: false
+  enableAgentsUser: false
+  enableAgentsProject: false
+commands:
+  enableClaudeUser: false
+  enableClaudeProject: false
+  enableOpencodeUser: false
+  enableOpencodeProject: false
+symbolPreset: unicode
+compaction:
+  enabled: true
+  midTurnEnabled: true
+  asyncEnabled: true
+  thresholdTokens: 100000
+  keepRecentTokens: 20000
+composer:
+  shape: band
+theme:
+  dark: titanium
+setupVersion: 2
+dev:
+  autoqaConsent: granted
+worktree:
+  base: __OMP_WORKTREE_BASE__
+browser:
+  relay: true

@@ -1,0 +1,19 @@
+{
+  "name": "omp-skill-web-search",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Compatibility note for OMP's bounded web_research_v1 tool.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "files": [
+    "skills",
+    "install.mjs",
+    "README.md"
+  ],
+  "ompConfig": {
+    "kind": "skill",
+    "skillName": "web-search",
+    "runtime": "18.2.6",
+    "install": "custom-directory"
+  }
+}
